@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://vcards.tictap.me/</loc>
-		<lastmod>2022-05-16T07:35:14+00:00</lastmod>
+		<loc>/</loc>
+		<lastmod>2022-06-07T07:30:50+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/politica-cookies/</loc>
-		<lastmod>2021-04-06T14:47:30+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/cookies-policy/</loc>
+		<loc>/en/cookies-policy/</loc>
 		<lastmod>2021-04-06T15:45:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/en/privacy-policy/</loc>
+		<loc>/en/privacy-policy/</loc>
 		<lastmod>2021-04-06T15:49:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/politica-de-privacidad/</loc>
-		<lastmod>2022-03-07T10:10:28+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/legal-notice-3/</loc>
+		<loc>/en/legal-notice-3/</loc>
 		<lastmod>2022-03-08T12:33:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/contacto/</loc>
-		<lastmod>2022-05-10T10:45:48+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/contact/</loc>
+		<loc>/en/contact/</loc>
 		<lastmod>2022-05-10T12:50:57+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/quienes-somos/</loc>
-		<lastmod>2022-05-11T11:52:39+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/about/</loc>
+		<loc>/en/about/</loc>
 		<lastmod>2022-05-11T11:52:42+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/en/</loc>
+		<loc>/contacto/</loc>
+		<lastmod>2022-05-27T11:06:21+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/politica-cookies/</loc>
+		<lastmod>2022-05-27T11:07:03+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/politica-de-privacidad/</loc>
+		<lastmod>2022-05-27T11:07:49+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/quienes-somos/</loc>
+		<lastmod>2022-05-30T10:17:49+00:00</lastmod>
+	</url>
+	<url>
+		<loc>/en/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
