@@ -16,7 +16,7 @@
 				return false; 
 			}
 			$.each(editorElements.models, function (index, elem) {
-				if (elem.id == target.closest('.elementor-top-section').data('id')) {
+				if (elem.id == target.closest('.elementor-top-section,.elementor-element.e-container').data('id')) {
 					$.each(elem.attributes.elements.models, function (index, col) {
 						$.each(col.attributes.elements.models, function (index, subSec) {
 							$.each(subSec.attributes.elements.models, function (index, subCol) {

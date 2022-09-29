@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/blog/</loc>
-		<lastmod>2022-05-12T09:00:33+00:00</lastmod>
+		<loc>https://vcards.tictap.me/blog/</loc>
+		<lastmod>2022-09-21T12:35:21+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/que-es-una-tarjeta-de-presentacion-online-o-tarjeta-de-negocio-digital/</loc>
-		<lastmod>2021-04-04T10:53:12+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/08/vcard_skin3.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</loc>
+		<loc>https://vcards.tictap.me/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</loc>
 		<lastmod>2022-03-29T12:35:40+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2021/04/tictap-vcard-example.jpg</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/04/tictap-vcard-example.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/en/9-advantages-and-3-drawbacks-of-digital-business-cards/</loc>
+		<loc>https://vcards.tictap.me/en/9-advantages-and-3-drawbacks-of-digital-business-cards/</loc>
 		<lastmod>2022-05-12T09:00:33+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2021/04/tictap-vcard-example.jpg</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/04/tictap-vcard-example.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/en/blog/</loc>
+		<loc>https://vcards.tictap.me/que-es-una-tarjeta-de-presentacion-online-o-tarjeta-de-negocio-digital/</loc>
+		<lastmod>2022-09-21T12:35:21+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2020/08/vcard_skin3.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/blog/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>

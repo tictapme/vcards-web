@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/</loc>
-		<lastmod>2022-06-07T07:30:50+00:00</lastmod>
+		<loc>https://vcards.tictap.me/</loc>
+		<lastmod>2022-09-22T08:27:30+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/cookies-policy/</loc>
+		<loc>https://vcards.tictap.me/en/cookies-policy/</loc>
 		<lastmod>2021-04-06T15:45:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/privacy-policy/</loc>
+		<loc>https://vcards.tictap.me/en/privacy-policy/</loc>
 		<lastmod>2021-04-06T15:49:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/legal-notice-3/</loc>
+		<loc>https://vcards.tictap.me/en/legal-notice-3/</loc>
 		<lastmod>2022-03-08T12:33:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/contact/</loc>
-		<lastmod>2022-05-10T12:50:57+00:00</lastmod>
+		<loc>https://vcards.tictap.me/politica-de-privacidad/</loc>
+		<lastmod>2022-09-19T12:02:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/about/</loc>
-		<lastmod>2022-05-11T11:52:42+00:00</lastmod>
+		<loc>https://vcards.tictap.me/politica-cookies/</loc>
+		<lastmod>2022-09-19T12:03:26+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/contacto/</loc>
-		<lastmod>2022-05-27T11:06:21+00:00</lastmod>
+		<loc>https://vcards.tictap.me/quienes-somos/</loc>
+		<lastmod>2022-09-20T10:14:09+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/politica-cookies/</loc>
-		<lastmod>2022-05-27T11:07:03+00:00</lastmod>
+		<loc>https://vcards.tictap.me/contacto/</loc>
+		<lastmod>2022-09-22T07:59:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/politica-de-privacidad/</loc>
-		<lastmod>2022-05-27T11:07:49+00:00</lastmod>
+		<loc>https://vcards.tictap.me/en/about/</loc>
+		<lastmod>2022-09-22T08:30:41+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/quienes-somos/</loc>
-		<lastmod>2022-05-30T10:17:49+00:00</lastmod>
+		<loc>https://vcards.tictap.me/en/contact/</loc>
+		<lastmod>2022-09-22T08:32:11+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/</loc>
+		<loc>https://vcards.tictap.me/en/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
