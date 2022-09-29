@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/blog/</loc>
-		<lastmod>2022-09-21T12:35:21+00:00</lastmod>
+		<lastmod>2022-09-29T11:12:19+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</loc>
@@ -19,10 +19,17 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/que-es-una-tarjeta-de-presentacion-online-o-tarjeta-de-negocio-digital/</loc>
-		<lastmod>2022-09-21T12:35:21+00:00</lastmod>
+		<loc>https://vcards.tictap.me/en/what-is-an-online-business-card/</loc>
+		<lastmod>2022-09-29T10:58:54+00:00</lastmod>
 		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2020/08/vcard_skin3.png</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/03/blog_vcard.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/que-es-una-tarjeta-de-presentacion-online-o-tarjeta-de-negocio-digital/</loc>
+		<lastmod>2022-09-29T11:12:19+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/03/blog_vcard.png</image:loc>
 		</image:image>
 	</url>
 	<url>
