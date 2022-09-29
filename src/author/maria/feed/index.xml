@@ -12,16 +12,16 @@
 	<atom:link href="/author/maria/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Convierte tus productos y servicios en Smart</description>
-	<lastBuildDate>Tue, 29 Mar 2022 12:35:40 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 21 Sep 2022 12:35:21 +0000</lastBuildDate>
 	<language>es</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.0</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/05/green-favicon-150x150.png</url>
+	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>Maria Pascual, Author at TicTAP</title>
 	<link>/</link>
 	<width>32</width>

@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>Articles about online business cards - TicTAP</title>
+	<title>Artículos sobre las tarjetas de negocios online vcard - TicTAP</title>
 	<atom:link href="/en/category/vcard-tictap-en/feed/" rel="self" type="application/rss+xml" />
 	<link>/en/</link>
 	<description>IoT Marketing Platform</description>
@@ -18,11 +18,11 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.0</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/05/green-favicon-150x150.png</url>
-	<title>Articles about online business cards - TicTAP</title>
+	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<title>Artículos sobre las tarjetas de negocios online vcard - TicTAP</title>
 	<link>/en/</link>
 	<width>32</width>
 	<height>32</height>
