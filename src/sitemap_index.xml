@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//staging-vcards-www.tictap.me/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
 		<loc>https://vcards.tictap.me/post-sitemap.xml</loc>
-		<lastmod>2022-10-21T12:13:53+00:00</lastmod>
+		<lastmod>2022-11-02T13:48:57+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://vcards.tictap.me/page-sitemap.xml</loc>
@@ -10,7 +10,7 @@
 	</sitemap>
 	<sitemap>
 		<loc>https://vcards.tictap.me/category-sitemap.xml</loc>
-		<lastmod>2022-10-21T12:12:41+00:00</lastmod>
+		<lastmod>2022-11-02T13:48:57+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://vcards.tictap.me/author-sitemap.xml</loc>
