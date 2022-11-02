@@ -10,7 +10,7 @@
 <channel>
 	<title>Maria Pascual, Author at TicTAP</title>
 	<atom:link href="/author/maria/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<link>/author/maria/</link>
 	<description>Convierte tus productos y servicios en Smart</description>
 	<lastBuildDate>Fri, 21 Oct 2022 12:12:41 +0000</lastBuildDate>
 	<language>es</language>
@@ -23,7 +23,7 @@
 <image>
 	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>Maria Pascual, Author at TicTAP</title>
-	<link>/</link>
+	<link>/author/maria/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
