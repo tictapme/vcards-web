@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/blog/</loc>
-		<lastmod>2022-11-02T13:48:57+00:00</lastmod>
+		<lastmod>2022-11-08T11:11:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</loc>
@@ -33,13 +33,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/que-son-las-vcards/</loc>
-		<lastmod>2022-10-27T10:31:18+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/en/what-are-vcards/</loc>
 		<lastmod>2022-10-27T10:33:52+00:00</lastmod>
 		<image:image>
@@ -50,14 +43,21 @@
 		<loc>https://vcards.tictap.me/en/how-to-improve-engagement/</loc>
 		<lastmod>2022-11-02T13:48:01+00:00</lastmod>
 		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/11/pexels-photo-6963585.jpg</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/02/pexels-photo-6963585_3.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/que-son-las-vcards/</loc>
+		<lastmod>2022-11-03T11:12:06+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/como-mejorar-el-engagement/</loc>
-		<lastmod>2022-11-02T13:48:57+00:00</lastmod>
+		<lastmod>2022-11-08T11:11:35+00:00</lastmod>
 		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/11/pexels-photo-6963585.jpg</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/02/pexels-photo-6963585_3.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
