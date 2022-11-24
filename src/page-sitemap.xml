@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//staging-vcards-www.tictap.me/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//vcards.tictap.me/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/</loc>
@@ -39,6 +39,18 @@
 	<url>
 		<loc>https://vcards.tictap.me/contacto/</loc>
 		<lastmod>2022-10-17T12:03:26+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
+		<lastmod>2022-11-21T13:22:02+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/free-vcard/</loc>
+		<lastmod>2022-11-22T10:12:17+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/comprueba-tu-correo/</loc>
+		<lastmod>2022-11-22T12:48:36+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/</loc>
