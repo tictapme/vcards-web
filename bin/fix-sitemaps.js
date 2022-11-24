@@ -6,17 +6,18 @@ const srcFiles = fs.readdirSync(srcFolder);
 
 for (let i = 0; i < srcFiles.length; i++) {
     const file = srcFiles[i];
-    if (isSitemap(file)) {
-        if (file === 'sitemap.xml') {
-            console.log('Overwriting ' + file);
-            changeFirstLine(file);
-            changeSecondLine(file);
-            addSlashToMeta(file);
-        } else {
-            console.log('Overwriting ' + file);
-            relativeToAbsoluteURL(file);
-            relativeToAbsoluteImageURL(file);
-        }
+    if (!isSitemap(file)) {
+        continue;
+    }
+    if (file === 'sitemap.xml') {
+        console.log('Overwriting ' + file);
+        changeFirstLine(file);
+        changeSecondLine(file);
+        addSlashToMeta(file);
+    } else {
+        console.log('Overwriting ' + file);
+        relativeToAbsoluteURL(file);
+        relativeToAbsoluteImageURL(file);
     }
 }
 console.log(host + 'sitemap.xml updated in folder ' + srcFolder);
