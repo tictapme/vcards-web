@@ -1,4 +1,4 @@
-const endpointUrl = 'https://hook.eu1.make.com/8vyugtmmcl9k4i3696wuqej34e49gona/'
+const vcardsFormEndpointUrl = 'https://hook.eu1.make.com/ajvlslls80q6b9bb5fg2dyic4qdta55y';
 
 export async function onRequestPost(context) {
     // Contents of context object
@@ -12,7 +12,7 @@ export async function onRequestPost(context) {
     } = context;
 
     return await fetch(
-        endpointUrl,
+        vcardsFormEndpointUrl,
         {
             method: "POST",
             body: await request.formData(),
