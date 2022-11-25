@@ -2,62 +2,76 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/blog/</loc>
-		<lastmod>2022-11-08T11:11:35+00:00</lastmod>
+		<lastmod>2022-11-25T15:02:13+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/que-son-las-vcards/</loc>
+		<lastmod>2022-11-25T12:26:05+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/que-es-una-tarjeta-de-presentacion-online-o-tarjeta-de-negocio-digital/</loc>
+		<lastmod>2022-11-25T12:27:55+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/03/blog_vcard.png</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</loc>
-		<lastmod>2022-10-21T12:12:28+00:00</lastmod>
+		<lastmod>2022-11-25T12:28:09+00:00</lastmod>
 		<image:image>
 			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/04/tictap-vcard-example.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/que-es-una-tarjeta-de-presentacion-online-o-tarjeta-de-negocio-digital/</loc>
-		<lastmod>2022-10-21T12:12:41+00:00</lastmod>
+		<loc>https://vcards.tictap.me/como-mejorar-el-engagement/</loc>
+		<lastmod>2022-11-25T12:56:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/02/pexels-photo-6963585_3.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/paperless-acciones-sostenibles-en-el-trabajo/</loc>
+		<lastmod>2022-11-25T14:03:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/11/pexels-alena-koval-886521.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/how-to-improve-engagement/</loc>
+		<lastmod>2022-11-25T14:04:54+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/02/pexels-photo-6963585_3.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/what-are-vcards/</loc>
+		<lastmod>2022-11-25T14:05:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/what-is-an-online-business-card/</loc>
+		<lastmod>2022-11-25T14:05:29+00:00</lastmod>
 		<image:image>
 			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/03/blog_vcard.png</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/9-advantages-and-3-drawbacks-of-digital-business-cards/</loc>
-		<lastmod>2022-10-21T12:13:46+00:00</lastmod>
+		<lastmod>2022-11-25T14:05:40+00:00</lastmod>
 		<image:image>
 			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/04/tictap-vcard-example.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/en/what-is-an-online-business-card/</loc>
-		<lastmod>2022-10-21T12:13:53+00:00</lastmod>
+		<loc>https://vcards.tictap.me/en/paperless-sustainable-actions-at-work/</loc>
+		<lastmod>2022-11-25T15:02:13+00:00</lastmod>
 		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/03/blog_vcard.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/what-are-vcards/</loc>
-		<lastmod>2022-10-27T10:33:52+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/how-to-improve-engagement/</loc>
-		<lastmod>2022-11-02T13:48:01+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/02/pexels-photo-6963585_3.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/que-son-las-vcards/</loc>
-		<lastmod>2022-11-03T11:12:06+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/como-mejorar-el-engagement/</loc>
-		<lastmod>2022-11-08T11:11:35+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/02/pexels-photo-6963585_3.jpg</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/11/pexels-alena-koval-886521.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
