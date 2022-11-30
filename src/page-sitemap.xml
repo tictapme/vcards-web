@@ -2,11 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/</loc>
-		<lastmod>2022-09-22T08:27:30+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/cookies-policy/</loc>
-		<lastmod>2021-04-06T15:45:48+00:00</lastmod>
+		<lastmod>2022-11-30T11:03:45+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/privacy-policy/</loc>
@@ -19,14 +15,6 @@
 	<url>
 		<loc>https://vcards.tictap.me/politica-de-privacidad/</loc>
 		<lastmod>2022-09-19T12:02:49+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/politica-cookies/</loc>
-		<lastmod>2022-09-19T12:03:26+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/quienes-somos/</loc>
-		<lastmod>2022-09-20T10:14:09+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/about/</loc>
@@ -49,12 +37,24 @@
 		<lastmod>2022-11-29T13:08:36+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://vcards.tictap.me/politica-cookies/</loc>
+		<lastmod>2022-11-30T08:20:45+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/cookies-policy/</loc>
+		<lastmod>2022-11-30T08:32:10+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/quienes-somos/</loc>
+		<lastmod>2022-11-30T09:03:06+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://vcards.tictap.me/en/free-vcard/</loc>
-		<lastmod>2022-11-29T13:21:15+00:00</lastmod>
+		<lastmod>2022-11-30T13:44:01+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
-		<lastmod>2022-11-29T13:21:20+00:00</lastmod>
+		<lastmod>2022-11-30T14:36:00+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/</loc>
