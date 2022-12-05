@@ -2,19 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/</loc>
-		<lastmod>2022-12-01T11:08:55+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/privacy-policy/</loc>
-		<lastmod>2021-04-06T15:49:44+00:00</lastmod>
+		<lastmod>2022-12-05T10:39:06+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/legal-notice-3/</loc>
 		<lastmod>2022-03-08T12:33:03+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/politica-de-privacidad/</loc>
-		<lastmod>2022-09-19T12:02:49+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/about/</loc>
@@ -29,14 +21,6 @@
 		<lastmod>2022-11-29T11:56:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/comprueba-tu-correo/</loc>
-		<lastmod>2022-11-29T13:08:21+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/check-your-mail/</loc>
-		<lastmod>2022-11-29T13:08:36+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/politica-cookies/</loc>
 		<lastmod>2022-11-30T08:20:45+00:00</lastmod>
 	</url>
@@ -49,12 +33,28 @@
 		<lastmod>2022-11-30T09:03:06+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://vcards.tictap.me/en/privacy-policy/</loc>
+		<lastmod>2022-12-02T14:36:28+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/politica-de-privacidad/</loc>
+		<lastmod>2022-12-02T14:37:44+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://vcards.tictap.me/en/free-vcard/</loc>
-		<lastmod>2022-11-30T13:44:01+00:00</lastmod>
+		<lastmod>2022-12-05T13:34:18+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
-		<lastmod>2022-12-01T13:36:41+00:00</lastmod>
+		<lastmod>2022-12-05T13:35:21+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/comprueba-tu-correo/</loc>
+		<lastmod>2022-12-05T13:36:35+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/check-your-mail/</loc>
+		<lastmod>2022-12-05T13:39:43+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/</loc>
