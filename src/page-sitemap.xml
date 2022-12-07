@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/</loc>
-		<lastmod>2022-12-05T10:39:06+00:00</lastmod>
+		<lastmod>2022-12-07T10:24:50+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/legal-notice-3/</loc>
@@ -45,16 +45,16 @@
 		<lastmod>2022-12-05T13:34:18+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
-		<lastmod>2022-12-05T13:35:21+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/comprueba-tu-correo/</loc>
 		<lastmod>2022-12-05T13:36:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/check-your-mail/</loc>
 		<lastmod>2022-12-05T13:39:43+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
+		<lastmod>2022-12-07T10:08:30+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/</loc>
