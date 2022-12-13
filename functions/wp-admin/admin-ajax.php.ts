@@ -1,4 +1,3 @@
-// const vcardsFormEndpointUrl = 'https://hook.eu1.make.com/ajvlslls80q6b9bb5fg2dyic4qdta55y';
 const vcardsFormEndpointUrl ='https://hook.eu1.make.com/mm7yxxotvy89ju6tdy6fghlr59im5nhw'
 
 export async function onRequestPost(context) {
