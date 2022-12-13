@@ -1605,55 +1605,49 @@ fieldset.mc_fieldset.gdprRequired.mc-field-group {
         opacity: .8;
     }</style>
 
-<script>window.addEventListener('DOMContentLoaded', function() {
-    jQuery(function () {
-        var theForm = document.getElementById('formfreevcard');
-        var theSubmitBtn = document.getElementById('obtenVCARD');
-        var theRecaptchaDiv = document.querySelector(".elementor-g-recaptcha");
-        var theInputFields = theForm.getElementsByTagName('input');
-        var isRecaptchaOk = false;
+<script>var theForm ,theSubmitBtn, theRecaptchaDiv,	theInputFields, isRecaptchaOk;
 
-        function initForm() {
-            theRecaptchaDiv.dataset.callback = "recaptchaFilledCheck";
-            disableSubmitForm();
-        }
+function disableSubmitForm() {
+	theSubmitBtn.classList.add("disabled");
+	theSubmitBtn.disabled = true;
+}
 
-        function disableSubmitForm() {
-            theSubmitBtn.classList.add("disabled");
-            theSubmitBtn.disabled = true;
-            console.log("X js disabled Submit Form");
-        }
+function enableSubmitForm() {
+	theSubmitBtn.classList.remove("disabled");
+	theSubmitBtn.disabled = false;
+}
 
-        function enableSubmitForm() {
-            theSubmitBtn.classList.remove("disabled");
-            theSubmitBtn.disabled = false;
-            console.log(":) js Enabled Submit!!")
-        }
+function checkFormValidity() {
+	var valid = theForm.checkValidity();
 
-        var recaptchaFilledCheck = function (response) {
-            console.log("There's a response:", response)
-            isRecaptchaOk = true;
-            checkFormValidity();
-        };
+	if (valid && isRecaptchaOk) {
+		enableSubmitForm();
+	} else {
+		disableSubmitForm();
+	}
+}
+function recaptchaFilledCheck(response) {
+	isRecaptchaOk = true;
+	checkFormValidity();
+}
 
-        function checkFormValidity() {
-            var valid = theForm.checkValidity();
+jQuery(function () {
+	theForm = document.getElementById('formfreevcard');
+	theSubmitBtn = document.getElementById('obtenVCARD');
+	theRecaptchaDiv = document.querySelector(".elementor-g-recaptcha");
+	theInputFields = theForm.getElementsByTagName('input');
+	isRecaptchaOk = false;
 
-            if (valid && isRecaptchaOk) {
-                enableSubmitForm();
-            } else {
-                disableSubmitForm();
-            }
-        }
+	function initForm() {
+		theRecaptchaDiv.dataset.callback = "recaptchaFilledCheck";
+		disableSubmitForm();
+	}
 
-        initForm();
-
-        for (index = 0; index < theInputFields.length; ++index) {
-            theInputFields[index].addEventListener("change", (e) => {
-                checkFormValidity();
-            });
-        }
-    });
+	for (index = 0; index < theInputFields.length; ++index) {
+		theInputFields[index].addEventListener("change", (e) => {
+			checkFormValidity();
+		});
+	}
 });</script>				</div>
 								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
 					<button type="submit" class="elementor-button elementor-size-md" id="obtenVCARD">
