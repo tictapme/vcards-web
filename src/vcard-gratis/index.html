@@ -1814,7 +1814,10 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 <script src="/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.6.6" id="preloaded-modules-js" defer></script>
 <script src="/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.7.2" id="e-sticky-js" defer></script>
 			<script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);</script>
-<script>var theForm ,theSubmitBtn, theRecaptchaDiv,	theInputFields, isRecaptchaOk;
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+var theForm ,theSubmitBtn, theRecaptchaDiv,	theInputFields, isRecaptchaOk;
 
 function disableSubmitForm() {
 	theSubmitBtn.classList.add("disabled");
@@ -1835,7 +1838,7 @@ function checkFormValidity() {
 		disableSubmitForm();
 	}
 }
-function recaptchaFilledCheck(response) {
+window.recaptchaFilledCheck = function (response) {
 	isRecaptchaOk = true;
 	checkFormValidity();
 }
@@ -1857,6 +1860,7 @@ jQuery(function () {
 			checkFormValidity();
 		});
 	}
+});
 });</script>
 				</body>
 </html>
