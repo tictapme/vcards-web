@@ -1605,50 +1605,7 @@ fieldset.mc_fieldset.gdprRequired.mc-field-group {
         opacity: .8;
     }</style>
 
-<script>var theForm ,theSubmitBtn, theRecaptchaDiv,	theInputFields, isRecaptchaOk;
-
-function disableSubmitForm() {
-	theSubmitBtn.classList.add("disabled");
-	theSubmitBtn.disabled = true;
-}
-
-function enableSubmitForm() {
-	theSubmitBtn.classList.remove("disabled");
-	theSubmitBtn.disabled = false;
-}
-
-function checkFormValidity() {
-	var valid = theForm.checkValidity();
-
-	if (valid && isRecaptchaOk) {
-		enableSubmitForm();
-	} else {
-		disableSubmitForm();
-	}
-}
-function recaptchaFilledCheck(response) {
-	isRecaptchaOk = true;
-	checkFormValidity();
-}
-
-jQuery(function () {
-	theForm = document.getElementById('formfreevcard');
-	theSubmitBtn = document.getElementById('obtenVCARD');
-	theRecaptchaDiv = document.querySelector(".elementor-g-recaptcha");
-	theInputFields = theForm.getElementsByTagName('input');
-	isRecaptchaOk = false;
-
-	function initForm() {
-		theRecaptchaDiv.dataset.callback = "recaptchaFilledCheck";
-		disableSubmitForm();
-	}
-
-	for (index = 0; index < theInputFields.length; ++index) {
-		theInputFields[index].addEventListener("change", (e) => {
-			checkFormValidity();
-		});
-	}
-});</script>				</div>
+				</div>
 								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
 					<button type="submit" class="elementor-button elementor-size-md" id="obtenVCARD">
 						<span>
@@ -1857,5 +1814,49 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 <script src="/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.6.6" id="preloaded-modules-js" defer></script>
 <script src="/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.7.2" id="e-sticky-js" defer></script>
 			<script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);</script>
+<script>var theForm ,theSubmitBtn, theRecaptchaDiv,	theInputFields, isRecaptchaOk;
+
+function disableSubmitForm() {
+	theSubmitBtn.classList.add("disabled");
+	theSubmitBtn.disabled = true;
+}
+
+function enableSubmitForm() {
+	theSubmitBtn.classList.remove("disabled");
+	theSubmitBtn.disabled = false;
+}
+
+function checkFormValidity() {
+	var valid = theForm.checkValidity();
+
+	if (valid && isRecaptchaOk) {
+		enableSubmitForm();
+	} else {
+		disableSubmitForm();
+	}
+}
+function recaptchaFilledCheck(response) {
+	isRecaptchaOk = true;
+	checkFormValidity();
+}
+
+jQuery(function () {
+	theForm = document.getElementById('formfreevcard');
+	theSubmitBtn = document.getElementById('obtenVCARD');
+	theRecaptchaDiv = document.querySelector(".elementor-g-recaptcha");
+	theInputFields = theForm.getElementsByTagName('input');
+	isRecaptchaOk = false;
+
+	function initForm() {
+		theRecaptchaDiv.dataset.callback = "recaptchaFilledCheck";
+		disableSubmitForm();
+	}
+
+	for (index = 0; index < theInputFields.length; ++index) {
+		theInputFields[index].addEventListener("change", (e) => {
+			checkFormValidity();
+		});
+	}
+});</script>
 				</body>
 </html>
