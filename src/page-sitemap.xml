@@ -9,10 +9,6 @@
 		<lastmod>2022-03-08T12:33:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/en/about/</loc>
-		<lastmod>2022-09-22T08:30:41+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/contacto/</loc>
 		<lastmod>2022-11-29T11:28:49+00:00</lastmod>
 	</url>
@@ -41,10 +37,6 @@
 		<lastmod>2022-12-02T14:37:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/en/free-vcard/</loc>
-		<lastmod>2022-12-05T13:34:18+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/comprueba-tu-correo/</loc>
 		<lastmod>2022-12-05T13:36:35+00:00</lastmod>
 	</url>
@@ -53,8 +45,16 @@
 		<lastmod>2022-12-05T13:39:43+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://vcards.tictap.me/en/free-vcard/</loc>
+		<lastmod>2022-12-07T13:20:36+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/about/</loc>
+		<lastmod>2022-12-13T08:40:59+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
-		<lastmod>2022-12-07T10:08:30+00:00</lastmod>
+		<lastmod>2022-12-13T21:20:51+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/</loc>
