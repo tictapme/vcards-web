@@ -1765,51 +1765,51 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 <script src="/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.7.2" id="e-sticky-js" defer></script>
 			<script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);</script>
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-	jQuery(function () {
-		var theForm = document.getElementById('formfreevcard');
-		var theSubmitBtn = document.getElementById('obtenVCARD');
-		var theRecaptchaDiv = document.querySelector(".elementor-g-recaptcha");
-		var theInputFields = theForm.getElementsByTagName('input');
-		var isRecaptchaOk = false;
+	document.addEventListener('DOMContentLoaded', () => {
+		jQuery(function () {
+			var theForm = document.getElementById('formfreevcard');
+			var theSubmitBtn = document.getElementById('obtenVCARD');
+			var theRecaptchaDiv = document.querySelector(".elementor-g-recaptcha");
+			var theInputFields = theForm.getElementsByTagName('input');
+			var isRecaptchaOk = false;
 
-		window.recaptchaFilledCheck = function (response) {
-			isRecaptchaOk = true;
-			console.log('response', response);
-			checkFormValidity();
-		}
-		function disableSubmitForm() {
-			theSubmitBtn.classList.add("disabled");
-			theSubmitBtn.disabled = true;
-		}
-
-		function enableSubmitForm() {
-			theSubmitBtn.classList.remove("disabled");
-			theSubmitBtn.disabled = false;
-		}
-
-		function checkFormValidity() {
-			var valid = theForm.checkValidity();
-
-			if (valid && isRecaptchaOk) {
-				enableSubmitForm();
-			} else {
-				disableSubmitForm();
-			}
-		}
-		function initForm() {
-			theRecaptchaDiv.dataset.callback = "recaptchaFilledCheck";
-			disableSubmitForm();
-		}
-		initForm();
-
-		for (index = 0; index < theInputFields.length; ++index) {
-			theInputFields[index].addEventListener("change", (e) => {
+			window.recaptchaFilledCheck = function (response) {
+				isRecaptchaOk = true;
+				console.log('response', response);
 				checkFormValidity();
-			});
-		}
-	});
-});
-</script>
+			}
+			function disableSubmitForm() {
+				theSubmitBtn.classList.add("disabled");
+				theSubmitBtn.disabled = true;
+			}
+
+			function enableSubmitForm() {
+				theSubmitBtn.classList.remove("disabled");
+				theSubmitBtn.disabled = false;
+			}
+
+			function checkFormValidity() {
+				var valid = theForm.checkValidity();
+
+				console.log('valid', valid, 'isRecaptchaOk', isRecaptchaOk, decodeURI(jQuery(theForm).serialize()).split('&').join("\n"))
+				if (valid && isRecaptchaOk) {
+					enableSubmitForm();
+				} else {
+					disableSubmitForm();
+				}
+			}
+			function initForm() {
+				theRecaptchaDiv.dataset.callback = "recaptchaFilledCheck";
+				checkFormValidity();
+			}
+			initForm();
+
+			for (index = 0; index < theInputFields.length; ++index) {
+				theInputFields[index].addEventListener("change", (e) => {
+					checkFormValidity();
+				});
+			}
+		});
+	});</script>
 				</body>
 </html>
