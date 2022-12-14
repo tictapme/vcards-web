@@ -1799,20 +1799,20 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 <script src="/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.6.6" id="preloaded-modules-js" defer></script>
 <script src="/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.7.2" id="e-sticky-js" defer></script>
 			<script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);</script>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
+<script>document.addEventListener('DOMContentLoaded', () => {
 	jQuery(function () {
-		var theForm = document.getElementById('formfreevcard');
-		var theSubmitBtn = document.getElementById('obtenVCARD');
-		var theRecaptchaDiv = document.querySelector(".elementor-g-recaptcha");
-		var theInputFields = theForm.getElementsByTagName('input');
-		var isRecaptchaOk = false;
+		const theForm = document.getElementById('formfreevcard');
+		const theSubmitBtn = document.getElementById('obtenVCARD');
+		const theRecaptchaDiv = document.querySelector(".elementor-g-recaptcha");
+		const theInputFields = theForm.getElementsByTagName('input');
+		let isRecaptchaOk = false;
 
 		window.recaptchaFilledCheck = function (response) {
 			isRecaptchaOk = true;
-			console.log('response', response);
+			console.log('captcha filled');
 			checkFormValidity();
 		}
+
 		function disableSubmitForm() {
 			theSubmitBtn.classList.add("disabled");
 			theSubmitBtn.disabled = true;
@@ -1823,27 +1823,53 @@ document.addEventListener('DOMContentLoaded', () => {
 			theSubmitBtn.disabled = false;
 		}
 
+		function supportsHtml5Validation() {
+			return typeof document.createElement('input').checkValidity === 'function';
+		}
+
+		function _checkValidity() {
+			if (supportsHtml5Validation()) {
+
+				return theForm.checkValidity();
+			}
+
+			let valid = true;
+			for (let i = 0; i < theInputFields.length; i++) {
+				if (theInputFields[i].value === '') {
+					valid = false;
+					break;
+				}
+			}
+
+			return valid
+		}
+
 		function checkFormValidity() {
-			var valid = theForm.checkValidity();
+			let valid = _checkValidity();
 
 			console.log('valid', valid, 'isRecaptchaOk', isRecaptchaOk, decodeURI(jQuery(theForm).serialize()).split('&').join("\n"))
 			if (valid && isRecaptchaOk) {
-				enableSubmitForm();
-			} else {
-				disableSubmitForm();
+				return enableSubmitForm();
+			}
+
+			return disableSubmitForm();
+		}
+
+		function subscribeToInputChanges() {
+			for (let i = 0; i < theInputFields.length; ++i) {
+				theInputFields[i].addEventListener("change", (e) => {
+					checkFormValidity();
+				});
 			}
 		}
-		function initForm() {
+
+		function initFormValidation() {
 			theRecaptchaDiv.dataset.callback = "recaptchaFilledCheck";
 			checkFormValidity();
+			subscribeToInputChanges();
 		}
-		initForm();
 
-		for (index = 0; index < theInputFields.length; ++index) {
-			theInputFields[index].addEventListener("change", (e) => {
-				checkFormValidity();
-			});
-		}
+		initFormValidation();
 	});
 });
 </script>
