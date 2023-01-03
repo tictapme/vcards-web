@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/blog/</loc>
-		<lastmod>2022-12-19T12:47:03+00:00</lastmod>
+		<lastmod>2023-01-02T13:22:53+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/que-son-las-vcards/</loc>
@@ -86,6 +86,20 @@
 		<lastmod>2022-12-19T12:47:03+00:00</lastmod>
 		<image:image>
 			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/12/manos.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/define-la-imagen-de-tu-marca/</loc>
+		<lastmod>2023-01-02T12:38:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/12/pexels-eva-bronzini-7661185-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/define-your-brands-image/</loc>
+		<lastmod>2023-01-02T13:22:53+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/12/pexels-eva-bronzini-7661185-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
