@@ -2,14 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/blog/</loc>
-		<lastmod>2023-03-27T08:47:23+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/que-son-las-vcards/</loc>
-		<lastmod>2022-11-25T12:26:05+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
-		</image:image>
+		<lastmod>2023-05-17T13:11:44+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/que-es-una-tarjeta-de-presentacion-online-o-tarjeta-de-negocio-digital/</loc>
@@ -75,20 +68,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/el-ultimo-esencial-para-ferias/</loc>
-		<lastmod>2022-12-16T14:53:07+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/12/manos.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/the-latest-essential-for-conventions/</loc>
-		<lastmod>2022-12-19T12:47:03+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/12/manos.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/define-la-imagen-de-tu-marca/</loc>
 		<lastmod>2023-01-02T12:38:58+00:00</lastmod>
 		<image:image>
@@ -113,6 +92,27 @@
 	<url>
 		<loc>https://vcards.tictap.me/oportunidades-de-networking-multigeneracional/</loc>
 		<lastmod>2023-03-27T08:47:23+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/el-ultimo-esencial-para-ferias/</loc>
+		<lastmod>2023-05-17T12:42:01+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/12/manos.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/the-latest-essential-for-conventions/</loc>
+		<lastmod>2023-05-17T12:45:47+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/12/manos.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/que-son-las-vcards/</loc>
+		<lastmod>2023-05-17T13:11:44+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/blog/</loc>
