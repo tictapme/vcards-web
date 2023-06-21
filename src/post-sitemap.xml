@@ -2,14 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/blog/</loc>
-		<lastmod>2023-06-16T11:58:43+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</loc>
-		<lastmod>2022-11-25T12:28:09+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/04/tictap-vcard-example.jpg</image:loc>
-		</image:image>
+		<lastmod>2023-06-21T12:22:41+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/como-mejorar-el-engagement/</loc>
@@ -93,13 +86,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/que-son-las-vcards/</loc>
-		<lastmod>2023-05-17T13:11:44+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/oportunidades-de-networking-multigeneracional/</loc>
 		<lastmod>2023-06-07T10:55:30+00:00</lastmod>
 		<image:image>
@@ -118,6 +104,20 @@
 		<lastmod>2023-06-16T11:58:43+00:00</lastmod>
 		<image:image>
 			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/03/tarjeta-de-presentacion-vcard.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/que-son-las-vcards/</loc>
+		<lastmod>2023-06-21T12:20:02+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2022/10/close-up-people-using-smartphones-at-restaurant-1-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</loc>
+		<lastmod>2023-06-21T12:22:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/04/tictap-vcard-example.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
