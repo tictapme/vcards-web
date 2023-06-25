@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/blog/</loc>
-		<lastmod>2023-06-21T12:22:41+00:00</lastmod>
+		<lastmod>2023-06-23T12:09:10+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/como-mejorar-el-engagement/</loc>
@@ -93,13 +93,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/como-puedo-compartir-mi-tarjeta-digital/</loc>
-		<lastmod>2023-06-07T10:58:36+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/03/%C2%BFComo_puedo_compartir_mi_tarjeta_digital_.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/que-es-una-tarjeta-de-presentacion-online-o-tarjeta-de-negocio-digital/</loc>
 		<lastmod>2023-06-16T11:58:43+00:00</lastmod>
 		<image:image>
@@ -118,6 +111,13 @@
 		<lastmod>2023-06-21T12:22:41+00:00</lastmod>
 		<image:image>
 			<image:loc>https://vcards.tictap.me/wp-content/uploads/2021/04/tictap-vcard-example.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/como-puedo-compartir-mi-tarjeta-digital/</loc>
+		<lastmod>2023-06-23T12:09:10+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/03/%C2%BFComo_puedo_compartir_mi_tarjeta_digital_.png</image:loc>
 		</image:image>
 	</url>
 	<url>
