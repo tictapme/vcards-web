@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/</loc>
-		<lastmod>2023-06-26T09:16:36+00:00</lastmod>
+		<lastmod>2023-06-27T09:29:33+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/legal-notice-3/</loc>
@@ -25,16 +25,8 @@
 		<lastmod>2022-12-05T13:39:43+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/en/contact/</loc>
-		<lastmod>2022-12-15T13:12:38+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/aviso-legal/</loc>
 		<lastmod>2022-12-15T13:16:10+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/contacto/</loc>
-		<lastmod>2022-12-22T09:19:02+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/legal-disclaimer/</loc>
@@ -57,12 +49,20 @@
 		<lastmod>2023-04-28T04:46:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/tarjetas-fisicas-smart-card/</loc>
-		<lastmod>2023-06-26T09:51:08+00:00</lastmod>
+		<loc>https://vcards.tictap.me/en/contact/</loc>
+		<lastmod>2023-06-26T12:30:51+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/contacto/</loc>
+		<lastmod>2023-06-26T12:36:29+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/vcards-smart-card/</loc>
-		<lastmod>2023-06-26T10:46:08+00:00</lastmod>
+		<lastmod>2023-06-27T09:46:28+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/tarjetas-fisicas-smart-card/</loc>
+		<lastmod>2023-06-27T09:53:49+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/</loc>
