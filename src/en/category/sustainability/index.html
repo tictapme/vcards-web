@@ -20,7 +20,7 @@
 	);</script>
 <script type="text/javascript" id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="356961aa-f495-49bb-86b8-c7c1685aa7c3" data-layer-name="dataLayer" data-blockingmode="auto" defer></script>
 <script>var theplus_ajax_url = "/wp-admin/admin-ajax.php";
-		var theplus_nonce = "1f0a158e7b";</script>
+		var theplus_nonce = "8a46d020dd";</script>
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="alternate" hreflang="es" href="/category/sostenibilidad/">
 <link rel="alternate" hreflang="en" href="/en/category/sustainability/">
@@ -326,12 +326,11 @@ flexibility(document.documentElement);</script>
     margin-bottom: 0;
 }
 
-@media (max-width: 767px){
-.elementor-7865 .elementor-element.elementor-element-e0e4a91 > .elementor-widget-container {
-    padding: 0px 20px 0px 20px;
+@media (max-width: 767px) {
+    .elementor-7865 .elementor-element.elementor-element-e0e4a91 > .elementor-widget-container {
+        padding: 0px 20px 0px 20px;
+    }
 }
-}
-
 
 
 @media screen and (min-width: 768px) {
@@ -397,8 +396,7 @@ flexibility(document.documentElement);</script>
 
 .tictap-w2021 .tictap-button-link .elementor-button-link {
     border: none !important;
-    background-color: transparent !important;
-    background: none !important;
+    background: transparent none !important;
     color: #02A56C !important;
     padding: 0 !important;
     font-size: 18px !important;
@@ -417,7 +415,7 @@ flexibility(document.documentElement);</script>
 
 .tictap-w2021 .tictap-btn .elementor-button {
     color: #153B44 !important;
-    background-color: #00BFA5!important;
+    background-color: #00BFA5 !important;
     transition: color 0.3s ease-in-out;
     font-weight: 700;
     padding: 16px 32px !important;
@@ -509,17 +507,12 @@ flexibility(document.documentElement);</script>
         font-size: 14px;
         font-family: Lato, Helvetica, Arial !important;
         font-weight: 400;
-        padding: 0 0 12px 24px;
         margin-right: 0;
         color: rgba(110, 147, 157, 0.6);
-        padding-left: 10px;
-        padding-bottom: 16px;
+        padding: 0 0 16px 10px;
     }
 
     .elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a span {
-        /*		border-left: 1px solid #DBDBDB;*/
-        /*    padding-left: 10px;*/
-        /*    text-transform: uppercase;*/
         font-size: 11px !important;
         letter-spacing: 0.3px;
         font-weight: 700;
@@ -742,8 +735,8 @@ footer.tictap-w2021 ul:not(.elementor-editor-section-settings):not(.elementor-ed
 
 #mc-embedded-subscribe-form .mc_fieldset {
     border: none;
-    min-height: 0px;
-    padding-bottom: 0px;
+    min-height: 0;
+    padding-bottom: 0;
     padding-left: 0;
 }
 
@@ -762,20 +755,13 @@ footer.tictap-w2021 ul:not(.elementor-editor-section-settings):not(.elementor-ed
 }
 
 .mc-field-group.form-registration-inputs-container input[type="email"], .tictap-form input[type="email"] {
-
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 20px 0 0 20px;
 }
 
 .mc-field-group.form-registration-inputs-container input[type="submit"], .tictap-form input[type="submit"] {
     font-weight: 700;
     width: auto;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0 20px 20px 0;
     padding: 10px 16px;
 }
 
@@ -810,7 +796,6 @@ fieldset.mc_fieldset.gdprRequired.mc-field-group {
     text-decoration: underline;
     font-weight: 400;
     opacity: 1;
-    transition: font-weight .3s ease-in-out;
     transition: font-weight .3s ease-in-out;
 }
 
@@ -985,13 +970,6 @@ fieldset.mc_fieldset.gdprRequired.mc-field-group {
     padding: 0 16px 0;
 }
 
-.tictap-post-form form .mc-field-group .form-inputs-inner-holder {
-    /*display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;*/
-}
-
 .tictap-post-form form input {
     width: 100%;
     margin: 16px 0;
@@ -1044,12 +1022,6 @@ fieldset.mc_fieldset.gdprRequired.mc-field-group {
 @media screen and (min-width: 768px) {
     .single-post .elementor-widget-text-editor {
         padding: 0;
-    }
-
-    .tictap-post-form form .mc-field-group .form-inputs-inner-holder {
-        /*flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;*/
     }
 
 }
@@ -1119,14 +1091,13 @@ fieldset.mc_fieldset.gdprRequired.mc-field-group {
 
 .tictap-main-posts-col .elementor-posts--thumbnail-top .elementor-posts--skin-cards:not(.elementor-posts-masonry) article:not(:first-child) .elementor-post__card {
     height: 400px !important;
-	width: 365px !important;
+    width: 365px !important;
 }
 
 @media screen and (min-width: 768px) {
     .tictap-main-posts-col .elementor-post.elementor-grid-item.hentry:not(:first-child) {
         float: left;
-        max-width: 50%;
-
+        max-width: 50%; /* watchout */
     }
 
     .tictap-main-posts-col .elementor-post.elementor-grid-item.hentry:nth-child(even) {
@@ -1176,44 +1147,49 @@ fieldset.mc_fieldset.gdprRequired.mc-field-group {
     font-size: 18px;
 }
 
-.elementor-6383 .elementor-element.elementor-element-66d6499 > .elementor-background-overlay{background-image:none !important;}
+.elementor-6383 .elementor-element.elementor-element-66d6499 > .elementor-background-overlay {
+    background-image: none !important;
+}
 
 
 /*heading problems*/
 .elementor-9610 .elementor-element.elementor-element-6061a86 {
-	z-index:99 !important;
+    z-index: 99 !important;
 }
 
-.elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link{
-	padding:1.1em 1em 0.6em;
+.elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link {
+    padding: 1.1em 1em 0.6em;
 }
 
 
-h4{
-	color: #153B44;
-	font-family: 'Noto Sans', sans-serif;
+h4 {
+    color: #153B44;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-#content{
-	background-color: white !important;
+#content {
+    background-color: white !important;
 }
+
 .elementor-9610 .elementor-element.elementor-element-780e2ed0 {
-	margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
+
 .ast-separate-container #primary {
-	padding-top: 0 !important; }
-
-#post-15998 {   
-padding-top: 0!important;
+    padding-top: 0 !important;
 }
 
-#dressWellENGbackground{
-	
-	background-image: url("/wp-content/uploads/2023/06/Group-290peopleOnPhones.svg") !important;
+#post-15998 {
+    padding-top: 0 !important;
 }
 
-#boton_menu_superior_login a:hover{
-	background-color: red;
+#dressWellENGbackground {
+
+    background-image: url("/wp-content/uploads/2023/06/Group-290peopleOnPhones.svg") !important;
+}
+
+#boton_menu_superior_login a:hover {
+    background-color: red;
 }</style>
 			
 
@@ -1710,7 +1686,7 @@ var Tawk_LoadStart=new Date();
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 </script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"ca57d2761a","urls":{"assets":"\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"\/en\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"cef21a1b92","urls":{"assets":"\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"\/en\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},
 "facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.7.2" id="elementor-pro-frontend-js" defer></script>
 <script src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js" defer></script>
