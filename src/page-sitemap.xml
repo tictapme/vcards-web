@@ -2,7 +2,10 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/</loc>
-		<lastmod>2023-11-24T10:48:15+00:00</lastmod>
+		<lastmod>2024-05-03T11:20:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/PHONE_FLOOR_CARD_5-1024x1024-1.png</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/legal-notice-3/</loc>
@@ -17,38 +20,50 @@
 		<lastmod>2022-12-27T08:58:24+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/en/free-vcard/</loc>
-		<lastmod>2023-04-28T04:46:03+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/Group-305.png</image:loc>
-		</image:image>
+		<loc>https://vcards.tictap.me/vcards/</loc>
+		<lastmod>2024-04-12T08:27:39+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
-		<lastmod>2023-08-03T10:20:13+00:00</lastmod>
+		<lastmod>2024-04-29T11:50:40+00:00</lastmod>
 		<image:image>
 			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/Group-305.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/copia-home/</loc>
-		<lastmod>2023-09-26T11:31:17+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/contact/</loc>
-		<lastmod>2023-10-11T12:31:09+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/tarjeta-smart-nfc/</loc>
-		<lastmod>2023-10-31T09:43:31+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/en/vcards-smart-nfc-card/</loc>
-		<lastmod>2023-10-31T13:05:41+00:00</lastmod>
+		<loc>https://vcards.tictap.me/en/vcards/</loc>
+		<lastmod>2024-04-30T11:37:22+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/contacto/</loc>
-		<lastmod>2024-03-11T09:14:09+00:00</lastmod>
+		<lastmod>2024-05-02T10:52:35+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/contact/</loc>
+		<lastmod>2024-05-02T11:03:29+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/free-vcard/</loc>
+		<lastmod>2024-05-02T11:58:03+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/Group-305.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/tarjeta-smart-nfc/</loc>
+		<lastmod>2024-05-03T07:08:55+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/pricing/</loc>
+		<lastmod>2024-05-03T10:50:57+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/en/vcards-smart-nfc-card/</loc>
+		<lastmod>2024-05-03T11:02:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/vcards-pricings/</loc>
+		<lastmod>2024-05-03T11:07:08+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/en/</loc>
