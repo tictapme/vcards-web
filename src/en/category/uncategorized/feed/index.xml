@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
@@ -54,6 +54,7 @@
 		<pubDate>Thu, 15 Dec 2022 23:50:37 +0000</pubDate>
 				<category><![CDATA[Marketing]]></category>
 		<category><![CDATA[digital business cards]]></category>
+		<category><![CDATA[Uncategorized]]></category>
 		<category><![CDATA[smart card]]></category>
 		<category><![CDATA[vcards]]></category>
 		<guid isPermaLink="false">/the-latest-essential-for-conventions/</guid>

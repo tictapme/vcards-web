@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
@@ -51,7 +51,8 @@
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Thu, 15 Dec 2022 22:52:44 +0000</pubDate>
-				<category><![CDATA[tarjetas de visita digitales]]></category>
+				<category><![CDATA[Marketing]]></category>
+		<category><![CDATA[tarjetas de visita digitales]]></category>
 		<category><![CDATA[smart card]]></category>
 		<category><![CDATA[vcards]]></category>
 		<guid isPermaLink="false">/?p=15418</guid>
@@ -72,7 +73,8 @@
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Wed, 02 Nov 2022 13:48:52 +0000</pubDate>
-				<guid isPermaLink="false">/?p=13669</guid>
+				<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">/?p=13669</guid>
 
 					<description><![CDATA[<p>El concepto engagement ha estado ganando mucha relevancia en los últimos años en las estrategias de marketing de la mayoría de empresas. En este artículo te explicamos qué implica, cómo puede ayudarte a hacer crecer tu negocio, y algunas maneras y herramientas para optimizarlo. Cuando hablamos de engagement nos referimos a la interacción que mantenemos &#8230;</p>
 <p class="read-more"> <a class="" href="/como-mejorar-el-engagement/"> <span class="screen-reader-text">Cómo mejorar el engagement</span> Leer más &#187;</a></p>

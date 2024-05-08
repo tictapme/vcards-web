@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
@@ -68,7 +68,8 @@
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Mon, 02 Jan 2023 12:38:55 +0000</pubDate>
-				<guid isPermaLink="false">/?p=15716</guid>
+				<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">/?p=15716</guid>
 
 					<description><![CDATA[<p>Cuando hablamos de la imagen de una marca nos referimos a la percepción que una marca desea que las personas tengan de esta. Este artículo es la primera parte en la que vamos a desarrollar cuáles son los elementos básicos que componen la definición de dicha imagen y los motivos por el cual es un &#8230;</p>
 <p class="read-more"> <a class="" href="/define-la-imagen-de-tu-marca/"> <span class="screen-reader-text">Define la imagen de tu marca</span> Leer más &#187;</a></p>
@@ -145,7 +146,8 @@
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Thu, 20 Oct 2022 10:34:12 +0000</pubDate>
-				<guid isPermaLink="false">/?p=13397</guid>
+				<category><![CDATA[Sobre vcards]]></category>
+		<guid isPermaLink="false">/?p=13397</guid>
 
 					<description><![CDATA[<p>Las vcards son la versión digital de las tarjetas de visita tradicionales. Son una herramienta que está revolucionando cómo conectamos.</p>
 <p>The post <a rel="nofollow" href="/que-son-las-vcards/">¿Qué son las tarjetas de visita digitales o vcards?</a> appeared first on <a rel="nofollow" href="/">Vcards by TicTAP</a>.</p>

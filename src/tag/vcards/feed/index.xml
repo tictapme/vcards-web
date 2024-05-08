@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
@@ -34,6 +34,7 @@
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Fri, 24 Mar 2023 11:23:51 +0000</pubDate>
 				<category><![CDATA[networking]]></category>
+		<category><![CDATA[vcards]]></category>
 		<guid isPermaLink="false">/?p=12448</guid>
 
 					<description><![CDATA[<p>Saber cómo compartir tu tarjeta es una de las dudas más frecuentes sobre las tarjetas de visitas digitales. Esto es así porque se busca el mayor alcance posible al compartir tu información. El hecho de que este tipo de tarjetas sean fácilmente compartibles, hacen posible este gran alcance. Aquí te explicaremos todas las formas en &#8230;</p>
