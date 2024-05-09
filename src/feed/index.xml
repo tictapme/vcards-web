@@ -10,7 +10,7 @@
 <channel>
 	<title>Vcards by TicTAP</title>
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
-	<link>/en/</link>
+	<link>/</link>
 	<description>Go digital. Go green.</description>
 	<lastBuildDate>Wed, 28 Jun 2023 07:33:28 +0000</lastBuildDate>
 	<language>es</language>
@@ -23,7 +23,7 @@
 <image>
 	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>Vcards by TicTAP</title>
-	<link>/en/</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
