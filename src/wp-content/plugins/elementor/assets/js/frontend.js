@@ -1,4 +1,4 @@
-/*! elementor - v3.21.0 - 30-04-2024 */
+/*! elementor - v3.21.0 - 08-05-2024 */
 "use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["frontend"],{
 
@@ -1699,7 +1699,7 @@ class Swiper {
   // In Swiper 5.0.0 and up, breakpoints changed from acting as max-width to acting as min-width
   adjustConfig(config) {
     // Only reverse the breakpoints if the handle param has been defined
-    if (!config.handleElementorBreakpoints) {
+      if (!config.handleElementorBreakpoints) {
       return config;
     }
     const elementorBreakpoints = elementorFrontend.config.responsive.activeBreakpoints,
