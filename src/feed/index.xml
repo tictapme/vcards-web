@@ -9,9 +9,9 @@
 
 <channel>
 	<title>Vcards by TicTAP</title>
-	<atom:link href="https://vcards.tictap.me/feed/" rel="self" type="application/rss+xml" />
-	<link>https://vcards.tictap.me/</link>
-	<description>Digital business cards. Go digital. Go green.</description>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Go digital. Go green.</description>
 	<lastBuildDate>Wed, 28 Jun 2023 07:33:28 +0000</lastBuildDate>
 	<language>es</language>
 	<sy:updatePeriod>
@@ -21,24 +21,24 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://vcards.tictap.me/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>Vcards by TicTAP</title>
-	<link>https://vcards.tictap.me/</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Oportunidades en el networking multigeneracional</title>
-		<link>https://vcards.tictap.me/oportunidades-de-networking-multigeneracional/</link>
+		<link>/oportunidades-de-networking-multigeneracional/</link>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Fri, 24 Mar 2023 12:28:38 +0000</pubDate>
 				<category><![CDATA[networking]]></category>
-		<guid isPermaLink="false">https://vcards.tictap.me/oportunidades-de-networking-multigeneracional/</guid>
+		<guid isPermaLink="false">/oportunidades-de-networking-multigeneracional/</guid>
 
 					<description><![CDATA[<p>Networking es un aspecto crucial del desarrollo profesional, pero puede ser difícil cuando se trata de diferentes generaciones. Cada generación tiene sus propios valores, estilos de comunicación y expectativas, lo que dificulta establecer conexiones significativas. Sin embargo, networking entre diferentes generaciones puede conducir a un lugar de trabajo diverso e inclusivo y proporcionar oportunidades para &#8230;</p>
-<p class="read-more"> <a class="" href="https://vcards.tictap.me/oportunidades-de-networking-multigeneracional/"> <span class="screen-reader-text">Oportunidades en el networking multigeneracional</span> Leer más &#187;</a></p>
-<p>The post <a href="https://vcards.tictap.me/oportunidades-de-networking-multigeneracional/">Oportunidades en el networking multigeneracional</a> appeared first on <a href="https://vcards.tictap.me/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="/oportunidades-de-networking-multigeneracional/"> <span class="screen-reader-text">Oportunidades en el networking multigeneracional</span> Leer más &#187;</a></p>
+<p>The post <a href="/oportunidades-de-networking-multigeneracional/">Oportunidades en el networking multigeneracional</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
 		
@@ -46,17 +46,17 @@
 			</item>
 		<item>
 		<title>¿Cómo puedo compartir mi tarjeta digital?</title>
-		<link>https://vcards.tictap.me/como-puedo-compartir-mi-tarjeta-digital/</link>
+		<link>/como-puedo-compartir-mi-tarjeta-digital/</link>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Fri, 24 Mar 2023 11:23:51 +0000</pubDate>
 				<category><![CDATA[networking]]></category>
 		<category><![CDATA[vcards]]></category>
-		<guid isPermaLink="false">https://vcards.tictap.me/?p=12448</guid>
+		<guid isPermaLink="false">/?p=12448</guid>
 
 					<description><![CDATA[<p>Saber cómo compartir tu tarjeta es una de las dudas más frecuentes sobre las tarjetas de visitas digitales. Esto es así porque se busca el mayor alcance posible al compartir tu información. El hecho de que este tipo de tarjetas sean fácilmente compartibles, hacen posible este gran alcance. Aquí te explicaremos todas las formas en &#8230;</p>
-<p class="read-more"> <a class="" href="https://vcards.tictap.me/como-puedo-compartir-mi-tarjeta-digital/"> <span class="screen-reader-text">¿Cómo puedo compartir mi tarjeta digital?</span> Leer más &#187;</a></p>
-<p>The post <a href="https://vcards.tictap.me/como-puedo-compartir-mi-tarjeta-digital/">¿Cómo puedo compartir mi tarjeta digital?</a> appeared first on <a href="https://vcards.tictap.me/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="/como-puedo-compartir-mi-tarjeta-digital/"> <span class="screen-reader-text">¿Cómo puedo compartir mi tarjeta digital?</span> Leer más &#187;</a></p>
+<p>The post <a href="/como-puedo-compartir-mi-tarjeta-digital/">¿Cómo puedo compartir mi tarjeta digital?</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
 		
@@ -64,16 +64,16 @@
 			</item>
 		<item>
 		<title>Define la imagen de tu marca</title>
-		<link>https://vcards.tictap.me/define-la-imagen-de-tu-marca/</link>
+		<link>/define-la-imagen-de-tu-marca/</link>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Mon, 02 Jan 2023 12:38:55 +0000</pubDate>
 				<category><![CDATA[Marketing]]></category>
-		<guid isPermaLink="false">https://vcards.tictap.me/?p=15716</guid>
+		<guid isPermaLink="false">/?p=15716</guid>
 
 					<description><![CDATA[<p>Cuando hablamos de la imagen de una marca nos referimos a la percepción que una marca desea que las personas tengan de esta. Este artículo es la primera parte en la que vamos a desarrollar cuáles son los elementos básicos que componen la definición de dicha imagen y los motivos por el cual es un &#8230;</p>
-<p class="read-more"> <a class="" href="https://vcards.tictap.me/define-la-imagen-de-tu-marca/"> <span class="screen-reader-text">Define la imagen de tu marca</span> Leer más &#187;</a></p>
-<p>The post <a href="https://vcards.tictap.me/define-la-imagen-de-tu-marca/">Define la imagen de tu marca</a> appeared first on <a href="https://vcards.tictap.me/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="/define-la-imagen-de-tu-marca/"> <span class="screen-reader-text">Define la imagen de tu marca</span> Leer más &#187;</a></p>
+<p>The post <a href="/define-la-imagen-de-tu-marca/">Define la imagen de tu marca</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
 		
@@ -81,8 +81,8 @@
 			</item>
 		<item>
 		<title>Vcards, el último esencial para ferias</title>
-		<link>https://vcards.tictap.me/el-ultimo-esencial-para-ferias/</link>
-					<comments>https://vcards.tictap.me/el-ultimo-esencial-para-ferias/#respond</comments>
+		<link>/el-ultimo-esencial-para-ferias/</link>
+					<comments>/el-ultimo-esencial-para-ferias/#respond</comments>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Thu, 15 Dec 2022 22:52:44 +0000</pubDate>
@@ -90,50 +90,50 @@
 		<category><![CDATA[tarjetas de visita digitales]]></category>
 		<category><![CDATA[smart card]]></category>
 		<category><![CDATA[vcards]]></category>
-		<guid isPermaLink="false">https://vcards.tictap.me/?p=15418</guid>
+		<guid isPermaLink="false">/?p=15418</guid>
 
 					<description><![CDATA[<p>El objetivo principal de las ferias y exhibiciones es dar a conocer tu empresa o proyecto y conectar con personas que puedan estar interesadas en invertir en ella o comprar tus productos o contratar tus servicios. Es uno de los escenarios en los que más se reparten tarjetas de contacto y folletos. Pero, ¿son efectivas? &#8230;</p>
-<p class="read-more"> <a class="" href="https://vcards.tictap.me/el-ultimo-esencial-para-ferias/"> <span class="screen-reader-text">Vcards, el último esencial para ferias</span> Leer más &#187;</a></p>
-<p>The post <a href="https://vcards.tictap.me/el-ultimo-esencial-para-ferias/">Vcards, el último esencial para ferias</a> appeared first on <a href="https://vcards.tictap.me/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="/el-ultimo-esencial-para-ferias/"> <span class="screen-reader-text">Vcards, el último esencial para ferias</span> Leer más &#187;</a></p>
+<p>The post <a href="/el-ultimo-esencial-para-ferias/">Vcards, el último esencial para ferias</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://vcards.tictap.me/el-ultimo-esencial-para-ferias/feed/</wfw:commentRss>
+					<wfw:commentRss>/el-ultimo-esencial-para-ferias/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Paperless &#8211; Acciones sostenibles en el trabajo</title>
-		<link>https://vcards.tictap.me/paperless-acciones-sostenibles-en-el-trabajo/</link>
-					<comments>https://vcards.tictap.me/paperless-acciones-sostenibles-en-el-trabajo/#respond</comments>
+		<link>/paperless-acciones-sostenibles-en-el-trabajo/</link>
+					<comments>/paperless-acciones-sostenibles-en-el-trabajo/#respond</comments>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Thu, 24 Nov 2022 18:56:32 +0000</pubDate>
 				<category><![CDATA[Sostenibilidad]]></category>
-		<guid isPermaLink="false">https://vcards.tictap.me/?p=14152</guid>
+		<guid isPermaLink="false">/?p=14152</guid>
 
 					<description><![CDATA[<p>El término paperless se refiere a la disminución del uso del papel, medida comúnmente aplicada al espacio de trabajo o de estudios. Somos una empresa comprometida con el medio ambiente y en este artículo nos centraremos en algunos de los motivos por qué y cómo acercar tu oficina a ser paperless. Motivos por los que &#8230;</p>
-<p class="read-more"> <a class="" href="https://vcards.tictap.me/paperless-acciones-sostenibles-en-el-trabajo/"> <span class="screen-reader-text">Paperless &#8211; Acciones sostenibles en el trabajo</span> Leer más &#187;</a></p>
-<p>The post <a href="https://vcards.tictap.me/paperless-acciones-sostenibles-en-el-trabajo/">Paperless &#8211; Acciones sostenibles en el trabajo</a> appeared first on <a href="https://vcards.tictap.me/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="/paperless-acciones-sostenibles-en-el-trabajo/"> <span class="screen-reader-text">Paperless &#8211; Acciones sostenibles en el trabajo</span> Leer más &#187;</a></p>
+<p>The post <a href="/paperless-acciones-sostenibles-en-el-trabajo/">Paperless &#8211; Acciones sostenibles en el trabajo</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://vcards.tictap.me/paperless-acciones-sostenibles-en-el-trabajo/feed/</wfw:commentRss>
+					<wfw:commentRss>/paperless-acciones-sostenibles-en-el-trabajo/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Cómo mejorar el engagement</title>
-		<link>https://vcards.tictap.me/como-mejorar-el-engagement/</link>
+		<link>/como-mejorar-el-engagement/</link>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Wed, 02 Nov 2022 13:48:52 +0000</pubDate>
 				<category><![CDATA[Marketing]]></category>
-		<guid isPermaLink="false">https://vcards.tictap.me/?p=13669</guid>
+		<guid isPermaLink="false">/?p=13669</guid>
 
 					<description><![CDATA[<p>El concepto engagement ha estado ganando mucha relevancia en los últimos años en las estrategias de marketing de la mayoría de empresas. En este artículo te explicamos qué implica, cómo puede ayudarte a hacer crecer tu negocio, y algunas maneras y herramientas para optimizarlo. Cuando hablamos de engagement nos referimos a la interacción que mantenemos &#8230;</p>
-<p class="read-more"> <a class="" href="https://vcards.tictap.me/como-mejorar-el-engagement/"> <span class="screen-reader-text">Cómo mejorar el engagement</span> Leer más &#187;</a></p>
-<p>The post <a href="https://vcards.tictap.me/como-mejorar-el-engagement/">Cómo mejorar el engagement</a> appeared first on <a href="https://vcards.tictap.me/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="/como-mejorar-el-engagement/"> <span class="screen-reader-text">Cómo mejorar el engagement</span> Leer más &#187;</a></p>
+<p>The post <a href="/como-mejorar-el-engagement/">Cómo mejorar el engagement</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
 		
@@ -141,35 +141,35 @@
 			</item>
 		<item>
 		<title>¿Qué son las tarjetas de visita digitales o vcards?</title>
-		<link>https://vcards.tictap.me/que-son-las-vcards/</link>
-					<comments>https://vcards.tictap.me/que-son-las-vcards/#respond</comments>
+		<link>/que-son-las-vcards/</link>
+					<comments>/que-son-las-vcards/#respond</comments>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Thu, 20 Oct 2022 10:34:12 +0000</pubDate>
 				<category><![CDATA[Sobre vcards]]></category>
-		<guid isPermaLink="false">https://vcards.tictap.me/?p=13397</guid>
+		<guid isPermaLink="false">/?p=13397</guid>
 
 					<description><![CDATA[<p>Las vcards son la versión digital de las tarjetas de visita tradicionales. Son una herramienta que está revolucionando cómo conectamos.</p>
-<p>The post <a href="https://vcards.tictap.me/que-son-las-vcards/">¿Qué son las tarjetas de visita digitales o vcards?</a> appeared first on <a href="https://vcards.tictap.me/">Vcards by TicTAP</a>.</p>
+<p>The post <a href="/que-son-las-vcards/">¿Qué son las tarjetas de visita digitales o vcards?</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>https://vcards.tictap.me/que-son-las-vcards/feed/</wfw:commentRss>
+					<wfw:commentRss>/que-son-las-vcards/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>9 ventajas y 3 inconvenientes de las tarjetas de negocio digitales</title>
-		<link>https://vcards.tictap.me/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</link>
+		<link>/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</link>
 		
 		<dc:creator><![CDATA[Maria Pascual]]></dc:creator>
 		<pubDate>Fri, 12 Mar 2021 10:08:47 +0000</pubDate>
 				<category><![CDATA[Sobre vcards]]></category>
-		<guid isPermaLink="false">https://vcards.tictap.me/?p=9772</guid>
+		<guid isPermaLink="false">/?p=9772</guid>
 
 					<description><![CDATA[<p>Las tarjetas de presentación digitales tienen sus ventajas e inconvenientes, como todo en esta vida. Veamos ahora mismo estas virtudes y limitaciones para que puedas decidir si te conviene a ti y a tu negocio dar el paso a la digitaliación de este material de presentación y contacto. Sin ánimos de ser spoiler, te avanzo &#8230;</p>
-<p class="read-more"> <a class="" href="https://vcards.tictap.me/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/"> <span class="screen-reader-text">9 ventajas y 3 inconvenientes de las tarjetas de negocio digitales</span> Leer más &#187;</a></p>
-<p>The post <a href="https://vcards.tictap.me/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/">9 ventajas y 3 inconvenientes de las tarjetas de negocio digitales</a> appeared first on <a href="https://vcards.tictap.me/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/"> <span class="screen-reader-text">9 ventajas y 3 inconvenientes de las tarjetas de negocio digitales</span> Leer más &#187;</a></p>
+<p>The post <a href="/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/">9 ventajas y 3 inconvenientes de las tarjetas de negocio digitales</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
 		

@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Marketing - Blog</title>
-	<atom:link href="https://vcards.tictap.me/en/category/marketing-en/feed/" rel="self" type="application/rss+xml" />
-	<link>https://vcards.tictap.me/en/category/marketing-en/</link>
+	<atom:link href="/en/category/marketing-en/feed/" rel="self" type="application/rss+xml" />
+	<link>/en/category/marketing-en/</link>
 	<description>Go digital. Go green.</description>
-	<lastBuildDate>Mon, 03 Jun 2024 10:12:53 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 16 May 2024 11:38:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://vcards.tictap.me/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>Marketing - Blog</title>
-	<link>https://vcards.tictap.me/en/category/marketing-en/</link>
+	<link>/en/category/marketing-en/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

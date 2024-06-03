@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://vcards.tictap.me/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://vcards.tictap.me/</loc>
-		<lastmod>2024-06-03T09:15:07+00:00</lastmod>
+		<lastmod>2024-05-16T11:38:08+00:00</lastmod>
 		<image:image>
 			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/PHONE_FLOOR_CARD_5-1024x1024-1.png</image:loc>
 		</image:image>
@@ -39,12 +39,27 @@
 		<lastmod>2024-04-30T11:37:22+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
+		<lastmod>2024-05-02T11:58:03+00:00</lastmod>
+		<image:image>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/Group-305.png</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://vcards.tictap.me/tarjeta-smart-nfc/</loc>
 		<lastmod>2024-05-14T07:28:30+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://vcards.tictap.me/vcards-pricings/</loc>
+		<lastmod>2024-05-16T08:54:00+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://vcards.tictap.me/contacto/</loc>
 		<lastmod>2024-05-16T09:31:25+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/vcards-pricings/</loc>
+		<lastmod>2024-05-16T09:54:59+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://vcards.tictap.me/contacto/</loc>
@@ -55,23 +70,8 @@
 		<lastmod>2024-05-16T09:56:40+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
-		<lastmod>2024-05-22T09:58:27+00:00</lastmod>
-		<image:image>
-			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/Group-305.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/precios/</loc>
-		<lastmod>2024-05-27T10:36:33+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://vcards.tictap.me/precios/</loc>
-		<lastmod>2024-05-28T11:01:09+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://vcards.tictap.me/</loc>
-		<lastmod>2024-06-03T10:12:53+00:00</lastmod>
+		<lastmod>2024-05-16T10:04:12+00:00</lastmod>
 		<image:image>
 			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/PHONE_FLOOR_CARD_5-1024x1024-1.png</image:loc>
 		</image:image>
