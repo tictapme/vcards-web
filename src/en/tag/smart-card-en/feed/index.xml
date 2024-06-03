@@ -9,10 +9,10 @@
 
 <channel>
 	<title>smart card Archives - Vcards by TicTAP</title>
-	<atom:link href="/en/tag/smart-card-en/feed/" rel="self" type="application/rss+xml" />
-	<link>/en/tag/smart-card-en/</link>
+	<atom:link href="https://vcards.tictap.me/en/tag/smart-card-en/feed/" rel="self" type="application/rss+xml" />
+	<link>https://vcards.tictap.me/en/tag/smart-card-en/</link>
 	<description>Go digital. Go green.</description>
-	<lastBuildDate>Thu, 16 May 2024 11:38:08 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 03 Jun 2024 10:12:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<url>https://vcards.tictap.me/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>smart card Archives - Vcards by TicTAP</title>
-	<link>/en/tag/smart-card-en/</link>
+	<link>https://vcards.tictap.me/en/tag/smart-card-en/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
