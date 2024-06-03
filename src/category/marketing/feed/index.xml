@@ -9,9 +9,9 @@
 
 <channel>
 	<title>Marketing - Blog</title>
-	<atom:link href="/category/marketing/feed/" rel="self" type="application/rss+xml" />
-	<link>/category/marketing/</link>
-	<description>Go digital. Go green.</description>
+	<atom:link href="https://develop.vcards-web.pages.dev/category/marketing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://develop.vcards-web.pages.dev/category/marketing/</link>
+	<description>Digital business cards. Go digital. Go green.</description>
 	<lastBuildDate>Wed, 17 May 2023 12:42:01 +0000</lastBuildDate>
 	<language>es</language>
 	<sy:updatePeriod>
@@ -21,24 +21,24 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<url>https://develop.vcards-web.pages.dev/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>Marketing - Blog</title>
-	<link>/category/marketing/</link>
+	<link>https://develop.vcards-web.pages.dev/category/marketing/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Define la imagen de tu marca</title>
-		<link>/define-la-imagen-de-tu-marca/</link>
+		<link>https://develop.vcards-web.pages.dev/define-la-imagen-de-tu-marca/</link>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Mon, 02 Jan 2023 12:38:55 +0000</pubDate>
 				<category><![CDATA[Marketing]]></category>
-		<guid isPermaLink="false">/?p=15716</guid>
+		<guid isPermaLink="false">https://develop.vcards-web.pages.dev/?p=15716</guid>
 
 					<description><![CDATA[<p>Cuando hablamos de la imagen de una marca nos referimos a la percepción que una marca desea que las personas tengan de esta. Este artículo es la primera parte en la que vamos a desarrollar cuáles son los elementos básicos que componen la definición de dicha imagen y los motivos por el cual es un &#8230;</p>
-<p class="read-more"> <a class="" href="/define-la-imagen-de-tu-marca/"> <span class="screen-reader-text">Define la imagen de tu marca</span> Leer más &#187;</a></p>
-<p>The post <a href="/define-la-imagen-de-tu-marca/">Define la imagen de tu marca</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="https://develop.vcards-web.pages.dev/define-la-imagen-de-tu-marca/"> <span class="screen-reader-text">Define la imagen de tu marca</span> Leer más &#187;</a></p>
+<p>The post <a href="https://develop.vcards-web.pages.dev/define-la-imagen-de-tu-marca/">Define la imagen de tu marca</a> appeared first on <a href="https://develop.vcards-web.pages.dev/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
 		
@@ -46,8 +46,8 @@
 			</item>
 		<item>
 		<title>Vcards, el último esencial para ferias</title>
-		<link>/el-ultimo-esencial-para-ferias/</link>
-					<comments>/el-ultimo-esencial-para-ferias/#respond</comments>
+		<link>https://develop.vcards-web.pages.dev/el-ultimo-esencial-para-ferias/</link>
+					<comments>https://develop.vcards-web.pages.dev/el-ultimo-esencial-para-ferias/#respond</comments>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Thu, 15 Dec 2022 22:52:44 +0000</pubDate>
@@ -55,30 +55,30 @@
 		<category><![CDATA[tarjetas de visita digitales]]></category>
 		<category><![CDATA[smart card]]></category>
 		<category><![CDATA[vcards]]></category>
-		<guid isPermaLink="false">/?p=15418</guid>
+		<guid isPermaLink="false">https://develop.vcards-web.pages.dev/?p=15418</guid>
 
 					<description><![CDATA[<p>El objetivo principal de las ferias y exhibiciones es dar a conocer tu empresa o proyecto y conectar con personas que puedan estar interesadas en invertir en ella o comprar tus productos o contratar tus servicios. Es uno de los escenarios en los que más se reparten tarjetas de contacto y folletos. Pero, ¿son efectivas? &#8230;</p>
-<p class="read-more"> <a class="" href="/el-ultimo-esencial-para-ferias/"> <span class="screen-reader-text">Vcards, el último esencial para ferias</span> Leer más &#187;</a></p>
-<p>The post <a href="/el-ultimo-esencial-para-ferias/">Vcards, el último esencial para ferias</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="https://develop.vcards-web.pages.dev/el-ultimo-esencial-para-ferias/"> <span class="screen-reader-text">Vcards, el último esencial para ferias</span> Leer más &#187;</a></p>
+<p>The post <a href="https://develop.vcards-web.pages.dev/el-ultimo-esencial-para-ferias/">Vcards, el último esencial para ferias</a> appeared first on <a href="https://develop.vcards-web.pages.dev/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>/el-ultimo-esencial-para-ferias/feed/</wfw:commentRss>
+					<wfw:commentRss>https://develop.vcards-web.pages.dev/el-ultimo-esencial-para-ferias/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Cómo mejorar el engagement</title>
-		<link>/como-mejorar-el-engagement/</link>
+		<link>https://develop.vcards-web.pages.dev/como-mejorar-el-engagement/</link>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Wed, 02 Nov 2022 13:48:52 +0000</pubDate>
 				<category><![CDATA[Marketing]]></category>
-		<guid isPermaLink="false">/?p=13669</guid>
+		<guid isPermaLink="false">https://develop.vcards-web.pages.dev/?p=13669</guid>
 
 					<description><![CDATA[<p>El concepto engagement ha estado ganando mucha relevancia en los últimos años en las estrategias de marketing de la mayoría de empresas. En este artículo te explicamos qué implica, cómo puede ayudarte a hacer crecer tu negocio, y algunas maneras y herramientas para optimizarlo. Cuando hablamos de engagement nos referimos a la interacción que mantenemos &#8230;</p>
-<p class="read-more"> <a class="" href="/como-mejorar-el-engagement/"> <span class="screen-reader-text">Cómo mejorar el engagement</span> Leer más &#187;</a></p>
-<p>The post <a href="/como-mejorar-el-engagement/">Cómo mejorar el engagement</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="https://develop.vcards-web.pages.dev/como-mejorar-el-engagement/"> <span class="screen-reader-text">Cómo mejorar el engagement</span> Leer más &#187;</a></p>
+<p>The post <a href="https://develop.vcards-web.pages.dev/como-mejorar-el-engagement/">Cómo mejorar el engagement</a> appeared first on <a href="https://develop.vcards-web.pages.dev/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
 		

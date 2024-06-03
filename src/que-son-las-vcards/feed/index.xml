@@ -8,9 +8,9 @@
 <channel>
 	<title>
 	Comentarios en: ¿Qué son las tarjetas de visita digitales o vcards?	</title>
-	<atom:link href="/que-son-las-vcards/feed/" rel="self" type="application/rss+xml" />
-	<link>/que-son-las-vcards/</link>
-	<description>Go digital. Go green.</description>
+	<atom:link href="https://develop.vcards-web.pages.dev/que-son-las-vcards/feed/" rel="self" type="application/rss+xml" />
+	<link>https://develop.vcards-web.pages.dev/que-son-las-vcards/</link>
+	<description>Digital business cards. Go digital. Go green.</description>
 	<lastBuildDate>Wed, 21 Jun 2023 12:20:02 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>

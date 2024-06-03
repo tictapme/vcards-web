@@ -9,9 +9,9 @@
 
 <channel>
 	<title>Sostenibilidad - Blog</title>
-	<atom:link href="/category/sostenibilidad/feed/" rel="self" type="application/rss+xml" />
-	<link>/category/sostenibilidad/</link>
-	<description>Go digital. Go green.</description>
+	<atom:link href="https://develop.vcards-web.pages.dev/category/sostenibilidad/feed/" rel="self" type="application/rss+xml" />
+	<link>https://develop.vcards-web.pages.dev/category/sostenibilidad/</link>
+	<description>Digital business cards. Go digital. Go green.</description>
 	<lastBuildDate>Fri, 25 Nov 2022 14:03:58 +0000</lastBuildDate>
 	<language>es</language>
 	<sy:updatePeriod>
@@ -21,28 +21,28 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<url>https://develop.vcards-web.pages.dev/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>Sostenibilidad - Blog</title>
-	<link>/category/sostenibilidad/</link>
+	<link>https://develop.vcards-web.pages.dev/category/sostenibilidad/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Paperless &#8211; Acciones sostenibles en el trabajo</title>
-		<link>/paperless-acciones-sostenibles-en-el-trabajo/</link>
-					<comments>/paperless-acciones-sostenibles-en-el-trabajo/#respond</comments>
+		<link>https://develop.vcards-web.pages.dev/paperless-acciones-sostenibles-en-el-trabajo/</link>
+					<comments>https://develop.vcards-web.pages.dev/paperless-acciones-sostenibles-en-el-trabajo/#respond</comments>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Thu, 24 Nov 2022 18:56:32 +0000</pubDate>
 				<category><![CDATA[Sostenibilidad]]></category>
-		<guid isPermaLink="false">/?p=14152</guid>
+		<guid isPermaLink="false">https://develop.vcards-web.pages.dev/?p=14152</guid>
 
 					<description><![CDATA[<p>El término paperless se refiere a la disminución del uso del papel, medida comúnmente aplicada al espacio de trabajo o de estudios. Somos una empresa comprometida con el medio ambiente y en este artículo nos centraremos en algunos de los motivos por qué y cómo acercar tu oficina a ser paperless. Motivos por los que &#8230;</p>
-<p class="read-more"> <a class="" href="/paperless-acciones-sostenibles-en-el-trabajo/"> <span class="screen-reader-text">Paperless &#8211; Acciones sostenibles en el trabajo</span> Leer más &#187;</a></p>
-<p>The post <a href="/paperless-acciones-sostenibles-en-el-trabajo/">Paperless &#8211; Acciones sostenibles en el trabajo</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="https://develop.vcards-web.pages.dev/paperless-acciones-sostenibles-en-el-trabajo/"> <span class="screen-reader-text">Paperless &#8211; Acciones sostenibles en el trabajo</span> Leer más &#187;</a></p>
+<p>The post <a href="https://develop.vcards-web.pages.dev/paperless-acciones-sostenibles-en-el-trabajo/">Paperless &#8211; Acciones sostenibles en el trabajo</a> appeared first on <a href="https://develop.vcards-web.pages.dev/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
-					<wfw:commentRss>/paperless-acciones-sostenibles-en-el-trabajo/feed/</wfw:commentRss>
+					<wfw:commentRss>https://develop.vcards-web.pages.dev/paperless-acciones-sostenibles-en-el-trabajo/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

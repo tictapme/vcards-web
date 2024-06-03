@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://develop.vcards-web.pages.dev/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://vcards.tictap.me/tag/networking/</loc>
+		<loc>https://develop.vcards-web.pages.dev/tag/networking/</loc>
 		<lastmod>2023-06-23T12:09:10+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/tag/smart-card/</loc>
+		<loc>https://develop.vcards-web.pages.dev/tag/smart-card/</loc>
 		<lastmod>2023-05-17T12:45:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/tag/tarjetas-de-visita-digitales/</loc>
+		<loc>https://develop.vcards-web.pages.dev/tag/tarjetas-de-visita-digitales/</loc>
 		<lastmod>2023-05-17T12:45:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/tag/vcards/</loc>
+		<loc>https://develop.vcards-web.pages.dev/tag/vcards/</loc>
 		<lastmod>2023-06-23T12:09:10+00:00</lastmod>
 	</url>
 </urlset>

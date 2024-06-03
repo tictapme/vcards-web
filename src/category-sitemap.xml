@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://develop.vcards-web.pages.dev/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://vcards.tictap.me/category/marketing/</loc>
+		<loc>https://develop.vcards-web.pages.dev/category/marketing/</loc>
 		<lastmod>2023-05-17T12:45:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/category/networking/</loc>
+		<loc>https://develop.vcards-web.pages.dev/category/networking/</loc>
 		<lastmod>2023-06-23T12:09:10+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/category/sin-categorizar/</loc>
+		<loc>https://develop.vcards-web.pages.dev/category/sin-categorizar/</loc>
 		<lastmod>2022-11-25T15:02:13+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/category/sobre-vcards/</loc>
+		<loc>https://develop.vcards-web.pages.dev/category/sobre-vcards/</loc>
 		<lastmod>2023-06-28T07:33:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/category/sostenibilidad/</loc>
+		<loc>https://develop.vcards-web.pages.dev/category/sostenibilidad/</loc>
 		<lastmod>2022-11-25T15:02:13+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://vcards.tictap.me/category/tarjetas-de-visita-digitales/</loc>
+		<loc>https://develop.vcards-web.pages.dev/category/tarjetas-de-visita-digitales/</loc>
 		<lastmod>2023-05-17T12:45:47+00:00</lastmod>
 	</url>
 </urlset>

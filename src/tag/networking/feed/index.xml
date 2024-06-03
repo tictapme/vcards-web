@@ -9,9 +9,9 @@
 
 <channel>
 	<title>networking Archives - Vcards by TicTAP</title>
-	<atom:link href="/tag/networking/feed/" rel="self" type="application/rss+xml" />
-	<link>/tag/networking/</link>
-	<description>Go digital. Go green.</description>
+	<atom:link href="https://develop.vcards-web.pages.dev/tag/networking/feed/" rel="self" type="application/rss+xml" />
+	<link>https://develop.vcards-web.pages.dev/tag/networking/</link>
+	<description>Digital business cards. Go digital. Go green.</description>
 	<lastBuildDate>Fri, 23 Jun 2023 12:09:10 +0000</lastBuildDate>
 	<language>es</language>
 	<sy:updatePeriod>
@@ -21,25 +21,25 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<url>https://develop.vcards-web.pages.dev/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>networking Archives - Vcards by TicTAP</title>
-	<link>/tag/networking/</link>
+	<link>https://develop.vcards-web.pages.dev/tag/networking/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>¿Cómo puedo compartir mi tarjeta digital?</title>
-		<link>/como-puedo-compartir-mi-tarjeta-digital/</link>
+		<link>https://develop.vcards-web.pages.dev/como-puedo-compartir-mi-tarjeta-digital/</link>
 		
 		<dc:creator><![CDATA[Olinta Lopez]]></dc:creator>
 		<pubDate>Fri, 24 Mar 2023 11:23:51 +0000</pubDate>
 				<category><![CDATA[networking]]></category>
 		<category><![CDATA[vcards]]></category>
-		<guid isPermaLink="false">/?p=12448</guid>
+		<guid isPermaLink="false">https://develop.vcards-web.pages.dev/?p=12448</guid>
 
 					<description><![CDATA[<p>Saber cómo compartir tu tarjeta es una de las dudas más frecuentes sobre las tarjetas de visitas digitales. Esto es así porque se busca el mayor alcance posible al compartir tu información. El hecho de que este tipo de tarjetas sean fácilmente compartibles, hacen posible este gran alcance. Aquí te explicaremos todas las formas en &#8230;</p>
-<p class="read-more"> <a class="" href="/como-puedo-compartir-mi-tarjeta-digital/"> <span class="screen-reader-text">¿Cómo puedo compartir mi tarjeta digital?</span> Leer más &#187;</a></p>
-<p>The post <a href="/como-puedo-compartir-mi-tarjeta-digital/">¿Cómo puedo compartir mi tarjeta digital?</a> appeared first on <a href="/">Vcards by TicTAP</a>.</p>
+<p class="read-more"> <a class="" href="https://develop.vcards-web.pages.dev/como-puedo-compartir-mi-tarjeta-digital/"> <span class="screen-reader-text">¿Cómo puedo compartir mi tarjeta digital?</span> Leer más &#187;</a></p>
+<p>The post <a href="https://develop.vcards-web.pages.dev/como-puedo-compartir-mi-tarjeta-digital/">¿Cómo puedo compartir mi tarjeta digital?</a> appeared first on <a href="https://develop.vcards-web.pages.dev/">Vcards by TicTAP</a>.</p>
 ]]></description>
 		
 		
