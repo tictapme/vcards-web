@@ -1539,40 +1539,60 @@ overflow-x: hidden !important;
         opacity: 0;
         width: 0;
     }</style>
-<script>
-		  document.addEventListener('DOMContentLoaded', () => {
-			  jQuery(function () {
-				  function resetSelection() {
+									<script async>
+										function templateBoxSelectors() {
+											// ensure that jQuery is loaded
+											if (typeof jQuery === 'undefined') {
+												console.error('jQuery is not loaded');
+												// set Timeout and retry after 1 second
+												setTimeout(() => {
+													templateBoxSelectors();
+												}, 1000);
+												return;
+											}
+
+											jQuery(function () {
+												function resetSelection() {
 
 
-					  // find with jQuery which radio input has been selected
-					  const selected = $('input[type="radio"]:checked');
-					  // remove the "selected" class to all template-box containers
-					  $('.template-box').removeClass('selected');
+													// find with jQuery which radio input has been selected
+													const selected = jQuery('input[type="radio"]:checked');
+													// remove the "selected" class to all template-box containers
+													jQuery('.template-box').removeClass('selected');
 
-					  // apply a class the template-box div of the selected radio input
-					  selected.closest('.template-box').addClass('selected');
-				  }
+													// apply a class the template-box div of the selected radio input
+													selected.closest('.template-box').addClass('selected');
+												}
 
 
-				  $('input[type=radio][name="form_fields[template_selection]"]').change(function () {
-					  resetSelection();
-				  })
+												jQuery('input[type=radio][name="form_fields[template_selection]"]').change(function () {
+													resetSelection();
+												})
 
-			  })
-		  })</script>				</div>
-								<div class="elementor-field-type-html elementor-field-group elementor-column elementor-field-group-field_e41bfaf elementor-col-100">
+											})
+										}
+
+										document.addEventListener('DOMContentLoaded', () => {
+
+											templateBoxSelectors();
+
+										});</script>
+								</div>
+				<div class="elementor-field-type-html elementor-field-group elementor-column elementor-field-group-field_e41bfaf elementor-col-100">
 					<h4 style="color:#153B44;margin-top:1em;">
-<strong>Step 2: </strong>Enter your information</h4>				</div>
-								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-free_vcard_name elementor-col-50">
-												<label for="form-field-free_vcard_name" class="elementor-field-label elementor-screen-only">
-								First and last name							</label>
-														<input size="1" type="text" name="form_fields[free_vcard_name]" id="form-field-free_vcard_name" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="First and last name">
-											</div>
-								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-free_vcard_email elementor-col-50 elementor-field-required">
-												<label for="form-field-free_vcard_email" class="elementor-field-label elementor-screen-only">
-								Email address							</label>
-														<input size="1" type="email" name="form_fields[free_vcard_email]" id="form-field-free_vcard_email" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Email address" required="required" aria-required="true">
+						<strong>Step 2: </strong>Enter your information</h4></div>
+				<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-free_vcard_name elementor-col-50">
+					<label for="form-field-free_vcard_name" class="elementor-field-label elementor-screen-only">
+						First and last name </label>
+					<input size="1" type="text" name="form_fields[free_vcard_name]" id="form-field-free_vcard_name"
+						   class="elementor-field elementor-size-md  elementor-field-textual"
+						   placeholder="First and last name">
+				</div>
+				<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-free_vcard_email elementor-col-50 elementor-field-required">
+					<label for="form-field-free_vcard_email" class="elementor-field-label elementor-screen-only">
+						Email address </label>
+					<input size="1" type="email" name="form_fields[free_vcard_email]" id="form-field-free_vcard_email"
+						   class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Email address" required="required" aria-required="true">
 											</div>
 								<div class="elementor-field-type-acceptance elementor-field-group elementor-column elementor-field-group-free_card_newsletter elementor-col-100">
 												<label for="form-field-free_card_newsletter" class="elementor-field-label elementor-screen-only">
