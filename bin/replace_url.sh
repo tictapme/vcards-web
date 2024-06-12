@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set default values for URLs
-DEFAULT_OLD_URL="https://static-www-vcards.tictap.me"
-DEFAULT_NEW_URL="https://vcards.tictap.me"
+DEFAULT_OLD_URL="static-www-vcards.tictap.me"
+DEFAULT_NEW_URL="vcards.tictap.me"
 
 # Check if the correct number of arguments are provided
 if [ "$#" -lt 1 ] || [ "$#" -gt 3 ]; then
