@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Vcards by TicTAP</title>
-	<atom:link href="https://develop.vcards-web.pages.dev/de/feed/" rel="self" type="application/rss+xml" />
-	<link>https://develop.vcards-web.pages.dev/de/</link>
+	<atom:link href="https://vcards.tictap.me/de/feed/" rel="self" type="application/rss+xml" />
+	<link>https://vcards.tictap.me/de/</link>
 	<description>Digital business cards. Go digital. Go green.</description>
 	<lastBuildDate>Mon, 17 Jun 2024 09:47:16 +0000</lastBuildDate>
 	<language>de-DE</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://develop.vcards-web.pages.dev/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<url>https://vcards.tictap.me/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>Vcards by TicTAP</title>
-	<link>https://develop.vcards-web.pages.dev/de/</link>
+	<link>https://vcards.tictap.me/de/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

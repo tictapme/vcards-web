@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://develop.vcards-web.pages.dev/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://vcards.tictap.me/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://develop.vcards-web.pages.dev/post-sitemap.xml</loc>
+		<loc>https://vcards.tictap.me/post-sitemap.xml</loc>
 		<lastmod>2023-06-28T07:33:28+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://develop.vcards-web.pages.dev/page-sitemap.xml</loc>
+		<loc>https://vcards.tictap.me/page-sitemap.xml</loc>
 		<lastmod>2024-06-17T09:47:16+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://develop.vcards-web.pages.dev/category-sitemap.xml</loc>
+		<loc>https://vcards.tictap.me/category-sitemap.xml</loc>
 		<lastmod>2023-06-28T07:33:28+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://develop.vcards-web.pages.dev/post_tag-sitemap.xml</loc>
+		<loc>https://vcards.tictap.me/post_tag-sitemap.xml</loc>
 		<lastmod>2023-06-23T12:09:10+00:00</lastmod>
 	</sitemap>
 </sitemapindex>
