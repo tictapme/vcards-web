@@ -2,15 +2,15 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
 		<loc>https://develop.vcards-web.pages.dev/post-sitemap.xml</loc>
-		<lastmod>2023-06-28T07:33:28+00:00</lastmod>
+		<lastmod>2024-07-12T10:48:15+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://develop.vcards-web.pages.dev/page-sitemap.xml</loc>
-		<lastmod>2024-07-05T10:29:58+00:00</lastmod>
+		<lastmod>2024-07-12T10:52:30+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://develop.vcards-web.pages.dev/category-sitemap.xml</loc>
-		<lastmod>2023-06-28T07:33:28+00:00</lastmod>
+		<lastmod>2024-07-12T10:48:15+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://develop.vcards-web.pages.dev/post_tag-sitemap.xml</loc>

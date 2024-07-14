@@ -12,7 +12,7 @@
 	<atom:link href="https://develop.vcards-web.pages.dev/feed/" rel="self" type="application/rss+xml" />
 	<link>https://develop.vcards-web.pages.dev/</link>
 	<description>Digital business cards. Go digital. Go green.</description>
-	<lastBuildDate>Wed, 28 Jun 2023 07:33:28 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 12 Jul 2024 10:48:15 +0000</lastBuildDate>
 	<language>es</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,27 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>¿Cómo usar las vcards para incrementar Leads en ferias?</title>
+		<link>https://develop.vcards-web.pages.dev/incrementar-leads-en-ferias/</link>
+					<comments>https://develop.vcards-web.pages.dev/incrementar-leads-en-ferias/#respond</comments>
+		
+		<dc:creator><![CDATA[Alba Panyella]]></dc:creator>
+		<pubDate>Fri, 12 Jul 2024 08:22:20 +0000</pubDate>
+				<category><![CDATA[Ferias]]></category>
+		<category><![CDATA[Marketing]]></category>
+		<category><![CDATA[networking]]></category>
+		<guid isPermaLink="false">https://develop.vcards-web.pages.dev/?p=21517</guid>
+
+					<description><![CDATA[<p>Si buscas crear una participación más activa con tus potenciales clientes e incrementar el número de leads en ferias, añadir un formulario a tu vcard es una solución perfecta. Los formularios de vcards son flexibles y versátiles, permitiendo a las empresas diseñar contenido atractivo que invite activamente a los visitantes a participar. En la feria, los visitantes solo tendrán que escanear el QR de tu vcard (que incluso puedes imprimir en roll-ups, flyers o folletos) para acceder al formulario.</p>
+<p>The post <a href="https://develop.vcards-web.pages.dev/incrementar-leads-en-ferias/">¿Cómo usar las vcards para incrementar Leads en ferias?</a> appeared first on <a href="https://develop.vcards-web.pages.dev/">Vcards by TicTAP</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://develop.vcards-web.pages.dev/incrementar-leads-en-ferias/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Oportunidades en el networking multigeneracional</title>
 		<link>https://develop.vcards-web.pages.dev/oportunidades-de-networking-multigeneracional/</link>
 		
@@ -155,23 +176,6 @@
 		
 					<wfw:commentRss>https://develop.vcards-web.pages.dev/que-son-las-vcards/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>9 ventajas y 3 inconvenientes de las tarjetas de negocio digitales</title>
-		<link>https://develop.vcards-web.pages.dev/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/</link>
-		
-		<dc:creator><![CDATA[Maria Pascual]]></dc:creator>
-		<pubDate>Fri, 12 Mar 2021 10:08:47 +0000</pubDate>
-				<category><![CDATA[Sobre vcards]]></category>
-		<guid isPermaLink="false">https://develop.vcards-web.pages.dev/?p=9772</guid>
-
-					<description><![CDATA[<p>Las tarjetas de presentación digitales tienen sus ventajas e inconvenientes, como todo en esta vida. Veamos ahora mismo estas virtudes y limitaciones para que puedas decidir si te conviene a ti y a tu negocio dar el paso a la digitaliación de este material de presentación y contacto. Sin ánimos de ser spoiler, te avanzo &#8230;</p>
-<p class="read-more"> <a class="" href="https://develop.vcards-web.pages.dev/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/"> <span class="screen-reader-text">9 ventajas y 3 inconvenientes de las tarjetas de negocio digitales</span> Leer más &#187;</a></p>
-<p>The post <a href="https://develop.vcards-web.pages.dev/9-ventajas-y-3-inconvenientes-de-las-tarjetas-de-negocio-digitales/">9 ventajas y 3 inconvenientes de las tarjetas de negocio digitales</a> appeared first on <a href="https://develop.vcards-web.pages.dev/">Vcards by TicTAP</a>.</p>
-]]></description>
-		
 		
 		
 			</item>

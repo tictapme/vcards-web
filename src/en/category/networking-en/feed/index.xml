@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Networking Archives - Vcards by TicTAP</title>
+	<atom:link href="https://develop.vcards-web.pages.dev/en/category/networking-en/feed/" rel="self" type="application/rss+xml" />
+	<link>https://develop.vcards-web.pages.dev/en/category/networking-en/</link>
+	<description>Go digital. Go green.</description>
+	<lastBuildDate>Fri, 12 Jul 2024 08:46:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+
+<image>
+	<url>https://develop.vcards-web.pages.dev/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<title>Networking Archives - Vcards by TicTAP</title>
+	<link>https://develop.vcards-web.pages.dev/en/category/networking-en/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to use vcards to increase Leads at fairs?</title>
+		<link>https://develop.vcards-web.pages.dev/en/how-to-use-vcards-to-increase-leads-at-fairs/</link>
+					<comments>https://develop.vcards-web.pages.dev/en/how-to-use-vcards-to-increase-leads-at-fairs/#respond</comments>
+		
+		<dc:creator><![CDATA[Alba Panyella]]></dc:creator>
+		<pubDate>Fri, 12 Jul 2024 08:43:17 +0000</pubDate>
+				<category><![CDATA[Fairs]]></category>
+		<category><![CDATA[Marketing]]></category>
+		<category><![CDATA[Networking]]></category>
+		<guid isPermaLink="false">https://develop.vcards-web.pages.dev/how-to-use-vcards-to-increase-leads-at-fairs/</guid>
+
+					<description><![CDATA[<p>If you are looking to create a more active participation with your potential clients and increase the number of leads at fairs, adding a form to your vcard is a perfect solution. The vcard forms are flexible and versatile, allowing companies to design attractive content that actively invites visitors to participate. At the fair, visitors will only have to scan the QR of your vcard (which you can even print on roll-ups, flyers or brochures) to access the form.</p>
+<p>The post <a href="https://develop.vcards-web.pages.dev/en/how-to-use-vcards-to-increase-leads-at-fairs/">How to use vcards to increase Leads at fairs?</a> appeared first on <a href="https://develop.vcards-web.pages.dev/en/">Vcards by TicTAP</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://develop.vcards-web.pages.dev/en/how-to-use-vcards-to-increase-leads-at-fairs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
