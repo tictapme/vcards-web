@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ferias Archives - Vcards by TicTAP</title>
+	<atom:link href="https://vcards.tictap.me/category/ferias/feed/" rel="self" type="application/rss+xml" />
+	<link>https://vcards.tictap.me/category/ferias/</link>
+	<description>Digital business cards. Go digital. Go green.</description>
+	<lastBuildDate>Fri, 12 Jul 2024 10:48:15 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+
+<image>
+	<url>https://vcards.tictap.me/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<title>Ferias Archives - Vcards by TicTAP</title>
+	<link>https://vcards.tictap.me/category/ferias/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>¿Cómo usar las vcards para incrementar Leads en ferias?</title>
+		<link>https://vcards.tictap.me/incrementar-leads-en-ferias/</link>
+					<comments>https://vcards.tictap.me/incrementar-leads-en-ferias/#respond</comments>
+		
+		<dc:creator><![CDATA[Alba Panyella]]></dc:creator>
+		<pubDate>Fri, 12 Jul 2024 08:22:20 +0000</pubDate>
+				<category><![CDATA[Ferias]]></category>
+		<category><![CDATA[Marketing]]></category>
+		<category><![CDATA[networking]]></category>
+		<guid isPermaLink="false">https://vcards.tictap.me/?p=21517</guid>
+
+					<description><![CDATA[<p>Si buscas crear una participación más activa con tus potenciales clientes e incrementar el número de leads en ferias, añadir un formulario a tu vcard es una solución perfecta. Los formularios de vcards son flexibles y versátiles, permitiendo a las empresas diseñar contenido atractivo que invite activamente a los visitantes a participar. En la feria, los visitantes solo tendrán que escanear el QR de tu vcard (que incluso puedes imprimir en roll-ups, flyers o folletos) para acceder al formulario.</p>
+<p>The post <a href="https://vcards.tictap.me/incrementar-leads-en-ferias/">¿Cómo usar las vcards para incrementar Leads en ferias?</a> appeared first on <a href="https://vcards.tictap.me/">Vcards by TicTAP</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://vcards.tictap.me/incrementar-leads-en-ferias/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

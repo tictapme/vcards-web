@@ -12,7 +12,7 @@
 	<atom:link href="https://vcards.tictap.me/en/category/marketing-en/feed/" rel="self" type="application/rss+xml" />
 	<link>https://vcards.tictap.me/en/category/marketing-en/</link>
 	<description>Go digital. Go green.</description>
-	<lastBuildDate>Fri, 05 Jul 2024 11:07:27 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 12 Jul 2024 08:46:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -27,5 +27,26 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-</channel>
+	<item>
+		<title>How to use vcards to increase Leads at fairs?</title>
+		<link>https://vcards.tictap.me/en/how-to-use-vcards-to-increase-leads-at-fairs/</link>
+					<comments>https://vcards.tictap.me/en/how-to-use-vcards-to-increase-leads-at-fairs/#respond</comments>
+		
+		<dc:creator><![CDATA[Alba Panyella]]></dc:creator>
+		<pubDate>Fri, 12 Jul 2024 08:43:17 +0000</pubDate>
+				<category><![CDATA[Fairs]]></category>
+		<category><![CDATA[Marketing]]></category>
+		<category><![CDATA[Networking]]></category>
+		<guid isPermaLink="false">https://vcards.tictap.me/how-to-use-vcards-to-increase-leads-at-fairs/</guid>
+
+					<description><![CDATA[<p>If you are looking to create a more active participation with your potential clients and increase the number of leads at fairs, adding a form to your vcard is a perfect solution. The vcard forms are flexible and versatile, allowing companies to design attractive content that actively invites visitors to participate. At the fair, visitors will only have to scan the QR of your vcard (which you can even print on roll-ups, flyers or brochures) to access the form.</p>
+<p>The post <a href="https://vcards.tictap.me/en/how-to-use-vcards-to-increase-leads-at-fairs/">How to use vcards to increase Leads at fairs?</a> appeared first on <a href="https://vcards.tictap.me/en/">Vcards by TicTAP</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>https://vcards.tictap.me/en/how-to-use-vcards-to-increase-leads-at-fairs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
 </rss>
