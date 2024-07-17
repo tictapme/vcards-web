@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Sin categorizar Archives - Vcards by TicTAP</title>
-	<atom:link href="https://vcards.tictap.me/category/sin-categorizar/feed/" rel="self" type="application/rss+xml" />
-	<link>https://vcards.tictap.me/category/sin-categorizar/</link>
+	<atom:link href="https://www.tictapcards.com/category/sin-categorizar/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.tictapcards.com/category/sin-categorizar/</link>
 	<description>Digital business cards. Go digital. Go green.</description>
 	<lastBuildDate>Tue, 16 Jul 2024 08:25:15 +0000</lastBuildDate>
 	<language>es</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
-	<url>https://vcards.tictap.me/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
+	<url>https://www.tictapcards.com/wp-content/uploads/2022/09/favicon-01-150x150.png</url>
 	<title>Sin categorizar Archives - Vcards by TicTAP</title>
-	<link>https://vcards.tictap.me/category/sin-categorizar/</link>
+	<link>https://www.tictapcards.com/category/sin-categorizar/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

@@ -14,6 +14,10 @@ if [ "$1" == "main" ]; then
   DEFAULT_OLD_URL="static-www-vcards\\.tictap\\.me|develop\\.vcards-web\\.pages\\.dev"
   DEFAULT_NEW_URL="vcards.tictap.me"
 fi
+if [ "$1" == "tictapcards" ]; then
+  DEFAULT_OLD_URL="vcards\\.tictap\\.me|static-www-vcards\\.tictap\\.me|develop\\.vcards-web\\.pages\\.dev"
+  DEFAULT_NEW_URL="www.tictapcards.com"
+fi
 
 # Check if the correct number of arguments are provided
 if [ "$#" -lt 1 ] || [ "$#" -gt 3 ]; then

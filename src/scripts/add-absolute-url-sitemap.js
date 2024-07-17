@@ -71,5 +71,5 @@ function overwriteLine(file, line) {
 }
 
 function getURL(){
-    return 'https://vcards.tictap.me/';
+    return 'https://www.tictapcards.com/';
 }
