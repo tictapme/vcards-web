@@ -1,122 +1,130 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.tictapcards.com/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//vcards.tictap.me/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.tictapcards.com/</loc>
-		<lastmod>2025-04-07T14:37:25+00:00</lastmod>
+		<loc>https://vcards.tictap.me/</loc>
+		<lastmod>2025-07-25T11:32:46+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.tictapcards.com/wp-content/uploads/2023/08/PHONE_FLOOR_CARD_5-1024x1024-1.png</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/PHONE_FLOOR_CARD_5-1024x1024-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/en/legal-notice-3/</loc>
+		<loc>https://vcards.tictap.me/en/legal-notice-3/</loc>
 		<lastmod>2022-03-08T12:33:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/blog/</loc>
+		<loc>https://vcards.tictap.me/?page_id=8369</loc>
 		<lastmod>2023-10-20T07:59:39+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/vcards/</loc>
+		<loc>https://vcards.tictap.me/vcards/</loc>
 		<lastmod>2024-04-30T11:37:22+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/vcard-gratis/</loc>
+		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
 		<lastmod>2024-06-12T04:43:26+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.tictapcards.com/wp-content/uploads/2023/08/Group-305.png</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/Group-305.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/vcard-gratis/</loc>
+		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
 		<lastmod>2024-06-12T04:45:16+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.tictapcards.com/wp-content/uploads/2023/08/Group-305.png</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/Group-305.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/vcard-gratis/</loc>
+		<loc>https://vcards.tictap.me/vcard-gratis/</loc>
 		<lastmod>2024-06-12T12:00:45+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.tictapcards.com/wp-content/uploads/2023/08/Group-305.png</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/Group-305.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/escaneo-de-tarjetas/</loc>
+		<loc>https://vcards.tictap.me/escaneo-de-tarjetas/</loc>
 		<lastmod>2024-08-02T10:02:22+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/escaneo-de-tarjetas/</loc>
+		<loc>https://vcards.tictap.me/escaneo-de-tarjetas/</loc>
 		<lastmod>2024-09-30T14:12:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/vcards/</loc>
+		<loc>https://vcards.tictap.me/vcards/</loc>
 		<lastmod>2025-03-17T15:21:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/precios/</loc>
-		<lastmod>2025-03-24T10:56:20+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.tictapcards.com/tarjeta-smart-nfc/</loc>
+		<loc>https://vcards.tictap.me/tarjeta-smart-nfc/</loc>
 		<lastmod>2025-03-24T11:16:54+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/contacto/</loc>
+		<loc>https://vcards.tictap.me/contacto/</loc>
 		<lastmod>2025-03-24T11:19:19+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/contacto/</loc>
+		<loc>https://vcards.tictap.me/contacto/</loc>
 		<lastmod>2025-03-24T11:20:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/</loc>
+		<loc>https://vcards.tictap.me/</loc>
 		<lastmod>2025-03-24T11:34:32+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.tictapcards.com/wp-content/uploads/2023/08/PHONE_FLOOR_CARD_5-1024x1024-1.png</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/PHONE_FLOOR_CARD_5-1024x1024-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/tarjeta-smart-nfc/</loc>
+		<loc>https://vcards.tictap.me/tarjeta-smart-nfc/</loc>
 		<lastmod>2025-03-24T11:36:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/precios/</loc>
+		<loc>https://vcards.tictap.me/precios/</loc>
 		<lastmod>2025-03-24T11:38:12+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/</loc>
+		<loc>https://vcards.tictap.me/</loc>
 		<lastmod>2025-03-24T11:43:51+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.tictapcards.com/wp-content/uploads/2023/08/PHONE_FLOOR_CARD_5-1024x1024-1.png</image:loc>
+			<image:loc>https://vcards.tictap.me/wp-content/uploads/2023/08/PHONE_FLOOR_CARD_5-1024x1024-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/tarjeta-smart-nfc/</loc>
+		<loc>https://vcards.tictap.me/tarjeta-smart-nfc/</loc>
 		<lastmod>2025-03-24T11:47:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/precios/</loc>
+		<loc>https://vcards.tictap.me/precios/</loc>
 		<lastmod>2025-03-24T11:49:26+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/contacto/</loc>
+		<loc>https://vcards.tictap.me/contacto/</loc>
 		<lastmod>2025-03-24T11:50:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/pedidos/</loc>
+		<loc>https://vcards.tictap.me/pedidos/</loc>
 		<lastmod>2025-04-09T13:00:38+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/pedidos/</loc>
+		<loc>https://vcards.tictap.me/pedidos/</loc>
 		<lastmod>2025-04-09T13:07:45+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/pedidos/terminos-y-condiciones/</loc>
-		<lastmod>2025-04-09T14:25:22+00:00</lastmod>
+		<loc>https://vcards.tictap.me/pedidos/terminos-y-condiciones/</loc>
+		<lastmod>2025-04-09T16:33:43+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.tictapcards.com/pedidos/terminos-y-condiciones/</loc>
-		<lastmod>2025-04-09T15:57:12+00:00</lastmod>
+		<loc>https://vcards.tictap.me/pedidos/terminos-y-condiciones/</loc>
+		<lastmod>2025-06-08T05:28:56+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/terminos-y-condiciones-uso-del-servicio/</loc>
+		<lastmod>2025-06-08T05:47:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/blog/</loc>
+		<lastmod>2025-07-25T13:07:07+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://vcards.tictap.me/precios/</loc>
+		<lastmod>2025-07-25T13:09:45+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
