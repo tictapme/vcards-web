@@ -40,7 +40,7 @@ fi
 find "$SRC_DIR" -type f | while read -r file; do
   # Use sed to replace the URL and save changes in place
   sed -i -E "s/$OLD_URL/$NEW_URL/g" "$file"
-  echo "Processed $file"
+  echo "Replaced url in $file"
 done
 
 echo "Replaced URLs from $OLD_URL to $NEW_URL in $SRC_DIR"
