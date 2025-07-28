@@ -1,6 +1,6 @@
 const fs = require('fs')
 const srcFolder = 'src/';
-const host = 'https://vcards.tictap.me/';
+const host = 'https://www.tictapcards.com/';
 
 const srcFiles = fs.readdirSync(srcFolder);
 
