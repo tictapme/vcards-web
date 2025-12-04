@@ -1,4 +1,4 @@
-/*! elementor-pro - v3.30.0 - 22-07-2025 */
+/*! elementor-pro - v3.33.0 - 03-12-2025 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -25,6 +25,7 @@ class Module extends elementorModules.Module {
   }];
   onInit() {
     this.assignMenuItemActions();
+    this.assignProLicenseActivateEvent();
   }
   assignMenuItemActions() {
     window.addEventListener('DOMContentLoaded', () => {
@@ -38,6 +39,28 @@ class Module extends elementorModules.Module {
           window.open(item.external_url, '_blank');
         });
       });
+    });
+  }
+  assignProLicenseActivateEvent() {
+    window.addEventListener('DOMContentLoaded', () => {
+      const activateButton = document.querySelector('.button-primary[href*="elementor-connect"]');
+      if (activateButton) {
+        activateButton.addEventListener('click', () => {
+          if (!window.elementorCommon?.config?.experimentalFeatures?.editor_events) {
+            return;
+          }
+          const eventsManager = window.elementorCommon?.eventsManager || {};
+          const dispatchEvent = eventsManager.dispatchEvent?.bind(eventsManager);
+          const eventName = 'pro_license_activate';
+          const eventData = {
+            app_type: 'editor',
+            location: 'Elementor WP-admin pages',
+            secondaryLocation: 'license page',
+            trigger: 'click'
+          };
+          dispatchEvent?.(eventName, eventData);
+        });
+      }
     });
   }
 }
@@ -83,9 +106,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 class CustomAssetsBase extends elementorModules.ViewModule {
-  showAlertDialog(id, message) {
-    let onConfirm = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
-    let onHide = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
+  showAlertDialog(id, message, onConfirm = false, onHide = false) {
     const alertData = {
       id,
       message
@@ -334,7 +355,6 @@ class CustomIcons extends _customAssetsBase.default {
     $publishButton.trigger('click');
   }
   onInit() {
-    var _this = this;
     const {
         $body
       } = elementorCommon.elements,
@@ -356,9 +376,7 @@ class CustomIcons extends _customAssetsBase.default {
       } = this.elements;
     if ('' === config) {
       $dropzone.show('fast');
-      dropzoneField.setSettings('onSuccess', function () {
-        return _this.onSuccess(...arguments);
-      });
+      dropzoneField.setSettings('onSuccess', (...args) => this.onSuccess(...args));
     } else {
       this.renderIcons(config);
     }
@@ -528,12 +546,12 @@ class CustomFontsManager extends _customAssetsBase.default {
   titleRequired() {
     this.elements.$title.prop('required', true);
   }
-  onInit() {
+  onInit(...args) {
     const settings = this.getSettings();
     if (!jQuery('body').hasClass(settings.selectors.editPageClass)) {
       return;
     }
-    super.onInit(...arguments);
+    super.onInit(...args);
     this.removeCloseHandle();
     this.titleRequired();
     settings.fields.upload.init();

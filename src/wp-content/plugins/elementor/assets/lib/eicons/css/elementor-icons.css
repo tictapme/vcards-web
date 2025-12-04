@@ -1,7 +1,7 @@
 @font-face {
   font-family: "eicons";
-  src: url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5_43_0");
-  src: url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5_43_0#iefix") format("embedded-opentype"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5_43_0") format("woff2"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5_43_0") format("woff"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5_43_0") format("truetype"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5_43_0#eicon") format("svg");
+  src: url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5_44_0");
+  src: url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5_44_0#iefix") format("embedded-opentype"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5_44_0") format("woff2"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5_44_0") format("woff"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5_44_0") format("truetype"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5_44_0#eicon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1985,6 +1985,10 @@
 
 .eicon-e-youtube:before {
   content: "\e9e8";
+}
+
+.eicon-contact:before {
+  content: "\ebd2";
 }
 
 .eicon-eye:before {
