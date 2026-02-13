@@ -1,7 +1,7 @@
 @font-face {
   font-family: "eicons";
-  src: url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5_44_0");
-  src: url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5_44_0#iefix") format("embedded-opentype"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5_44_0") format("woff2"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5_44_0") format("woff"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5_44_0") format("truetype"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5_44_0#eicon") format("svg");
+  src: url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5_47_0");
+  src: url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5_47_0#iefix") format("embedded-opentype"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5_47_0") format("woff2"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5_47_0") format("woff"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5_47_0") format("truetype"), url("https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5_47_0#eicon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1989,6 +1989,42 @@
 
 .eicon-contact:before {
   content: "\ebd2";
+}
+
+.eicon-layout:before {
+  content: "\ebd8";
+}
+
+.eicon-components:before {
+  content: "\ebd9";
+}
+
+.eicon-tab-content:before {
+  content: "\ebda";
+}
+
+.eicon-tab-menu:before {
+  content: "\ebdb";
+}
+
+.eicon-atomic-label:before {
+  content: "\e9ee";
+}
+
+.eicon-atomic-form:before {
+  content: "\e9ef";
+}
+
+.eicon-atomic-submit-button:before {
+  content: "\e9f0";
+}
+
+.eicon-atomic-input:before {
+  content: "\e9f1";
+}
+
+.eicon-atomic-text-area:before {
+  content: "\e9f2";
 }
 
 .eicon-eye:before {
