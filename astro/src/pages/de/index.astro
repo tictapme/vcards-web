@@ -1,0 +1,16 @@
+---
+import RawLegacyLayout from '../../layouts/RawLegacyLayout.astro';
+import { loadSourcePageFromHead } from '../../lib/legacy-page';
+
+const page = loadSourcePageFromHead('de/index.html');
+---
+
+<RawLegacyLayout
+  title={page.title}
+  lang={page.lang}
+  headExtraHtml={page.headExtraHtml}
+  bodyClass={page.bodyClass}
+  bodyItemType={page.bodyItemType}
+  bodyItemscope={page.bodyItemscope}
+  bodyInnerHtml={page.bodyInnerHtml}
+/>

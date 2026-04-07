@@ -1,0 +1,59 @@
+---
+type Props = {
+  title: string;
+  lang?: string;
+  headExtraHtml?: string;
+  bodyClass?: string;
+  bodyItemType?: string;
+  bodyItemscope?: boolean;
+  preHeaderHtml?: string;
+  headerHtml: string;
+  contentHtml: string;
+  footerHtml: string;
+  afterFooterHtml?: string;
+};
+
+const {
+  title,
+  lang = 'es-ES',
+  headExtraHtml = '',
+  bodyClass = '',
+  bodyItemType = '',
+  bodyItemscope = false,
+  preHeaderHtml = '',
+  headerHtml,
+  contentHtml,
+  footerHtml,
+  afterFooterHtml = '',
+} = Astro.props as Props;
+
+const hasHomeHeroPlaceholder = contentHtml.includes('<!-- HOME_HERO_COMPONENT -->');
+const [contentBeforeHero, contentAfterHero] = hasHomeHeroPlaceholder
+  ? contentHtml.split('<!-- HOME_HERO_COMPONENT -->')
+  : [contentHtml, ''];
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <Fragment set:html={headExtraHtml} />
+  </head>
+  <body class={bodyClass} itemtype={bodyItemType || undefined} itemscope={bodyItemscope}>
+    <Fragment set:html={preHeaderHtml} />
+    <Fragment set:html={headerHtml} />
+    {hasHomeHeroPlaceholder ? (
+      <>
+        <Fragment set:html={contentBeforeHero} />
+        <slot />
+        <Fragment set:html={contentAfterHero} />
+      </>
+    ) : (
+      <Fragment set:html={contentHtml} />
+    )}
+    <Fragment set:html={footerHtml} />
+    <Fragment set:html={afterFooterHtml} />
+  </body>
+</html>

@@ -1,0 +1,30 @@
+---
+import RawLegacyLayout from '../layouts/RawLegacyLayout.astro';
+import { listManagedLegacyRoutes, loadSourcePage } from '../lib/legacy-page';
+
+export async function getStaticPaths() {
+  return listManagedLegacyRoutes()
+    .filter(({ route }) => route !== '/')
+    .map(({ relativePath, route }) => ({
+      params: {
+        slug: route.replace(/^\/+|\/+$/g, ''),
+      },
+      props: {
+        relativePath,
+      },
+    }));
+}
+
+const { relativePath } = Astro.props;
+const page = loadSourcePage(relativePath);
+---
+
+<RawLegacyLayout
+  title={page.title}
+  lang={page.lang}
+  headExtraHtml={page.headExtraHtml}
+  bodyClass={page.bodyClass}
+  bodyItemType={page.bodyItemType}
+  bodyItemscope={page.bodyItemscope}
+  bodyInnerHtml={page.bodyInnerHtml}
+/>

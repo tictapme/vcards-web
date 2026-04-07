@@ -1,0 +1,153 @@
+---
+import type { HomeHeroContent } from '../lib/home-content';
+
+type Logo = {
+  src: string;
+  srcset: string;
+  sizes: string;
+  width: number;
+  height: number;
+};
+
+type ImageAsset = {
+  src: string;
+  srcset: string;
+  sizes: string;
+  width: number;
+  height: number;
+};
+
+type Props = {
+  content: HomeHeroContent;
+  logos: Logo[];
+  heroImage: ImageAsset;
+};
+
+const { content, logos, heroImage } = Astro.props as Props;
+
+const logoWidgetIds = ['3886fa0', '0514836', '8a93cf6', 'daaf6ca'];
+---
+
+<div class="elementor-element elementor-element-49ac3a4 e-con-full e-flex e-con e-parent" data-id="49ac3a4" data-element_type="container" data-e-type="container">
+  <div class="elementor-element elementor-element-b01eb72 elementor-widget__width-initial elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-heading" data-id="b01eb72" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+    <div class="elementor-widget-container">
+      <h1 class="elementor-heading-title elementor-size-default">{content.title}</h1>
+    </div>
+  </div>
+  <div class="elementor-element elementor-element-da2fac6 e-flex e-con-boxed e-con e-child" data-id="da2fac6" data-element_type="container" data-e-type="container">
+    <div class="e-con-inner">
+      <div class="elementor-element elementor-element-a6e1a9b e-con-full e-flex e-con e-child" data-id="a6e1a9b" data-element_type="container" data-e-type="container">
+        <div class="elementor-element elementor-element-3ecab08 e-con-full e-flex e-con e-child" data-id="3ecab08" data-element_type="container" data-e-type="container">
+          <div class="elementor-element elementor-element-ed5858e e-flex e-con-boxed e-con e-child" data-id="ed5858e" data-element_type="container" data-e-type="container">
+            <div class="e-con-inner">
+              <div class="elementor-element elementor-element-9904802 elementor-widget__width-initial elementor-hidden-mobile elementor-widget elementor-widget-heading" data-id="9904802" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h1 class="elementor-heading-title elementor-size-default">{content.title}</h1>
+                </div>
+              </div>
+              <div class="elementor-element elementor-element-3df99b8 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="3df99b8" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h3 class="elementor-heading-title elementor-size-default">{content.description}</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-342ccf2 e-con-full e-flex e-con e-child" data-id="342ccf2" data-element_type="container" data-e-type="container">
+            <div class="elementor-element elementor-element-1b3669a elementor-widget elementor-widget-button" data-id="1b3669a" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+              <div class="elementor-widget-container">
+                <div class="elementor-button-wrapper">
+                  <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href={content.ctaHref} id="homeHeroCta">
+                    <span class="elementor-button-content-wrapper">
+                      <span class="elementor-button-text">{content.ctaLabel}</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="elementor-element elementor-element-b7bd573 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading" data-id="b7bd573" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+              <div class="elementor-widget-container">
+                <p class="elementor-heading-title elementor-size-default" set:html={content.priceHtml} />
+              </div>
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-8e44ae4 e-con-full e-grid e-con e-child" data-id="8e44ae4" data-element_type="container" data-e-type="container">
+            {logos.map((logo, index) => (
+              <div
+                class={`elementor-element elementor-element-${logoWidgetIds[index]} ${index === 1 ? 'elementor-widget__width-initial' : ''} elementor-widget elementor-widget-image`.trim()}
+                data-id={logoWidgetIds[index]}
+                data-element_type="widget"
+                data-e-type="widget"
+                data-widget_type="image.default"
+              >
+                <div class="elementor-widget-container">
+                  <img
+                    loading={index === 0 ? undefined : 'lazy'}
+                    fetchpriority={index === 0 ? 'high' : undefined}
+                    decoding="async"
+                    width={logo.width}
+                    height={logo.height}
+                    src={logo.src}
+                    class="attachment-large size-large"
+                    alt=""
+                    srcset={logo.srcset}
+                    sizes={logo.sizes}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="elementor-element elementor-element-3b8d92d elementor-hidden-mobile elementor-invisible elementor-widget elementor-widget-image" data-id="3b8d92d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInRight&quot;,&quot;_animation_delay&quot;:150}" data-widget_type="image.default">
+          <div class="elementor-widget-container">
+            <img
+              loading="lazy"
+              decoding="async"
+              width={heroImage.width}
+              height={heroImage.height}
+              src={heroImage.src}
+              class="elementor-animation-float attachment-full size-full"
+              alt=""
+              srcset={heroImage.srcset}
+              sizes={heroImage.sizes}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="elementor-element elementor-element-d342fa6 e-con-full e-flex e-con e-child" data-id="d342fa6" data-element_type="container" data-e-type="container">
+    <div class="elementor-element elementor-element-ffbb562 elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-heading" data-id="ffbb562" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}" data-widget_type="heading.default">
+      <div class="elementor-widget-container">
+        <h3 class="elementor-heading-title elementor-size-default">{content.socialProof}</h3>
+      </div>
+    </div>
+    <div class="elementor-element elementor-element-4dce2cc elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-heading" data-id="4dce2cc" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}" data-widget_type="heading.default">
+      <div class="elementor-widget-container">
+        <h2 class="elementor-heading-title elementor-size-default">{content.platformTitle}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style is:global>
+  @media (min-width: 768px) {
+    .elementor-17258 .elementor-element.elementor-element-da2fac6 > .e-con-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .elementor-17258 .elementor-element.elementor-element-a6e1a9b {
+      flex: 1 1 0;
+      min-width: 0;
+    }
+
+    .elementor-17258 .elementor-element.elementor-element-3b8d92d {
+      flex: 0 0 536px;
+      width: 536px;
+      max-width: 536px;
+      margin-left: auto;
+    }
+  }
+ </style>
