@@ -1,8 +1,4 @@
-# START YOAST BLOCK
-# ---------------------------
 User-agent: *
 Disallow:
 
-Sitemap: https://staging-vcards-www.tictap.me/sitemap_index.xml
-# ---------------------------
-# END YOAST BLOCK
+Sitemap: https://www.tictapcards.com/sitemap_index.xml
