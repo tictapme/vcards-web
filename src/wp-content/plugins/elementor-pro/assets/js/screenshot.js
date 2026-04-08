@@ -1,7 +1,6 @@
-/*! elementor-pro - v3.21.0 - 30-04-2024 */
+/*! elementor-pro - v3.35.0 - 11-02-2026 */
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-var __webpack_exports__ = {};
 /*!**************************************************************!*\
   !*** ../modules/screenshots/assets/js/preview/screenshot.js ***!
   \**************************************************************/
@@ -19,7 +18,6 @@ class Screenshot extends elementorModules.ViewModule {
       excluded_external_css_urls: ['https://kit-pro.fontawesome.com'],
       external_images_urls: ['https://i.ytimg.com' // Youtube images domain.
       ],
-
       timeout: 15000,
       // Wait until screenshot taken or fail in 15 secs.
       render_timeout: 5000,
