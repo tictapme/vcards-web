@@ -157,7 +157,7 @@ export function listManagedLegacyRoutes(): LegacyRoute[] {
       const absolutePath = path.join(dir, entry.name);
 
       if (entry.isDirectory()) {
-        if (entry.name === 'wp-content' || entry.name === 'wp-includes') {
+        if (entry.name === 'wp-content' || entry.name === 'wp-includes' || entry.name === 'wp-json') {
           continue;
         }
         walk(absolutePath);
