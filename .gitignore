@@ -5,3 +5,4 @@ wp-src
 .astro/
 dist/
 .tmp/
+.codex
