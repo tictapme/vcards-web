@@ -442,7 +442,7 @@ img { max-width: 100%; height: auto; }
 .cta-button--white:hover,
 .cta-button--white:focus {
   background: var(--c-white);
-  color: var(--c-green);
+  color: var(--c-green) !important;
   border-color: var(--c-white);
 }
 .cta-button--outline {
@@ -995,7 +995,7 @@ document.addEventListener('click', function(e) {
   e.preventDefault();
   e.stopImmediatePropagation();
 }, true);
-</script></head> <body class="wp-singular page-template-default page page-id-note-taker wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-kit-6185 elementor-page elementor-page-note-taker" itemtype="https://schema.org/WebPage" itemscope>                      
+</script></head> <body class="wp-singular page-template-default page page-id-note-taker wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-kit-6185 elementor-page elementor-page-note-taker" itemtype="https://schema.org/WebPage" itemscope>                        
 
 <a class="skip-link screen-reader-text" href="#content" title="Ir al contenido">
 		Ir al contenido</a>
@@ -1231,9 +1231,11 @@ document.addEventListener('click', function(e) {
             <animate attributeName="r" values="22;24;22" dur="2s" repeatCount="indefinite"/>
           </circle>
           <circle cx="140" cy="415" r="30" fill="none" stroke="#62CC62" stroke-width="1.5" opacity=".3" class="nt-phone-pulse"/>
-          <path d="M134 408v7a6 6 0 0 0 12 0v-7" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-          <line x1="140" y1="421" x2="140" y2="425" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M133 418a7 7 0 0 0 14 0" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <!-- Microphone icon -->
+          <rect x="135" y="403" width="10" height="16" rx="5" fill="white"/>
+          <path d="M131 414a9 9 0 0 0 18 0" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <line x1="140" y1="423" x2="140" y2="428" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          <line x1="135" y1="428" x2="145" y2="428" stroke="white" stroke-width="2" stroke-linecap="round"/>
         </svg>
       </div>
     </div>
@@ -1888,4 +1890,4 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.tictapcards.com\/wp-a
         person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
     })
 </script>
-                      </body></html>
+                        </body></html>
