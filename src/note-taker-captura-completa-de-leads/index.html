@@ -528,41 +528,22 @@ a.elementor-item:hover::after {
 .elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link {
     padding: 1.1em 1em 0.6em;
 }		</style>
+
+
 <style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
 .elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
 .elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
 .elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
 .elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
 .elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
-</style>
-<style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
-.elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
-.elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
-.elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
-.elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
-.elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
-</style><script id="nav-submenu-keepopen">
-document.addEventListener('click', function(e) {
-  var link = e.target.closest('.menu-item-has-children > a.elementor-item, .menu-item-has-children > a.elementor-item *');
-  if (!link) return;
-  var anchor = link.closest('a.elementor-item');
-  if (!anchor) return;
-  var li = anchor.parentElement;
-  if (!li || !li.classList.contains('menu-item-has-children')) return;
-  var href = anchor.getAttribute('href');
-  if (href && href !== '#' && href !== '') return;
-  e.preventDefault();
-  e.stopImmediatePropagation();
-}, true);
-</script><style id="blog-article-layout-override">
+</style><style id="blog-article-layout-override">/* Blog article layout – applied to all single-post pages */
 .elementor-element-e72f277b,
 .elementor-element-e72f277,
 .elementor-7865 .elementor-element.elementor-element-e72f277,
-.elementor-7865 .elementor-element.elementor-element-e72f277b { --margin-bottom: 20px !important; margin-bottom: 20px !important; }
-/* Match the article-body section width to the hero (e72f277).
-   The hero uses Elementor's default container width (--content-width).
-   Force the boxed sections inside theme-post-content to use that same
-   width, overriding their narrower default. */
+.elementor-7865 .elementor-element.elementor-element-e72f277b {
+  --margin-bottom: 20px !important;
+  margin-bottom: 20px !important;
+}
 .single-post .elementor-element.elementor-element-f8ac427 > .elementor-container,
 .single-post .elementor-element.elementor-element-b04c08e > .elementor-container {
   max-width: var(--content-width, 1140px) !important;
@@ -587,7 +568,20 @@ document.addEventListener('click', function(e) {
     box-sizing: border-box;
   }
 }
-</style></head> <body class="wp-singular post-template-default single single-post postid-21517 single-format-standard wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent elementor-page-7865 ast-normal-title-enabled elementor-default elementor-kit-6185 elementor-page elementor-page-21517" itemtype="https://schema.org/Blog" itemscope>                           
+</style><script id="nav-submenu-keepopen">
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('.menu-item-has-children > a.elementor-item, .menu-item-has-children > a.elementor-item *');
+  if (!link) return;
+  var anchor = link.closest('a.elementor-item');
+  if (!anchor) return;
+  var li = anchor.parentElement;
+  if (!li || !li.classList.contains('menu-item-has-children')) return;
+  var href = anchor.getAttribute('href');
+  if (href && href !== '#' && href !== '') return;
+  e.preventDefault();
+  e.stopImmediatePropagation();
+}, true);
+</script></head> <body class="wp-singular post-template-default single single-post postid-21517 single-format-standard wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent elementor-page-7865 ast-normal-title-enabled elementor-default elementor-kit-6185 elementor-page elementor-page-21517" itemtype="https://schema.org/Blog" itemscope>                            
 
 <a class="skip-link screen-reader-text" href="#content" title="Ir al contenido">
 		Ir al contenido</a>
@@ -1271,4 +1265,4 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.tictapcards.com\/wp-a
         person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
     })
 </script>
-                           </body></html>
+                            </body></html>

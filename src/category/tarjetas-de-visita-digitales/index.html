@@ -366,19 +366,46 @@ a.elementor-item:hover::after {
 .elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link {
     padding: 1.1em 1em 0.6em;
 }		</style>
+
+
 <style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
 .elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
 .elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
 .elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
 .elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
 .elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
-</style>
-<style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
-.elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
-.elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
-.elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
-.elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
-.elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
+</style><style id="blog-article-layout-override">/* Blog article layout – applied to all single-post pages */
+.elementor-element-e72f277b,
+.elementor-element-e72f277,
+.elementor-7865 .elementor-element.elementor-element-e72f277,
+.elementor-7865 .elementor-element.elementor-element-e72f277b {
+  --margin-bottom: 20px !important;
+  margin-bottom: 20px !important;
+}
+.single-post .elementor-element.elementor-element-f8ac427 > .elementor-container,
+.single-post .elementor-element.elementor-element-b04c08e > .elementor-container {
+  max-width: var(--content-width, 1140px) !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.single-post .elementor-element.elementor-element-f8ac427 .elementor-widget-wrap.elementor-element-populated,
+.single-post .elementor-element.elementor-element-b04c08e .elementor-widget-wrap.elementor-element-populated {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+@media (max-width: 768px) {
+  .single-post .elementor-element.elementor-element-e72f277 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .single-post .elementor-element.elementor-element-f8ac427 > .elementor-container,
+  .single-post .elementor-element.elementor-element-b04c08e > .elementor-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box;
+  }
+}
 </style><script id="nav-submenu-keepopen">
 document.addEventListener('click', function(e) {
   var link = e.target.closest('.menu-item-has-children > a.elementor-item, .menu-item-has-children > a.elementor-item *');
@@ -392,7 +419,7 @@ document.addEventListener('click', function(e) {
   e.preventDefault();
   e.stopImmediatePropagation();
 }, true);
-</script></head> <body class="archive category category-tarjetas-de-visita-digitales category-71 wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-inherit-site-logo-transparent elementor-page-8333 elementor-default elementor-template-full-width elementor-kit-6185" itemtype="https://schema.org/Blog" itemscope>                           
+</script></head> <body class="archive category category-tarjetas-de-visita-digitales category-71 wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-inherit-site-logo-transparent elementor-page-8333 elementor-default elementor-template-full-width elementor-kit-6185" itemtype="https://schema.org/Blog" itemscope>                            
 
 <a class="skip-link screen-reader-text" href="#content" title="Ir al contenido">
 		Ir al contenido</a>
@@ -1024,4 +1051,4 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.tictapcards.com\/wp-a
         person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
     })
 </script>
-                           </body></html>
+                            </body></html>

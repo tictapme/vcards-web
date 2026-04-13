@@ -41,7 +41,8 @@ document.addEventListener('click', function(e) {
   e.stopImmediatePropagation();
 }, true);
 `;
-    _sharedNavCss = `<style id="nav-spacing-override">${css}</style><script id="nav-submenu-keepopen">${js}</script>`;
+    const articleCss = fs.readFileSync(path.join(partialsRoot, 'shared-article.css'), 'utf8');
+    _sharedNavCss = `<style id="nav-spacing-override">${css}</style><style id="blog-article-layout-override">${articleCss}</style><script id="nav-submenu-keepopen">${js}</script>`;
   }
   return _sharedNavCss;
 }
@@ -61,8 +62,11 @@ function replaceFooter(bodyHtml: string): string {
 }
 
 function injectNavCss(headHtml: string): string {
-  if (headHtml.includes('nav-submenu-keepopen')) return headHtml;
-  return headHtml + '\n' + loadSharedNavCss();
+  const cleaned = headHtml
+    .replace(/<style id="nav-spacing-override">[\s\S]*?<\/style>/g, '')
+    .replace(/<style id="blog-article-layout-override">[\s\S]*?<\/style>/g, '')
+    .replace(/<script id="nav-submenu-keepopen">[\s\S]*?<\/script>/g, '');
+  return cleaned + '\n' + loadSharedNavCss();
 }
 
 type LegacyRoute = {
