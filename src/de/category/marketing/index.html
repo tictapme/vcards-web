@@ -162,9 +162,9 @@ margin: 0 0.5em 2px;
 <link rel="stylesheet" id="e-animation-fadeInRight-css" href="https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=3.35.5" media="all">
 <link rel="stylesheet" id="font-awesome-5-all-css" href="https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.35.5" media="all">
 <link rel="stylesheet" id="font-awesome-4-shim-css" href="https://www.tictapcards.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.35.5" media="all">
-<link rel="stylesheet" id="elementor-gf-local-varelaround-css" href="https://www.tictapcards.com/wp-content/uploads/elementor/google-fonts/css/varelaround.css?ver=1742276789" media="all">
-<link rel="stylesheet" id="elementor-gf-local-lato-css" href="https://www.tictapcards.com/wp-content/uploads/elementor/google-fonts/css/lato.css?ver=1742276795" media="all">
-<link rel="stylesheet" id="elementor-gf-local-notosans-css" href="https://www.tictapcards.com/wp-content/uploads/elementor/google-fonts/css/notosans.css?ver=1742276814" media="all">
+<link rel="stylesheet" id="elementor-gf-local-varelaround-css" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" media="all">
+<link rel="stylesheet" id="elementor-gf-local-lato-css" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" media="all">
+<link rel="stylesheet" id="elementor-gf-local-notosans-css" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" media="all">
 <script src="https://www.tictapcards.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script.min.js?ver=1" id="wpml-legacy-dropdown-0-js"></script>
 <script src="https://www.tictapcards.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://www.tictapcards.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
@@ -359,19 +359,46 @@ a.elementor-item:hover::after {
 .elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link {
     padding: 1.1em 1em 0.6em;
 }		</style>
+
+
 <style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
 .elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
 .elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
 .elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
 .elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
 .elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
-</style>
-<style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
-.elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
-.elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
-.elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
-.elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
-.elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
+</style><style id="blog-article-layout-override">/* Blog article layout – applied to all single-post pages */
+.elementor-element-e72f277b,
+.elementor-element-e72f277,
+.elementor-7865 .elementor-element.elementor-element-e72f277,
+.elementor-7865 .elementor-element.elementor-element-e72f277b {
+  --margin-bottom: 20px !important;
+  margin-bottom: 20px !important;
+}
+.single-post .elementor-element.elementor-element-f8ac427 > .elementor-container,
+.single-post .elementor-element.elementor-element-b04c08e > .elementor-container {
+  max-width: var(--content-width, 1140px) !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.single-post .elementor-element.elementor-element-f8ac427 .elementor-widget-wrap.elementor-element-populated,
+.single-post .elementor-element.elementor-element-b04c08e .elementor-widget-wrap.elementor-element-populated {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+@media (max-width: 768px) {
+  .single-post .elementor-element.elementor-element-e72f277 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .single-post .elementor-element.elementor-element-f8ac427 > .elementor-container,
+  .single-post .elementor-element.elementor-element-b04c08e > .elementor-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box;
+  }
+}
 </style><script id="nav-submenu-keepopen">
 document.addEventListener('click', function(e) {
   var link = e.target.closest('.menu-item-has-children > a.elementor-item, .menu-item-has-children > a.elementor-item *');
@@ -385,7 +412,7 @@ document.addEventListener('click', function(e) {
   e.preventDefault();
   e.stopImmediatePropagation();
 }, true);
-</script></head> <body class="archive category category-marketing category-106 wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-inherit-site-logo-transparent elementor-page-8487 elementor-default elementor-template-full-width elementor-kit-6185" itemtype="https://schema.org/Blog" itemscope>                         
+</script></head> <body class="archive category category-marketing category-106 wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-inherit-site-logo-transparent elementor-page-8487 elementor-default elementor-template-full-width elementor-kit-6185" itemtype="https://schema.org/Blog" itemscope>                            
 
 <a class="skip-link screen-reader-text" href="#content" title="Zum Inhalt springen">
 		Zum Inhalt springen</a>
@@ -1164,4 +1191,4 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.tictapcards.com\/wp-a
         person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
     })
 </script>
-                         </body></html>
+                            </body></html>

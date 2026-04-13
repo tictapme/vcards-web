@@ -1083,19 +1083,46 @@ fieldset.mc_fieldset.gdprRequired.mc-field-group {
 }
 
 .elementor-6383 .elementor-element.elementor-element-66d6499 > .elementor-background-overlay{background-image:none !important;}</style>
+
+
 <style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
 .elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
 .elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
 .elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
 .elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
 .elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
-</style>
-<style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
-.elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
-.elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
-.elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
-.elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
-.elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
+</style><style id="blog-article-layout-override">/* Blog article layout – applied to all single-post pages */
+.elementor-element-e72f277b,
+.elementor-element-e72f277,
+.elementor-7865 .elementor-element.elementor-element-e72f277,
+.elementor-7865 .elementor-element.elementor-element-e72f277b {
+  --margin-bottom: 20px !important;
+  margin-bottom: 20px !important;
+}
+.single-post .elementor-element.elementor-element-f8ac427 > .elementor-container,
+.single-post .elementor-element.elementor-element-b04c08e > .elementor-container {
+  max-width: var(--content-width, 1140px) !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.single-post .elementor-element.elementor-element-f8ac427 .elementor-widget-wrap.elementor-element-populated,
+.single-post .elementor-element.elementor-element-b04c08e .elementor-widget-wrap.elementor-element-populated {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+@media (max-width: 768px) {
+  .single-post .elementor-element.elementor-element-e72f277 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .single-post .elementor-element.elementor-element-f8ac427 > .elementor-container,
+  .single-post .elementor-element.elementor-element-b04c08e > .elementor-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box;
+  }
+}
 </style><script id="nav-submenu-keepopen">
 document.addEventListener('click', function(e) {
   var link = e.target.closest('.menu-item-has-children > a.elementor-item, .menu-item-has-children > a.elementor-item *');
@@ -1109,7 +1136,7 @@ document.addEventListener('click', function(e) {
   e.preventDefault();
   e.stopImmediatePropagation();
 }, true);
-</script></head> <body class="page-template page-template-elementor_canvas page page-id-10547 wp-custom-logo ast-desktop ast-separate-container ast-no-sidebar astra-3.1.2 ast-header-custom-item-inside ast-full-width-primary-header ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-template-canvas elementor-kit-6185 elementor-page elementor-page-10547">         
+</script></head> <body class="page-template page-template-elementor_canvas page page-id-10547 wp-custom-logo ast-desktop ast-separate-container ast-no-sidebar astra-3.1.2 ast-header-custom-item-inside ast-full-width-primary-header ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-template-canvas elementor-kit-6185 elementor-page elementor-page-10547">            
 	<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>		<div data-elementor-type="wp-page" data-elementor-id="10547" class="elementor elementor-10547">
 						<div class="elementor-inner">
 				<div class="elementor-section-wrap">
@@ -1326,4 +1353,4 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 			<script>
 			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 			</script>
-				         </body></html>
+				            </body></html>
