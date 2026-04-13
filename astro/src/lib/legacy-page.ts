@@ -70,11 +70,26 @@ type LegacyRoute = {
   route: string;
 };
 
+const ELEMENTOR_FONT_TO_GOOGLE: Record<string, string> = {
+  varelaround: 'https://fonts.googleapis.com/css2?family=Varela+Round&display=swap',
+  lato: 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap',
+  nunito: 'https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap',
+  notosans: 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap',
+};
+
 function rewriteToLocal(html: string) {
   return html
     .replace(/https?:\/\/127\.0\.0\.1:\d+/gi, '')
     .replace(/(href|src)=["']\/\/fonts\.googleapis\.com/gi, '$1="https://fonts.googleapis.com')
-    .replace(/(href|src)=["']\/\/fonts\.gstatic\.com/gi, '$1="https://fonts.gstatic.com');
+    .replace(/(href|src)=["']\/\/fonts\.gstatic\.com/gi, '$1="https://fonts.gstatic.com')
+    .replace(
+      /<link\b[^>]*id=["']elementor-gf-local-([a-z0-9]+)-css["'][^>]*href=["'][^"']*["'][^>]*>/gi,
+      (match, family: string) => {
+        const googleUrl = ELEMENTOR_FONT_TO_GOOGLE[family.toLowerCase()];
+        if (!googleUrl) return match;
+        return `<link rel="stylesheet" id="elementor-gf-local-${family}-css" href="${googleUrl}" media="all">`;
+      },
+    );
 }
 
 function decodeHtmlEntities(value: string) {
