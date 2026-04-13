@@ -3,7 +3,67 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
 const sourceRoot = path.join(process.cwd(), 'src');
+const partialsRoot = path.join(process.cwd(), 'astro', 'src', 'partials');
 const SITE_ORIGIN = 'https://www.tictapcards.com';
+
+let _sharedHeaderHtml: string | null = null;
+let _sharedFooterHtml: string | null = null;
+let _sharedNavCss: string | null = null;
+
+function loadSharedHeader(): string {
+  if (_sharedHeaderHtml === null) {
+    _sharedHeaderHtml = fs.readFileSync(path.join(partialsRoot, 'shared-header.html'), 'utf8');
+  }
+  return _sharedHeaderHtml;
+}
+
+function loadSharedFooter(): string {
+  if (_sharedFooterHtml === null) {
+    _sharedFooterHtml = fs.readFileSync(path.join(partialsRoot, 'shared-footer.html'), 'utf8');
+  }
+  return _sharedFooterHtml;
+}
+
+function loadSharedNavCss(): string {
+  if (_sharedNavCss === null) {
+    const css = fs.readFileSync(path.join(partialsRoot, 'shared-nav.css'), 'utf8');
+    const js = `
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('.menu-item-has-children > a.elementor-item, .menu-item-has-children > a.elementor-item *');
+  if (!link) return;
+  var anchor = link.closest('a.elementor-item');
+  if (!anchor) return;
+  var li = anchor.parentElement;
+  if (!li || !li.classList.contains('menu-item-has-children')) return;
+  var href = anchor.getAttribute('href');
+  if (href && href !== '#' && href !== '') return;
+  e.preventDefault();
+  e.stopImmediatePropagation();
+}, true);
+`;
+    _sharedNavCss = `<style id="nav-spacing-override">${css}</style><script id="nav-submenu-keepopen">${js}</script>`;
+  }
+  return _sharedNavCss;
+}
+
+function replaceHeader(bodyHtml: string): string {
+  const headerPattern = /<header\b[^>]*data-elementor-type=["']header["'][^>]*>[\s\S]*?<\/header>/i;
+  const match = bodyHtml.match(headerPattern);
+  if (!match) return bodyHtml;
+  return bodyHtml.replace(match[0], loadSharedHeader());
+}
+
+function replaceFooter(bodyHtml: string): string {
+  const footerPattern = /(<footer\b[^>]*data-elementor-type=["']footer["'][\s\S]*?<\/div>\s*<!--\s*#page\s*-->)/i;
+  const match = bodyHtml.match(footerPattern);
+  if (!match) return bodyHtml;
+  return bodyHtml.replace(match[0], loadSharedFooter());
+}
+
+function injectNavCss(headHtml: string): string {
+  if (headHtml.includes('nav-submenu-keepopen')) return headHtml;
+  return headHtml + '\n' + loadSharedNavCss();
+}
 
 type LegacyRoute = {
   relativePath: string;
@@ -198,13 +258,16 @@ export function loadSourcePage(relativePath: string) {
   }
 
   const bodyAttributes = bodyMatch[1];
-  const bodyInnerHtml = bodyMatch[2];
+  let bodyInnerHtml = bodyMatch[2];
   const bodyClassMatch = bodyAttributes.match(/\bclass=["']([^"']+)["']/i);
   const bodyItemTypeMatch = bodyAttributes.match(/\bitemtype=["']([^"']+)["']/i);
   const bodyItemscope = /\bitemscope\b/i.test(bodyAttributes);
   const langMatch = normalized.match(/<html[^>]*lang=["']([^"']+)["']/i);
 
-  const headExtraHtml = normalizeHeadExtraHtml(headInner, relativePath);
+  bodyInnerHtml = replaceHeader(bodyInnerHtml);
+  bodyInnerHtml = replaceFooter(bodyInnerHtml);
+
+  const headExtraHtml = injectNavCss(normalizeHeadExtraHtml(headInner, relativePath));
 
   return {
     title,
@@ -229,13 +292,16 @@ export function loadSourcePageFromHead(relativePath: string) {
   }
 
   const bodyAttributes = bodyMatch[1];
-  const bodyInnerHtml = bodyMatch[2];
+  let bodyInnerHtml = bodyMatch[2];
   const bodyClassMatch = bodyAttributes.match(/\bclass=["']([^"']+)["']/i);
   const bodyItemTypeMatch = bodyAttributes.match(/\bitemtype=["']([^"']+)["']/i);
   const bodyItemscope = /\bitemscope\b/i.test(bodyAttributes);
   const langMatch = normalized.match(/<html[^>]*lang=["']([^"']+)["']/i);
 
-  const headExtraHtml = normalizeHeadExtraHtml(headInner, relativePath);
+  bodyInnerHtml = replaceHeader(bodyInnerHtml);
+  bodyInnerHtml = replaceFooter(bodyInnerHtml);
+
+  const headExtraHtml = injectNavCss(normalizeHeadExtraHtml(headInner, relativePath));
 
   return {
     title,

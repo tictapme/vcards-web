@@ -1147,7 +1147,34 @@ overflow-x: hidden !important;
 
         .zoom:hover {
             transform: scale(1.2); /* Hace zoom al 120% */
-        }</style></head> <body class="page-template-default page page-id-21205 wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-3.1.2 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-kit-6185 elementor-page elementor-page-21205" itemtype="https://schema.org/WebPage" itemscope>   
+        }</style>
+<style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
+.elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
+.elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
+.elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
+.elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
+.elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
+</style>
+<style id="nav-spacing-override">/* Nav menu spacing – injected by shared partials */
+.elementor-nav-menu--main .elementor-item { padding: 10px 18px !important; }
+.elementor-nav-menu--main .elementor-nav-menu { gap: 8px; }
+.elementor-nav-menu--dropdown .elementor-sub-item { padding: 10px 24px !important; }
+.elementor-nav-menu--dropdown { min-width: 220px; padding: 8px 0; }
+.elementor-widget-nav-menu .elementor-nav-menu--main .wpml-ls-item a:link { padding: 10px 18px; }
+</style><script id="nav-submenu-keepopen">
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('.menu-item-has-children > a.elementor-item, .menu-item-has-children > a.elementor-item *');
+  if (!link) return;
+  var anchor = link.closest('a.elementor-item');
+  if (!anchor) return;
+  var li = anchor.parentElement;
+  if (!li || !li.classList.contains('menu-item-has-children')) return;
+  var href = anchor.getAttribute('href');
+  if (href && href !== '#' && href !== '') return;
+  e.preventDefault();
+  e.stopImmediatePropagation();
+}, true);
+</script></head> <body class="page-template-default page page-id-21205 wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-3.1.2 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-kit-6185 elementor-page elementor-page-21205" itemtype="https://schema.org/WebPage" itemscope>      
 <div class="hfeed site" id="page">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 			<div data-elementor-type="header" data-elementor-id="14525" class="elementor elementor-14525 elementor-location-header" data-elementor-post-type="elementor_library">
@@ -2130,4 +2157,4 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 				</section>
 </div></section>
 </div>
-   </body></html>
+      </body></html>
