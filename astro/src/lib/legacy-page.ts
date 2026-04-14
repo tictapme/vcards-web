@@ -6,22 +6,42 @@ const sourceRoot = path.join(process.cwd(), 'src');
 const partialsRoot = path.join(process.cwd(), 'astro', 'src', 'partials');
 const SITE_ORIGIN = 'https://www.tictapcards.com';
 
-let _sharedHeaderHtml: string | null = null;
-let _sharedFooterHtml: string | null = null;
+const _sharedHeaderByLang: Record<string, string> = {};
+const _sharedFooterByLang: Record<string, string> = {};
 let _sharedNavCss: string | null = null;
 
-function loadSharedHeader(): string {
-  if (_sharedHeaderHtml === null) {
-    _sharedHeaderHtml = fs.readFileSync(path.join(partialsRoot, 'shared-header.html'), 'utf8');
-  }
-  return _sharedHeaderHtml;
+function headerFileForLang(lang: 'es' | 'en' | 'de'): string {
+  return lang === 'es' ? 'shared-header.html' : `shared-header.${lang}.html`;
 }
 
-function loadSharedFooter(): string {
-  if (_sharedFooterHtml === null) {
-    _sharedFooterHtml = fs.readFileSync(path.join(partialsRoot, 'shared-footer.html'), 'utf8');
+function footerFileForLang(lang: 'es' | 'en' | 'de'): string {
+  return lang === 'es' ? 'shared-footer.html' : `shared-footer.${lang}.html`;
+}
+
+function langFromRelativePath(relativePath: string): 'es' | 'en' | 'de' {
+  if (relativePath.startsWith('en/')) return 'en';
+  if (relativePath.startsWith('de/')) return 'de';
+  return 'es';
+}
+
+function loadSharedHeader(lang: 'es' | 'en' | 'de' = 'es'): string {
+  if (!_sharedHeaderByLang[lang]) {
+    _sharedHeaderByLang[lang] = fs.readFileSync(
+      path.join(partialsRoot, headerFileForLang(lang)),
+      'utf8',
+    );
   }
-  return _sharedFooterHtml;
+  return _sharedHeaderByLang[lang];
+}
+
+function loadSharedFooter(lang: 'es' | 'en' | 'de' = 'es'): string {
+  if (!_sharedFooterByLang[lang]) {
+    _sharedFooterByLang[lang] = fs.readFileSync(
+      path.join(partialsRoot, footerFileForLang(lang)),
+      'utf8',
+    );
+  }
+  return _sharedFooterByLang[lang];
 }
 
 function loadSharedNavCss(): string {
@@ -47,18 +67,18 @@ document.addEventListener('click', function(e) {
   return _sharedNavCss;
 }
 
-function replaceHeader(bodyHtml: string): string {
+function replaceHeader(bodyHtml: string, lang: 'es' | 'en' | 'de' = 'es'): string {
   const headerPattern = /<header\b[^>]*data-elementor-type=["']header["'][^>]*>[\s\S]*?<\/header>/i;
   const match = bodyHtml.match(headerPattern);
   if (!match) return bodyHtml;
-  return bodyHtml.replace(match[0], loadSharedHeader());
+  return bodyHtml.replace(match[0], loadSharedHeader(lang));
 }
 
-function replaceFooter(bodyHtml: string): string {
+function replaceFooter(bodyHtml: string, lang: 'es' | 'en' | 'de' = 'es'): string {
   const footerPattern = /(<footer\b[^>]*data-elementor-type=["']footer["'][\s\S]*?<\/div>\s*<!--\s*#page\s*-->)/i;
   const match = bodyHtml.match(footerPattern);
   if (!match) return bodyHtml;
-  return bodyHtml.replace(match[0], loadSharedFooter());
+  return bodyHtml.replace(match[0], loadSharedFooter(lang));
 }
 
 function injectNavCss(headHtml: string): string {
@@ -283,8 +303,8 @@ export function loadSourcePage(relativePath: string) {
   const bodyItemscope = /\bitemscope\b/i.test(bodyAttributes);
   const langMatch = normalized.match(/<html[^>]*lang=["']([^"']+)["']/i);
 
-  bodyInnerHtml = replaceHeader(bodyInnerHtml);
-  bodyInnerHtml = replaceFooter(bodyInnerHtml);
+  bodyInnerHtml = replaceHeader(bodyInnerHtml, langFromRelativePath(relativePath));
+  bodyInnerHtml = replaceFooter(bodyInnerHtml, langFromRelativePath(relativePath));
 
   const headExtraHtml = injectNavCss(normalizeHeadExtraHtml(headInner, relativePath));
 
@@ -317,8 +337,8 @@ export function loadSourcePageFromHead(relativePath: string) {
   const bodyItemscope = /\bitemscope\b/i.test(bodyAttributes);
   const langMatch = normalized.match(/<html[^>]*lang=["']([^"']+)["']/i);
 
-  bodyInnerHtml = replaceHeader(bodyInnerHtml);
-  bodyInnerHtml = replaceFooter(bodyInnerHtml);
+  bodyInnerHtml = replaceHeader(bodyInnerHtml, langFromRelativePath(relativePath));
+  bodyInnerHtml = replaceFooter(bodyInnerHtml, langFromRelativePath(relativePath));
 
   const headExtraHtml = injectNavCss(normalizeHeadExtraHtml(headInner, relativePath));
 
