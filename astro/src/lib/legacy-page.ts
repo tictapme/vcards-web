@@ -7,11 +7,15 @@ const partialsRoot = path.join(process.cwd(), 'astro', 'src', 'partials');
 const SITE_ORIGIN = 'https://www.tictapcards.com';
 
 const _sharedHeaderByLang: Record<string, string> = {};
-let _sharedFooterHtml: string | null = null;
+const _sharedFooterByLang: Record<string, string> = {};
 let _sharedNavCss: string | null = null;
 
 function headerFileForLang(lang: 'es' | 'en' | 'de'): string {
   return lang === 'es' ? 'shared-header.html' : `shared-header.${lang}.html`;
+}
+
+function footerFileForLang(lang: 'es' | 'en' | 'de'): string {
+  return lang === 'es' ? 'shared-footer.html' : `shared-footer.${lang}.html`;
 }
 
 function langFromRelativePath(relativePath: string): 'es' | 'en' | 'de' {
@@ -30,11 +34,14 @@ function loadSharedHeader(lang: 'es' | 'en' | 'de' = 'es'): string {
   return _sharedHeaderByLang[lang];
 }
 
-function loadSharedFooter(): string {
-  if (_sharedFooterHtml === null) {
-    _sharedFooterHtml = fs.readFileSync(path.join(partialsRoot, 'shared-footer.html'), 'utf8');
+function loadSharedFooter(lang: 'es' | 'en' | 'de' = 'es'): string {
+  if (!_sharedFooterByLang[lang]) {
+    _sharedFooterByLang[lang] = fs.readFileSync(
+      path.join(partialsRoot, footerFileForLang(lang)),
+      'utf8',
+    );
   }
-  return _sharedFooterHtml;
+  return _sharedFooterByLang[lang];
 }
 
 function loadSharedNavCss(): string {
@@ -67,11 +74,11 @@ function replaceHeader(bodyHtml: string, lang: 'es' | 'en' | 'de' = 'es'): strin
   return bodyHtml.replace(match[0], loadSharedHeader(lang));
 }
 
-function replaceFooter(bodyHtml: string): string {
+function replaceFooter(bodyHtml: string, lang: 'es' | 'en' | 'de' = 'es'): string {
   const footerPattern = /(<footer\b[^>]*data-elementor-type=["']footer["'][\s\S]*?<\/div>\s*<!--\s*#page\s*-->)/i;
   const match = bodyHtml.match(footerPattern);
   if (!match) return bodyHtml;
-  return bodyHtml.replace(match[0], loadSharedFooter());
+  return bodyHtml.replace(match[0], loadSharedFooter(lang));
 }
 
 function injectNavCss(headHtml: string): string {
@@ -282,7 +289,7 @@ export function loadSourcePage(relativePath: string) {
   const langMatch = normalized.match(/<html[^>]*lang=["']([^"']+)["']/i);
 
   bodyInnerHtml = replaceHeader(bodyInnerHtml, langFromRelativePath(relativePath));
-  bodyInnerHtml = replaceFooter(bodyInnerHtml);
+  bodyInnerHtml = replaceFooter(bodyInnerHtml, langFromRelativePath(relativePath));
 
   const headExtraHtml = injectNavCss(normalizeHeadExtraHtml(headInner, relativePath));
 
@@ -316,7 +323,7 @@ export function loadSourcePageFromHead(relativePath: string) {
   const langMatch = normalized.match(/<html[^>]*lang=["']([^"']+)["']/i);
 
   bodyInnerHtml = replaceHeader(bodyInnerHtml, langFromRelativePath(relativePath));
-  bodyInnerHtml = replaceFooter(bodyInnerHtml);
+  bodyInnerHtml = replaceFooter(bodyInnerHtml, langFromRelativePath(relativePath));
 
   const headExtraHtml = injectNavCss(normalizeHeadExtraHtml(headInner, relativePath));
 
