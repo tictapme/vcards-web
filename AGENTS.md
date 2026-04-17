@@ -59,6 +59,13 @@ Eso implica que cualquier error en SEO técnico, redirecciones, `robots.txt`, si
 4. Previsualizar localmente con `npm run preview` o `npm run preview:src`.
 5. Revisar especialmente `src/index.html`, `src/en/index.html`, `src/de/index.html`, `robots.txt`, sitemaps y `_redirects`.
 
+## Política de commits
+
+- después de cambios suficientemente importantes, hacer un commit y dejarlo guardado antes de seguir con otra pieza de trabajo
+- entender como "cambio suficientemente importante" cualquier modificación que afecte a varias rutas, a comportamiento visible, al pipeline de build/sync, a SEO técnico o a estructuras compartidas
+- priorizar commits pequeños, claros y reversibles para que cualquier persona del repositorio pueda volver a un estado anterior fácilmente
+- no acumular cambios grandes no committeados si ya existe un punto estable del trabajo
+
 ## Qué no asumir
 
 - no asumir que el export actual es semánticamente limpio
