@@ -6,7 +6,7 @@
   "scripts": {
     "preview": "npm run astro:build && node bin/sync-astro-output.js && node bin/optimize-seo.js && node bin/preview.js src",
     "preview:src": "node bin/preview.js src",
-    "astro:build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "astro:build": "cross-env ASTRO_TELEMETRY_DISABLED=1 astro build",
     "sync:astro": "node bin/sync-astro-output.js",
     "static:prepare": "npm run astro:build && node bin/sync-astro-output.js && node bin/optimize-seo.js && node bin/validate-static-site.js",
     "optimize:seo": "node bin/optimize-seo.js",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@types/node": "^24.5.2",
     "astro": "^4.16.18",
+    "cross-env": "^7.0.3",
     "fs": "0.0.1-security",
     "typescript": "^5.9.2"
   }

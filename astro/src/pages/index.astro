@@ -3,12 +3,13 @@ import RawLegacyLayout from '../layouts/RawLegacyLayout.astro';
 import { loadSourcePageFromHead } from '../lib/legacy-page';
 
 const page = loadSourcePageFromHead('index.html');
+const yellowHomeBackgroundStyle = '<style>body{background-color:#ffff00;}</style>';
 ---
 
 <RawLegacyLayout
   title={page.title}
   lang={page.lang}
-  headExtraHtml={page.headExtraHtml}
+  headExtraHtml={`${page.headExtraHtml}${yellowHomeBackgroundStyle}`}
   bodyClass={page.bodyClass}
   bodyItemType={page.bodyItemType}
   bodyItemscope={page.bodyItemscope}
