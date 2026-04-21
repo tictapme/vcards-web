@@ -420,8 +420,64 @@ document.addEventListener('click', function(e) {
   e.preventDefault();
   e.stopImmediatePropagation();
 }, true);
-</script><link rel="stylesheet" href="/wp-content/uploads/vcards-solution-icons.css">
-</head> <body class="wp-singular page-template-default page page-id-26611 wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-kit-6185 elementor-page elementor-page-26611" itemtype="https://schema.org/WebPage" itemscope>                             
+</script><style id="access-control-redesign">
+    :root{--green:#02a56c;--lime:#62cc62;--ink:#153b44;--muted:#5d7177;--soft:#e8f8ee;--line:#dce9e5;--white:#fff}
+    .access-control-page #content.site-content,.access-control-page #primary,.access-control-page #main{width:100%;max-width:none}
+    .access-control-page #primary{float:none;margin:0}
+    .access-control-page .site-content .ast-container{max-width:100%;padding-left:0;padding-right:0;display:block}
+    .access-control-page{font-family:Lato,Arial,sans-serif;color:var(--ink);background:#fff;font-size:18px;line-height:1.6}
+    .access-page *{box-sizing:border-box}
+    .access-page a{color:var(--green);text-decoration:none}
+    .access-page a:hover{color:var(--lime)}
+    .access-hero{background:linear-gradient(135deg,#f6fff9 0%,#e7f8f0 45%,#ffffff 100%);overflow:hidden}
+    .access-hero-inner{max-width:1220px;margin:0 auto;padding:88px 24px 72px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(320px,.95fr);gap:52px;align-items:center}
+    .access-eyebrow{display:inline-flex;align-items:center;gap:10px;margin:0 0 14px;color:var(--green);font-weight:900;text-transform:uppercase;letter-spacing:0;font-size:14px}
+    .access-eyebrow:before{content:"";width:28px;height:28px;background:var(--green);-webkit-mask-image:var(--solution-icon-access);mask-image:var(--solution-icon-access);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain}
+    .access-page h1,.access-page h2,.access-page h3{font-family:"Varela Round",Lato,Arial,sans-serif;line-height:1.16;margin:0 0 18px;color:var(--ink);font-weight:400}
+    .access-page h1{font-size:clamp(42px,5vw,72px)}
+    .access-page h2{font-size:clamp(30px,3.3vw,46px)}
+    .access-page h3{font-size:24px}
+    .access-lead{font-size:22px;color:var(--muted);max-width:760px;margin:0 0 28px}
+    .access-actions{display:flex;flex-wrap:wrap;gap:14px}
+    .access-button{display:inline-flex;align-items:center;justify-content:center;background:var(--green);color:#fff!important;border-radius:36px;padding:13px 24px;font-weight:900;text-decoration:none!important;min-height:50px}
+    .access-button.secondary{background:#fff;color:var(--green)!important;border:2px solid var(--green)}
+    .access-stage{min-height:520px;display:grid;place-items:center;position:relative}
+    .access-dashboard{width:min(520px,92vw);background:#fff;border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:0 28px 80px rgba(21,59,68,.16);transform:rotate(1.5deg)}
+    .dash-top{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:16px}
+    .dash-title{display:flex;align-items:center;gap:12px;font-weight:900;color:var(--ink)}
+    .dash-icon{width:42px;height:42px;border-radius:12px;background:#e0f7ea;display:grid;place-items:center}
+    .dash-icon:before{content:"";width:24px;height:24px;background:var(--green);-webkit-mask-image:var(--solution-icon-access);mask-image:var(--solution-icon-access);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain}
+    .dash-status{border-radius:999px;background:#e0f7ea;color:var(--green);font-size:14px;font-weight:900;padding:8px 12px;white-space:nowrap}
+    .dash-main{display:grid;grid-template-columns:1fr .86fr;gap:16px;align-items:stretch}
+    .scan-card{background:linear-gradient(145deg,#153b44,#02a56c);border-radius:20px;color:#fff;padding:20px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between}
+    .scan-frame{border:2px solid rgba(255,255,255,.56);border-radius:18px;min-height:132px;display:grid;place-items:center;position:relative;overflow:hidden}
+    .scan-frame:before,.scan-frame:after{content:"";position:absolute;left:22px;right:22px;height:2px;background:#62cc62;box-shadow:0 0 18px rgba(98,204,98,.9)}
+    .scan-frame:before{top:42%}.scan-frame:after{top:58%;opacity:.45}
+    .scan-qr{width:76px;height:76px;border-radius:10px;background:repeating-linear-gradient(90deg,#fff 0 8px,#153b44 8px 14px),repeating-linear-gradient(0deg,transparent 0 10px,rgba(255,255,255,.35) 10px 16px);background-blend-mode:screen}
+    .scan-card strong{display:block;font-size:26px;line-height:1.1;margin-bottom:6px;color:#fff}
+    .scan-card span{color:#d8f6e7}
+    .metric-stack{display:grid;gap:12px}
+    .metric{border:1px solid var(--line);border-radius:16px;padding:16px;background:#f8fbfa}
+    .metric b{display:block;color:var(--ink);font-size:28px;line-height:1;margin-bottom:6px}
+    .metric span{display:block;color:var(--muted);font-size:14px;font-weight:700}
+    .attendee-list{margin-top:16px;display:grid;gap:10px}
+    .attendee{display:flex;align-items:center;justify-content:space-between;gap:14px;border:1px solid var(--line);border-radius:14px;padding:12px 14px;background:#fff;color:var(--ink);font-weight:800}
+    .attendee small{display:block;color:var(--muted);font-weight:700}.attendee mark{background:#e0f7ea;color:var(--green);border-radius:999px;padding:5px 9px;font-size:12px;font-weight:900}
+    .access-band{padding:82px 24px}.access-band.alt{background:#f7fbf9}
+    .access-wrap{max-width:1120px;margin:0 auto}.access-wrap.narrow{max-width:900px;text-align:center}
+    .access-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px}
+    .access-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:26px;box-shadow:0 12px 28px rgba(21,59,68,.06)}
+    .access-card strong{display:block;color:var(--green);font-size:15px;text-transform:uppercase;margin-bottom:8px}
+    .access-split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+    .access-list{display:grid;gap:16px;margin:24px 0 0;padding:0;list-style:none}
+    .access-list li{padding-left:34px;position:relative}.access-list li:before{content:"";position:absolute;left:0;top:7px;width:18px;height:18px;border-radius:50%;background:var(--green);box-shadow:inset 0 0 0 5px #dff7e9}
+    .access-panel{background:var(--ink);color:#fff;border-radius:8px;padding:34px}.access-panel h2,.access-panel h3{color:#fff}.access-panel p{color:#dce9e5}
+    .flow{display:grid;gap:14px;margin-top:26px}.flow-step{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px}.flow-number{width:38px;height:38px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;font-weight:900}.flow-step p{margin:0;color:var(--muted)}
+    .access-cta{background:var(--green);color:#fff;text-align:center;padding:74px 24px}.access-cta h2,.access-cta p{color:#fff}.access-cta p{max-width:760px;margin:0 auto 28px;font-size:21px}
+    .access-cta .access-button.secondary{border-color:#fff;color:var(--green)!important;background:#fff}
+    @media (max-width:900px){.access-hero-inner,.access-split,.dash-main{grid-template-columns:1fr}.access-grid{grid-template-columns:1fr}.access-stage{min-height:auto}.access-hero-inner{padding-top:54px}.access-dashboard{transform:none}.access-page h1{font-size:42px}}
+</style><link rel="stylesheet" href="/wp-content/uploads/vcards-solution-icons.css">
+</head> <body class="wp-singular page-template-default page page-id-26611 wp-custom-logo wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.7 ast-header-custom-item-inside group-blog ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-kit-6185 elementor-page elementor-page-26611 access-control-page" itemtype="https://schema.org/WebPage" itemscope>
 
 <a class="skip-link screen-reader-text" href="#content" title="Ir al contenido">
 		Ir al contenido</a>
@@ -603,456 +659,125 @@ document.addEventListener('click', function(e) {
 
 		
 					<main id="main" class="site-main">
-				<article class="post-26611 page type-page status-publish ast-article-single" id="post-26611" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
-	
-				<header class="entry-header ast-no-title ast-header-without-markup">
-							</header> <!-- .entry-header -->
-		
-<div class="entry-content clear" itemprop="text">
 
-	
-			<div data-elementor-type="wp-page" data-elementor-id="26611" class="elementor elementor-26611" data-elementor-post-type="page">
-				<div class="elementor-element elementor-element-f71ef33 e-con-full e-flex e-con e-parent" data-id="f71ef33" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-2501e69 e-flex e-con-boxed e-con e-child" data-id="2501e69" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-b559bdb e-con-full e-flex e-con e-child" data-id="b559bdb" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-0981cd9 elementor-position-inline-start elementor-mobile-position-inline-start elementor-view-default elementor-widget elementor-widget-icon-box" data-id="0981cd9" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-icon-box-wrapper">
+    <div class="access-page">
+      <section class="access-hero">
+        <div class="access-hero-inner">
+          <div>
+            <p class="access-eyebrow">Control de accesos</p>
+            <h1>Controla el acceso a tus eventos con una experiencia digital de marca</h1>
+            <p class="access-lead">Gestiona invitaciones, acreditaciones y validaciones en ferias, congresos y eventos corporativos. Vcards by TicTAP convierte cada entrada en una credencial segura, medible y conectada con tus contactos.</p>
+            <div class="access-actions">
+              <a class="access-button" href="/contacto/">Solicitar una demo</a>
+              <a class="access-button secondary" href="#como_funciona">Ver cómo funciona</a>
+            </div>
+          </div>
+          <div class="access-stage" aria-hidden="true">
+            <div class="access-dashboard">
+              <div class="dash-top">
+                <div class="dash-title"><span class="dash-icon"></span><span>Evento corporativo<br><small>Check-in en vivo</small></span></div>
+                <span class="dash-status">Acceso activo</span>
+              </div>
+              <div class="dash-main">
+                <div class="scan-card">
+                  <div class="scan-frame"><div class="scan-qr"></div></div>
+                  <div><strong>Validado</strong><span>Laura García · Invitada VIP</span></div>
+                </div>
+                <div class="metric-stack">
+                  <div class="metric"><b>248</b><span>Invitados acreditados</span></div>
+                  <div class="metric"><b>184</b><span>Check-ins realizados</span></div>
+                  <div class="metric"><b>12</b><span>Alertas prioritarias</span></div>
+                </div>
+              </div>
+              <div class="attendee-list">
+                <div class="attendee"><span>Entrada principal<small>Flujo estable</small></span><mark>OK</mark></div>
+                <div class="attendee"><span>Sala privada<small>Acceso restringido</small></span><mark>VIP</mark></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-						<div class="elementor-icon-box-icon">
-				<span class="elementor-icon">
-				<svg aria-hidden="true" class="e-font-icon-svg e-fas-id-card-alt" viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M528 64H384v96H192V64H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM288 224c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm93.3 224H194.7c-10.4 0-18.8-10-15.6-19.8 8.3-25.6 32.4-44.2 60.9-44.2h8.2c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h8.2c28.4 0 52.5 18.5 60.9 44.2 3.2 9.8-5.2 19.8-15.6 19.8zM352 32c0-17.7-14.3-32-32-32h-64c-17.7 0-32 14.3-32 32v96h128V32z"></path></svg>				</span>
-			</div>
-			
-						<div class="elementor-icon-box-content">
+      <section class="access-band" id="como_funciona">
+        <div class="access-wrap">
+          <h2>Del registro a la validación, todo en el mismo flujo</h2>
+          <p class="access-lead">El módulo de eventos centraliza la lista de invitados, la emisión de acreditaciones digitales y el control de presencia. El equipo organizador valida cada acceso desde móvil o tablet y ve la asistencia en tiempo real.</p>
+          <div class="access-grid">
+            <div class="access-card"><strong>Invita</strong><h3>Acreditaciones digitales</h3><p>Importa tu lista, segmenta asistentes y envía accesos únicos con QR o enlace para cada persona.</p></div>
+            <div class="access-card"><strong>Valida</strong><h3>Entradas sin fricción</h3><p>Escanea desde cualquier dispositivo autorizado y controla entradas, salidas y zonas restringidas.</p></div>
+            <div class="access-card"><strong>Analiza</strong><h3>Presencia en vivo</h3><p>Consulta quién ha llegado, qué perfiles clave están dentro y cómo evoluciona la asistencia.</p></div>
+          </div>
+        </div>
+      </section>
 
-									<h3 class="elementor-icon-box-title">
-						<span>
-							Acceso a eventos						</span>
-					</h3>
-				
-				
-			</div>
-			
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-c859f72 elementor-widget elementor-widget-heading" data-id="c859f72" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">Controla el acceso a tus eventos con una sola plataforma</h1>				</div>
-				</div>
-				<div class="elementor-element elementor-element-f00c35f elementor-widget elementor-widget-text-editor" data-id="f00c35f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Gestiona invitaciones, acreditaciones y accesos en ferias, congresos y eventos corporativos con total simplicidad y seguridad.
-Transforma cada entrada en una oportunidad real de conexión.								</div>
-				</div>
-				<div class="elementor-element elementor-element-db3c0d0 elementor-align-left elementor-widget elementor-widget-button" data-id="db3c0d0" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink" href="#como_funciona" id="botonSmartcardsESP-pideSmartCard">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Ver cómo funciona</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-28966bb e-con-full e-flex e-con e-child" data-id="28966bb" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-201fb31 elementor-widget elementor-widget-image" data-id="201fb31" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img fetchpriority="high" decoding="async" width="1024" height="768" src="/wp-content/uploads/2025/12/Control_acceso_eventos-1024x768.png" class="attachment-large size-large wp-image-26998" alt="Control acceso eventos" srcset="/wp-content/uploads/2025/12/Control_acceso_eventos-1024x768.png 1024w, /wp-content/uploads/2025/12/Control_acceso_eventos-300x225.png 300w, /wp-content/uploads/2025/12/Control_acceso_eventos-768x576.png 768w, /wp-content/uploads/2025/12/Control_acceso_eventos.png 1365w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
-				</div>
-				<div class="elementor-element elementor-element-52d0b1c elementor-widget elementor-widget-menu-anchor" data-id="52d0b1c" data-element_type="widget" data-e-type="widget" data-widget_type="menu-anchor.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-menu-anchor" id="como_funciona"></div>
-						</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-c16b785 e-con-full e-flex e-con e-parent" data-id="c16b785" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-e1fa694 elementor-widget elementor-widget-heading" data-id="e1fa694" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">¿Cómo funciona?</h2>				</div>
-				</div>
-		<div class="elementor-element elementor-element-e3518ed e-flex e-con-boxed e-con e-child" data-id="e3518ed" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-bbc12c9 e-con-full e-flex e-con e-child" data-id="bbc12c9" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-0c714af elementor-widget elementor-widget-image" data-id="0c714af" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="99" height="99" src="/wp-content/uploads/2025/12/Compartir.png" class="attachment-large size-large wp-image-26746" alt="">															</div>
-				</div>
-				<div class="elementor-element elementor-element-14dd163 elementor-widget elementor-widget-heading" data-id="14dd163" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Invita y acredita</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-fd3e0fb elementor-widget elementor-widget-text-editor" data-id="fd3e0fb" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Importa tu lista, personaliza los correos y envía acreditaciones digitales con QR. Cada invitado recibe su acceso único y listo para usar.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-3433670 e-con-full e-flex e-con e-child" data-id="3433670" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-2a2798a elementor-widget elementor-widget-image" data-id="2a2798a" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="99" height="99" src="/wp-content/uploads/2025/12/Configurar.png" class="attachment-large size-large wp-image-26749" alt="">															</div>
-				</div>
-				<div class="elementor-element elementor-element-dea35b8 elementor-widget elementor-widget-heading" data-id="dea35b8" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Gestiona y controla</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-30a17b8 elementor-widget elementor-widget-text-editor" data-id="30a17b8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Automatiza recordatorios, actualiza información en tiempo real y supervisa la validación de asistentes desde cualquier dispositivo.								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-0c37cb2 e-con-full e-flex e-con e-child" data-id="0c37cb2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-ef94e89 elementor-widget elementor-widget-image" data-id="ef94e89" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="99" height="99" src="/wp-content/uploads/2025/12/Verificar.png" class="attachment-large size-large wp-image-26752" alt="">															</div>
-				</div>
-				<div class="elementor-element elementor-element-7e69573 elementor-widget elementor-widget-heading" data-id="7e69573" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Valida  y analiza</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-d0702a8 elementor-widget elementor-widget-text-editor" data-id="d0702a8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Registra accesos de forma segura y obtén métricas detalladas para evaluar asistencia, presencia de perfiles clave y calidad de las interacciones.								</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-a363ead e-con-full e-flex e-con e-parent" data-id="a363ead" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4798e06 elementor-widget elementor-widget-heading" data-id="4798e06" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Beneficios</h2>				</div>
-				</div>
-		<div class="elementor-element elementor-element-b20fe23 e-flex e-con-boxed e-con e-child" data-id="b20fe23" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-2ab81e2 e-con-full e-flex e-con e-child" data-id="2ab81e2" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4d58992 elementor-widget elementor-widget-heading" data-id="4d58992" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Eventos</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-6a9f1e1 elementor-widget elementor-widget-text-editor" data-id="6a9f1e1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Control total de quién entra y cuándo, con información relevante en tiempo real.
+      <section class="access-band alt">
+        <div class="access-wrap access-split">
+          <div>
+            <h2>Reutiliza las VCards de tu equipo como credenciales de evento</h2>
+            <p>Las tarjetas de visita digitales de empleados pueden convivir con el control de accesos. La misma identidad que usan para networking sirve también para participar en eventos internos, convenciones, formaciones o encuentros corporativos.</p>
+            <ul class="access-list">
+              <li>Acceso limitado a personas autorizadas de la empresa o de un segmento concreto.</li>
+              <li>Control de presencia, entradas y salidas para cada evento o zona.</li>
+              <li>Credenciales con imagen corporativa, logo y colores de la marca.</li>
+              <li>Validez temporal para eventos anuales, programas de fidelidad o acreditaciones recurrentes.</li>
+            </ul>
+          </div>
+          <div class="access-panel">
+            <h3>VCard, Wallet y acceso en un solo ecosistema</h3>
+            <p>El asistente puede llevar su tarjeta en Wallet, presentarla offline y usarla como punto de identificación. La empresa mantiene el control de quién puede entrar y qué permisos tiene en cada momento.</p>
+            <a class="access-button" href="/wallet/">Ver VCards en Wallet</a>
+          </div>
+        </div>
+      </section>
 
-<br><br>
-<strong>Asistencia transparente:</strong> Visualiza al instante cuántos invitados han llegado para coordinar tiempos, dinámicas y logística sin estrés.
+      <section class="access-band">
+        <div class="access-wrap">
+          <h2>Diseñado para eventos donde la operación y el dato importan</h2>
+          <div class="access-grid">
+            <div class="access-card"><strong>Eventos corporativos</strong><h3>Invitados bajo control</h3><p>Coordina asistentes, perfiles clave y accesos restringidos sin listas en papel ni validaciones manuales.</p></div>
+            <div class="access-card"><strong>Ferias y stands</strong><h3>Visitas trazables</h3><p>Registra visitas, identifica oportunidades comerciales y conecta la asistencia con tus procesos de captación.</p></div>
+            <div class="access-card"><strong>Congresos</strong><h3>Escalable y medible</h3><p>Gestiona grandes volúmenes de acreditaciones y obtén métricas por sesión, zona o tipo de invitado.</p></div>
+          </div>
+        </div>
+      </section>
 
-<br><br>
-<strong>Conexión con perfiles clave:</strong> Identifica si las personas importantes ya están dentro y activa acciones comerciales o protocolares en el momento adecuado.
+      <section class="access-band alt">
+        <div class="access-wrap access-split">
+          <div class="flow">
+            <div class="flow-step"><span class="flow-number">1</span><div><h3>Crea el evento</h3><p>Configura asistentes, permisos, zonas y comunicaciones desde la plataforma.</p></div></div>
+            <div class="flow-step"><span class="flow-number">2</span><div><h3>Entrega la acreditación</h3><p>Envía una credencial digital que puede convivir con la VCard, la tarjeta NFC o el Wallet.</p></div></div>
+            <div class="flow-step"><span class="flow-number">3</span><div><h3>Controla y aprende</h3><p>Valida accesos, consulta presencia y exporta información útil para CRM o informes internos.</p></div></div>
+          </div>
+          <div>
+            <h2>Conecta mejor y controla la calidad de cada interacción</h2>
+            <p>Vcards by TicTAP permite saber quién ha llegado, cuándo y qué perfiles requieren atención especial. En sectores con alta necesidad de trazabilidad, como pharma o eventos corporativos regulados, el equipo puede coordinar acciones comerciales, protocolo y seguimiento con datos en tiempo real.</p>
+            <div class="access-actions">
+              <a class="access-button" href="/contacto/">Hablar con ventas</a>
+              <a class="access-button secondary" href="/note-taker/">Conocer Note Taker</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<br><br>
-<strong>Experiencia fluida:</strong> Evita colas y registros manuales con accesos digitales rápidos que mejoran la percepción del evento y reducen incidencias.								</div>
-				</div>
-				<div class="elementor-element elementor-element-b6ce0a6 elementor-align-left elementor-widget elementor-widget-button" data-id="b6ce0a6" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink" href="/contacto/" id="botonSmartcardsESP-pideSmartCard">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Solicita una demo</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-f31039d e-con-full e-flex e-con e-child" data-id="f31039d" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-b3d1df0 elementor-widget elementor-widget-image" data-id="b3d1df0" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1024" height="691" src="/wp-content/uploads/2025/12/Eventos.png" class="attachment-large size-large wp-image-26733" alt="" srcset="/wp-content/uploads/2025/12/Eventos.png 1024w, /wp-content/uploads/2025/12/Eventos-300x202.png 300w, /wp-content/uploads/2025/12/Eventos-768x518.png 768w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-2bf2506 e-con-full e-flex e-con e-parent" data-id="2bf2506" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-c727f44 e-flex e-con-boxed e-con e-child" data-id="c727f44" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-aa0fe88 e-con-full e-flex e-con e-child" data-id="aa0fe88" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-d5eaf37 elementor-widget elementor-widget-heading" data-id="d5eaf37" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Ferias </h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-d2ead75 elementor-widget elementor-widget-text-editor" data-id="d2ead75" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Invita, registra y sigue cada visita a tu stand. Convierte asistencia en oportunidades comerciales medibles.
+      <section class="access-band">
+        <div class="access-wrap narrow">
+          <h2>Preguntas frecuentes</h2>
+          <div class="flow">
+            <div class="flow-step"><span class="flow-number">?</span><div><h3>¿Hace falta hardware especial?</h3><p>No. El equipo organizador puede validar accesos desde un móvil o tablet autorizado.</p></div></div>
+            <div class="flow-step"><span class="flow-number">?</span><div><h3>¿Puedo ver la asistencia en directo?</h3><p>Sí. La plataforma muestra check-ins, porcentaje de asistencia y búsqueda de invitados clave en tiempo real.</p></div></div>
+            <div class="flow-step"><span class="flow-number">?</span><div><h3>¿La credencial puede caducar?</h3><p>Sí. Puedes definir validez temporal para eventos concretos, acreditaciones anuales o usos tipo cupón o membresía.</p></div></div>
+          </div>
+        </div>
+      </section>
 
-<br><br>
-<strong>Seguimiento comercial inmediato:</strong> Recibe alertas cuando entran prospectos estratégicos y prepara conversaciones más relevantes y oportunas.
+      <section class="access-cta">
+        <h2>Convierte tus eventos en una experiencia digital controlada</h2>
+        <p>Diseñamos el flujo de acceso con tus tarjetas digitales, tu identidad corporativa y los datos que necesitas para operar mejor.</p>
+        <a class="access-button secondary" href="/contacto/">Solicitar una demo</a>
+      </section>
+    </div>
 
-<br><br>
-<strong>Trazabilidad real de visitantes: </strong>Registra cada visita con precisión y centraliza datos para CRM o informes post-feria sin tareas manuales.
-
-<br><br>
-<strong>Optimización del equipo:</strong> Permite a ventas saber qué perfiles están visitando el stand para priorizar recursos y maximizar impacto.								</div>
-				</div>
-				<div class="elementor-element elementor-element-6c1330d elementor-align-left elementor-widget elementor-widget-button" data-id="6c1330d" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink" href="/contacto/" id="botonSmartcardsESP-pideSmartCard">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Solicita una demo</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-ae2c802 e-con-full e-flex e-con e-child" data-id="ae2c802" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-e050525 elementor-widget elementor-widget-image" data-id="e050525" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1024" height="1024" src="/wp-content/uploads/2025/12/ferias.png" class="attachment-large size-large wp-image-26736" alt="" srcset="/wp-content/uploads/2025/12/ferias.png 1024w, /wp-content/uploads/2025/12/ferias-300x300.png 300w, /wp-content/uploads/2025/12/ferias-150x150.png 150w, /wp-content/uploads/2025/12/ferias-768x768.png 768w, /wp-content/uploads/2025/12/ferias-700x700.png 700w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-65545e9 e-con-full e-flex e-con e-parent" data-id="65545e9" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-90074e7 e-flex e-con-boxed e-con e-child" data-id="90074e7" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-c2f1066 e-con-full e-flex e-con e-child" data-id="c2f1066" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-0783c0a elementor-widget elementor-widget-heading" data-id="0783c0a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Congresos</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-a97dced elementor-widget elementor-widget-text-editor" data-id="a97dced" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Accesos seguros, control escalable y analítica avanzada para congresos de cualquier tamaño.
-
-<br><br>
-<strong>Control seguro y escalable:</strong> Gestiona miles de acreditaciones sin fricciones y asegúrate de que cada acceso sea legítimo.
-
-<br><br>
-<strong>Insights de asistencia:</strong> Analiza en tiempo real qué sesiones o zonas están generando más interés para tomar decisiones basadas en datos.
-
-<br><br>
-<strong>Gestión operativa eficiente:</strong> Reduce tiempos, evita listas en papel y actualiza accesos desde un único panel para todo el equipo organizador.								</div>
-				</div>
-				<div class="elementor-element elementor-element-8859224 elementor-align-left elementor-widget elementor-widget-button" data-id="8859224" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink" href="/contacto/" id="botonSmartcardsESP-pideSmartCard">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Solicita una demo</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-578680e e-con-full e-flex e-con e-child" data-id="578680e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-ecf74c6 elementor-widget elementor-widget-image" data-id="ecf74c6" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1024" height="703" src="/wp-content/uploads/2025/12/congreso.png" class="attachment-large size-large wp-image-26739" alt="" srcset="/wp-content/uploads/2025/12/congreso.png 1024w, /wp-content/uploads/2025/12/congreso-300x206.png 300w, /wp-content/uploads/2025/12/congreso-768x527.png 768w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-08fad35 e-con-full e-flex e-con e-parent" data-id="08fad35" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-e6282e5 e-flex e-con-boxed e-con e-child" data-id="e6282e5" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-71fc343 e-con-full e-flex e-con e-child" data-id="71fc343" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-360a551 elementor-widget elementor-widget-heading" data-id="360a551" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Conecta mejor y controla la calidad de cada interacción</h2>				</div>
-				</div>
-		<div class="elementor-element elementor-element-02d64e7 e-con-full e-flex e-con e-child" data-id="02d64e7" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-3010abb e-con-full e-flex e-con e-child" data-id="3010abb" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-a3b6347 elementor-widget elementor-widget-text-editor" data-id="a3b6347" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Vcards by TicTAP te permite saber quién ha llegado, cuándo y qué perfiles requieren atención especial. Esto es especialmente valioso para sectores como pharma, donde la trazabilidad, la seguridad y la relevancia de cada contacto importan.<br><br><br>Desde una cena corporativa hasta un simposio médico, puedes monitorizar la asistencia en tiempo real y coordinar a tus equipos para ofrecer una experiencia precisa, personalizada y memorable.</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-7e0f382 elementor-align-left elementor-widget elementor-widget-button" data-id="7e0f382" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink" href="/contacto/" id="botonSmartcardsESP-pideSmartCard">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Solicitar demo</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-89d0a8c e-con-full e-flex e-con e-child" data-id="89d0a8c" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-ef38f1e elementor-widget elementor-widget-image" data-id="ef38f1e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="488" height="361" src="/wp-content/uploads/2025/07/Platform-dashboard.png" class="attachment-large size-large wp-image-23980" alt="" srcset="/wp-content/uploads/2025/07/Platform-dashboard.png 488w, /wp-content/uploads/2025/07/Platform-dashboard-300x222.png 300w" sizes="(max-width: 488px) 100vw, 488px">															</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-370ee2f e-con-full e-flex e-con e-parent" data-id="370ee2f" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-3ac0e85 e-flex e-con-boxed e-con e-child" data-id="3ac0e85" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-90d48a0 elementor-widget elementor-widget-n-accordion" data-id="90d48a0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;default_state&quot;:&quot;expanded&quot;,&quot;max_items_expended&quot;:&quot;one&quot;,&quot;n_accordion_animation_duration&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:400,&quot;sizes&quot;:[]}}" data-widget_type="nested-accordion.default">
-				<div class="elementor-widget-container">
-							<div class="e-n-accordion" aria-label="Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys">
-						<details id="e-n-accordion-item-1510" class="e-n-accordion-item" open>
-				<summary class="e-n-accordion-item-title" data-accordion-index="1" tabindex="0" aria-expanded="true" aria-controls="e-n-accordion-item-1510">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> ¿Mis invitados necesitan una vCard física? </div></span>
-							<span class="e-n-accordion-item-title-icon">
-			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg></span>
-			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></span>
-		</span>
-
-						</summary>
-				<div role="region" aria-labelledby="e-n-accordion-item-1510" class="elementor-element elementor-element-1b5c194 e-con-full e-flex e-con e-child" data-id="1b5c194" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-b9f8c15 elementor-widget elementor-widget-text-editor" data-id="b9f8c15" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									No. Reciben una invitación digital con acceso directo a su acreditación QR/NFC sin necesidad de tarjeta física.								</div>
-				</div>
-				</div>
-					</details>
-						<details id="e-n-accordion-item-1511" class="e-n-accordion-item">
-				<summary class="e-n-accordion-item-title" data-accordion-index="2" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-1511">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> ¿Hace falta un dispositivo especial para escanear? </div></span>
-							<span class="e-n-accordion-item-title-icon">
-			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg></span>
-			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></span>
-		</span>
-
-						</summary>
-				<div role="region" aria-labelledby="e-n-accordion-item-1511" class="elementor-element elementor-element-fc8150e e-con-full e-flex e-con e-child" data-id="fc8150e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-f074dd5 elementor-widget elementor-widget-text-editor" data-id="f074dd5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									No. Cualquier móvil o tablet del equipo organizador puede validar accesos mediante la webapp.								</div>
-				</div>
-				</div>
-					</details>
-						<details id="e-n-accordion-item-1512" class="e-n-accordion-item">
-				<summary class="e-n-accordion-item-title" data-accordion-index="3" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-1512">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> ¿Puedo ver en tiempo real cuántas personas están dentro y si alguna persona importante ya ha llegado? </div></span>
-							<span class="e-n-accordion-item-title-icon">
-			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg></span>
-			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></span>
-		</span>
-
-						</summary>
-				<div role="region" aria-labelledby="e-n-accordion-item-1512" class="elementor-element elementor-element-db9ecc7 e-con-full e-flex e-con e-child" data-id="db9ecc7" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-35edfc8 elementor-widget elementor-widget-text-editor" data-id="35edfc8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Sí. La plataforma muestra asistencia en vivo, porcentaje de acceso y permite buscar invitados clave.								</div>
-				</div>
-				</div>
-					</details>
-						<details id="e-n-accordion-item-1513" class="e-n-accordion-item">
-				<summary class="e-n-accordion-item-title" data-accordion-index="4" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-1513">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> ¿Hay informes después del evento? </div></span>
-							<span class="e-n-accordion-item-title-icon">
-			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg></span>
-			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></span>
-		</span>
-
-						</summary>
-				<div role="region" aria-labelledby="e-n-accordion-item-1513" class="elementor-element elementor-element-6db1e81 e-flex e-con-boxed e-con e-child" data-id="6db1e81" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-9cc2e72 elementor-widget elementor-widget-text-editor" data-id="9cc2e72" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Sí. Accede al histórico de validaciones por fecha, evento o segmento de invitados.								</div>
-				</div>
-					</div>
-				</div>
-					</details>
-						<details id="e-n-accordion-item-1514" class="e-n-accordion-item">
-				<summary class="e-n-accordion-item-title" data-accordion-index="5" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-1514">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> ¿Puedo activar alertas cuando entra un VIP? </div></span>
-							<span class="e-n-accordion-item-title-icon">
-			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg></span>
-			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></span>
-		</span>
-
-						</summary>
-				<div role="region" aria-labelledby="e-n-accordion-item-1514" class="elementor-element elementor-element-8c81e7f e-flex e-con-boxed e-con e-child" data-id="8c81e7f" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-2e70239 elementor-widget elementor-widget-text-editor" data-id="2e70239" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Sí. Configura notificaciones automáticas para recibir avisos instantáneos.								</div>
-				</div>
-					</div>
-				</div>
-					</details>
-						<details id="e-n-accordion-item-1515" class="e-n-accordion-item">
-				<summary class="e-n-accordion-item-title" data-accordion-index="6" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-1515">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> ¿Puedo importar mi lista y enviar todas las invitaciones desde la plataforma? </div></span>
-							<span class="e-n-accordion-item-title-icon">
-			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg></span>
-			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></span>
-		</span>
-
-						</summary>
-				<div role="region" aria-labelledby="e-n-accordion-item-1515" class="elementor-element elementor-element-1cc4d68 e-flex e-con-boxed e-con e-child" data-id="1cc4d68" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-124a255 elementor-widget elementor-widget-text-editor" data-id="124a255" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Completamente. La importación es sencilla y el envío masivo es inmediato.								</div>
-				</div>
-					</div>
-				</div>
-					</details>
-						<details id="e-n-accordion-item-1516" class="e-n-accordion-item">
-				<summary class="e-n-accordion-item-title" data-accordion-index="7" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-1516">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> ¿Puedo personalizar la entrada digital? </div></span>
-							<span class="e-n-accordion-item-title-icon">
-			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg></span>
-			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></span>
-		</span>
-
-						</summary>
-				<div role="region" aria-labelledby="e-n-accordion-item-1516" class="elementor-element elementor-element-d6b5030 e-flex e-con-boxed e-con e-child" data-id="d6b5030" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-63a3e4d elementor-widget elementor-widget-text-editor" data-id="63a3e4d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Sí. Añade servicios, banners, información útil o accesos a promociones y convierte la entrada en la “app del evento”.								</div>
-				</div>
-					</div>
-				</div>
-					</details>
-						<details id="e-n-accordion-item-1517" class="e-n-accordion-item">
-				<summary class="e-n-accordion-item-title" data-accordion-index="8" tabindex="-1" aria-expanded="false" aria-controls="e-n-accordion-item-1517">
-					<span class="e-n-accordion-item-title-header"><div class="e-n-accordion-item-title-text"> ¿Sirve para clubes o membresías? </div></span>
-							<span class="e-n-accordion-item-title-icon">
-			<span class="e-opened"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-up" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg></span>
-			<span class="e-closed"><svg aria-hidden="true" class="e-font-icon-svg e-fas-angle-down" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></span>
-		</span>
-
-						</summary>
-				<div role="region" aria-labelledby="e-n-accordion-item-1517" class="elementor-element elementor-element-d8a0e78 e-flex e-con-boxed e-con e-child" data-id="d8a0e78" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-36eafb3 elementor-widget elementor-widget-text-editor" data-id="36eafb3" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									Sí. Es totalmente compatible y no requiere configuración adicional.								</div>
-				</div>
-					</div>
-				</div>
-					</details>
-					</div>
-						</div>
-				</div>
-					</div>
-				</div>
-				</div>
-				</div>
-		
-	
-	
-</div><!-- .entry-content .clear -->
-
-	
-	
-</article><!-- #post-## -->
-
-			</main><!-- #main -->
+  </main><!-- #main -->
 			
 		
 	</div><!-- #primary -->
