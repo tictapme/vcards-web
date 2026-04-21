@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarjeta de visita digital en Wallet | Vcards by TicTAP</title>
+  <meta name="description" content="Lleva tu tarjeta de visita digital en Apple Wallet o Google Wallet, compártela offline y úsala también como acreditación para eventos corporativos.">
+  <link rel="canonical" href="https://www.tictapcards.com/wallet/">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Tarjeta de visita digital en Wallet | Vcards by TicTAP">
+  <meta property="og:description" content="Tu VCard siempre a mano: offline, personalizada con tu marca y preparada para compartir contactos o acceder a eventos corporativos.">
+  <meta property="og:url" content="https://www.tictapcards.com/wallet/">
+  <meta property="og:site_name" content="Vcards by TicTAP">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/wp-content/uploads/2022/09/favicon-01-150x150.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/wp-content/uploads/2022/09/favicon-01-300x300.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Varela+Round&display=swap" rel="stylesheet">
+  <style>
+    :root{--green:#02a56c;--lime:#62cc62;--ink:#153b44;--muted:#5d7177;--soft:#e8f8ee;--line:#dce9e5;--white:#fff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Lato,Arial,sans-serif;color:var(--ink);background:#fff;font-size:18px;line-height:1.6}
+    a{color:var(--green);text-decoration:none}
+    a:hover{color:var(--lime)}
+    img{max-width:100%;height:auto}
+    .site-header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+    .nav{max-width:1220px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;gap:28px;justify-content:space-between}
+    .brand img{width:135px;display:block}
+    .menu{display:flex;gap:22px;align-items:center;font-size:16px;font-weight:700}
+    .menu details{position:relative}
+    .menu summary{list-style:none;cursor:pointer;color:var(--ink)}
+    .menu summary::-webkit-details-marker{display:none}
+    .submenu{position:absolute;top:32px;left:0;min-width:220px;background:var(--white);border:1px solid var(--line);box-shadow:0 16px 40px rgba(21,59,68,.12);padding:10px;border-radius:8px;display:grid;gap:4px}
+    .submenu a{padding:8px 10px;border-radius:6px;color:var(--ink);font-weight:700}
+    .submenu a:hover{background:var(--soft);color:var(--green)}
+    .demo{background:var(--green);color:#fff!important;padding:10px 18px;border-radius:32px}
+    .hero{background:linear-gradient(135deg,#f6fff9 0%,#e7f8f0 45%,#ffffff 100%);overflow:hidden}
+    .hero-inner{max-width:1220px;margin:0 auto;padding:88px 24px 72px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr);gap:52px;align-items:center}
+    .eyebrow{margin:0 0 14px;color:var(--green);font-weight:900;text-transform:uppercase;letter-spacing:0;font-size:14px}
+    h1,h2,h3{font-family:"Varela Round",Lato,Arial,sans-serif;line-height:1.16;margin:0 0 18px;color:var(--ink);font-weight:400}
+    h1{font-size:clamp(42px,5vw,72px)}
+    h2{font-size:clamp(30px,3.3vw,46px)}
+    h3{font-size:24px}
+    .lead{font-size:22px;color:var(--muted);max-width:720px;margin:0 0 28px}
+    .actions{display:flex;flex-wrap:wrap;gap:14px}
+    .button{display:inline-flex;align-items:center;justify-content:center;background:var(--green);color:#fff!important;border-radius:36px;padding:13px 24px;font-weight:900}
+    .button.secondary{background:#fff;color:var(--green)!important;border:2px solid var(--green)}
+    .wallet-stage{min-height:520px;display:grid;place-items:center;position:relative}
+    .phone{width:min(330px,86vw);border-radius:38px;background:#102f36;padding:14px;box-shadow:0 28px 80px rgba(21,59,68,.28);transform:rotate(3deg)}
+    .screen{border-radius:28px;background:#f8fbfa;padding:18px;min-height:565px}
+    .wallet-card{height:270px;border-radius:24px;background:linear-gradient(145deg,#153b44,#02a56c);color:#fff;padding:22px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 18px 38px rgba(2,165,108,.22)}
+    .pass-top{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
+    .pass-logo{width:54px;height:54px;border-radius:14px;background:#fff;display:grid;place-items:center;color:var(--green);font-weight:900}
+    .qr{width:96px;height:96px;border-radius:12px;background:repeating-linear-gradient(90deg,#fff 0 8px,#153b44 8px 14px),repeating-linear-gradient(0deg,transparent 0 10px,rgba(255,255,255,.35) 10px 16px);background-blend-mode:screen}
+    .pass-name{font-size:28px;font-weight:900;line-height:1.1;margin:0}
+    .pass-role{margin:6px 0 0;color:#d8f6e7}
+    .screen-list{margin:18px 0 0;display:grid;gap:10px}
+    .screen-item{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px 14px;display:flex;justify-content:space-between;gap:12px;font-weight:700;color:var(--ink)}
+    .band{padding:82px 24px}
+    .band.alt{background:#f7fbf9}
+    .wrap{max-width:1120px;margin:0 auto}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:26px;box-shadow:0 12px 28px rgba(21,59,68,.06)}
+    .card strong{display:block;color:var(--green);font-size:15px;text-transform:uppercase;margin-bottom:8px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+    .list{display:grid;gap:16px;margin:24px 0 0;padding:0;list-style:none}
+    .list li{padding-left:34px;position:relative}
+    .list li:before{content:"";position:absolute;left:0;top:7px;width:18px;height:18px;border-radius:50%;background:var(--green);box-shadow:inset 0 0 0 5px #dff7e9}
+    .panel{background:var(--ink);color:#fff;border-radius:8px;padding:34px}
+    .panel h2,.panel h3{color:#fff}
+    .panel p{color:#dce9e5}
+    .use-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:28px}
+    .cta{background:var(--green);color:#fff;text-align:center;padding:74px 24px}
+    .cta h2,.cta p{color:#fff}
+    .cta p{max-width:760px;margin:0 auto 28px;font-size:21px}
+    .site-footer{background:var(--ink);color:#dce9e5;padding:42px 24px}
+    .footer-inner{max-width:1120px;margin:0 auto;display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap}
+    .site-footer a{color:#fff}
+    @media (max-width:900px){.hero-inner,.split{grid-template-columns:1fr}.grid,.use-grid{grid-template-columns:1fr}.menu{gap:12px;font-size:14px;flex-wrap:wrap;justify-content:flex-end}.wallet-stage{min-height:auto}.hero-inner{padding-top:54px}}
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Tarjeta de visita digital en Wallet","url":"https://www.tictapcards.com/wallet/","description":"Lleva tu tarjeta de visita digital en Apple Wallet o Google Wallet, compártela offline y úsala también como acreditación para eventos corporativos.","publisher":{"@type":"Organization","name":"TicTAP","url":"https://www.tictapcards.com/"}}</script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="brand" href="/"><img src="/wp-content/uploads/2022/09/135x52Logo-01.png" alt="TicTAP"></a>
+      <div class="menu">
+        <details>
+          <summary>Soluciones</summary>
+          <div class="submenu">
+            <a href="/tarjeta-smart-nfc/">Tarjeta NFC</a>
+            <a href="/control-de-acceso-para-eventos/">Control de accesos</a>
+            <a href="/note-taker/">Note Taker</a>
+            <a href="/wallet/">Wallet</a>
+          </div>
+        </details>
+        <a href="/precios/">Precios</a>
+        <a href="/blog/">Blog</a>
+        <a class="demo" href="/contacto/">Solicitar demo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">Vcards Wallet</p>
+          <h1>Tu tarjeta de visita digital, siempre en el Wallet</h1>
+          <p class="lead">Apple Wallet y Google Wallet ya guardan tarjetas de embarque, entradas y tarjetas de fidelidad. Con Vcards by TicTAP también pueden guardar tu tarjeta de negocio, con tus datos listos para compartir incluso sin conexión.</p>
+          <div class="actions">
+            <a class="button" href="/contacto/">Quiero mi VCard en Wallet</a>
+            <a class="button secondary" href="#eventos">Ver usos en eventos</a>
+          </div>
+        </div>
+        <div class="wallet-stage" aria-hidden="true">
+          <div class="phone">
+            <div class="screen">
+              <div class="wallet-card">
+                <div class="pass-top">
+                  <div class="pass-logo">VC</div>
+                  <div class="qr"></div>
+                </div>
+                <div>
+                  <p class="pass-name">Laura García</p>
+                  <p class="pass-role">Sales Director · Vcards by TicTAP</p>
+                </div>
+              </div>
+              <div class="screen-list">
+                <div class="screen-item"><span>Contacto</span><span>Offline</span></div>
+                <div class="screen-item"><span>Marca</span><span>Logo y colores</span></div>
+                <div class="screen-item"><span>Evento</span><span>Acceso válido</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap">
+        <h2>Una VCard que se presenta bien antes de abrir el navegador</h2>
+        <p class="lead">La tarjeta queda guardada en el móvil como cualquier otro pase de Wallet. El propietario la tiene siempre localizada, puede enseñarla en reuniones, ferias o eventos, y la otra persona puede capturar el contacto al instante desde un QR o enlace directo.</p>
+        <div class="grid">
+          <div class="card"><strong>Disponible offline</strong><h3>Siempre a mano</h3><p>La tarjeta vive en el Wallet del móvil. No depende de buscar un enlace antiguo ni de tener cobertura en el momento de presentarte.</p></div>
+          <div class="card"><strong>Contacto inmediato</strong><h3>Captura rápida</h3><p>La persona que acabas de conocer puede abrir tu VCard, guardar tus datos y continuar la conversación sin teclear nada.</p></div>
+          <div class="card"><strong>Marca corporativa</strong><h3>Diseño uniforme</h3><p>Vcards by TicTAP permite personalizar el pase con logo, fondo, colores corporativos y una experiencia coherente para todo el equipo.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band alt">
+      <div class="wrap split">
+        <div>
+          <h2>Propietario y consumidor: dos formas de usar la VCard</h2>
+          <p>Quien recibe la tarjeta la usa como consumidor: ve tus datos, guarda el contacto y accede a la información que compartes. Quien es propietario puede iniciar sesión en su propia VCard para trabajar con herramientas avanzadas.</p>
+          <ul class="list">
+            <li>Acceso al Note Taker desde la propia VCard para crear leads en ferias y reuniones.</li>
+            <li>Captura de información por voz con el micrófono del móvil.</li>
+            <li>Foto o escaneo de badges y tarjetas de visita de la persona que acabas de conocer.</li>
+            <li>Sincronización del lead con CRM como Salesforce, HubSpot u otros sistemas integrables.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Del saludo al CRM</h3>
+          <p>La VCard en Wallet abre la puerta al intercambio de contacto. El Note Taker completa el flujo cuando el comercial necesita enriquecer el lead con notas, contexto, imágenes y próximos pasos.</p>
+          <a class="button" href="/note-taker/">Conocer Note Taker</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="eventos">
+      <div class="wrap">
+        <h2>La misma tarjeta también puede abrir puertas en eventos corporativos</h2>
+        <p class="lead">Para empresas que organizan eventos internos, convenciones o encuentros corporativos, la VCard en Wallet puede funcionar como credencial. El módulo de eventos permite controlar presencia, entradas y salidas, reutilizando las tarjetas digitales de los empleados.</p>
+        <div class="use-grid">
+          <div class="card"><strong>Control de presencia</strong><h3>Accesos por empleado</h3><p>La tarjeta identifica a la persona y permite validar quién entra, quién sale y qué participantes forman parte del evento.</p></div>
+          <div class="card"><strong>Eventos recurrentes</strong><h3>Credenciales reutilizables</h3><p>La empresa aprovecha las tarjetas existentes para nuevos eventos sin emitir soportes físicos cada vez.</p></div>
+          <div class="card"><strong>Caducidad</strong><h3>Validez temporal</h3><p>Las tarjetas pueden tener fecha de caducidad, por ejemplo anual, para comportarse como una acreditación, cupón o tarjeta de fidelidad corporativa.</p></div>
+          <div class="card"><strong>Experiencia uniforme</strong><h3>Una sola identidad</h3><p>La misma VCard sirve para networking, marca personal y acceso a espacios corporativos controlados.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Convierte el Wallet en el punto de partida de tu networking</h2>
+      <p>Diseñamos la VCard en Wallet con tu identidad corporativa y la conectamos con tus flujos de captación, CRM y eventos.</p>
+      <a class="button secondary" href="/contacto/">Solicitar una demo</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><strong>Vcards by TicTAP</strong><br>Digital business cards. Go digital. Go green.</div>
+      <div><a href="/tarjeta-smart-nfc/">Tarjeta NFC</a> · <a href="/control-de-acceso-para-eventos/">Control de accesos</a> · <a href="/note-taker/">Note Taker</a></div>
+    </div>
+  </footer>
+</body>
+</html>
